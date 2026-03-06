@@ -92,6 +92,35 @@ body {
   color: var(--text-secondary);
 }
 
+.header-nav {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.nav-btn {
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+  color: var(--text-secondary);
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+
+.nav-btn:hover {
+  color: var(--text-primary);
+  background: var(--bg-tertiary);
+}
+
+.nav-btn.active {
+  color: var(--accent-blue);
+  background: rgba(88, 166, 255, 0.1);
+  border-color: rgba(88, 166, 255, 0.3);
+}
+
 .header-meta .timestamp {
   display: flex;
   align-items: center;
@@ -621,10 +650,13 @@ body {
   text-decoration: underline;
 }
 
-/* ── Scoreboard page mode ── */
-body.scoreboard-active .summary-grid,
-body.scoreboard-active .filter-bar {
+/* ── Page-level views ── */
+.page-view {
   display: none;
+}
+
+.page-view.active {
+  display: block;
 }
 
 /* ── Scoreboard ── */

@@ -18,16 +18,20 @@
         <span class="logo">🧇</span>
         <h1>ROS 2 Waffle Dashboard</h1>
       </div>
+      <nav class="header-nav">
+        <button class="nav-btn active" data-page="dashboard">📋 Dashboard</button>
+        <button class="nav-btn" data-page="scoreboard">🏆 Scoreboard</button>
+      </nav>
       <div class="header-meta">
         <span class="timestamp">
           🕐 Updated {{ data.generated_at[:19] }} UTC
         </span>
-        <span>API: {{ data.rate_limit_remaining }}/{{ data.rate_limit_total }}</span>
       </div>
     </div>
   </header>
 
-  <main class="container">
+  <!-- Dashboard Page -->
+  <main class="container page-view active" data-page="dashboard">
 
     <!-- Summary Cards -->
     <section class="summary-grid">
@@ -102,9 +106,6 @@
       </button>
       <button class="tab-btn" data-tab="stale" role="tab">
         💤 Stale <span class="badge">{{ data.stale|length }}</span>
-      </button>
-      <button class="tab-btn" data-tab="scoreboard" role="tab">
-        🏆 Scoreboard
       </button>
     </div>
 
@@ -218,84 +219,84 @@
     {{ pr_table(data.changes_requested, "changes") }}
     {{ pr_table(data.stale, "stale") }}
 
-    <!-- Scoreboard Tab -->
-    <div class="tab-panel" data-panel="scoreboard">
-      {% if data.scoreboard %}
-      <section class="scoreboard-section">
-        <div class="scoreboard-header">
-          <h2>🏆 Maintainer Scoreboard (Last 12 Months)</h2>
-          <div class="scoreboard-legend">
-            <span>🔬 CI Trigger <em>3pts</em></span>
-            <span>✅ Approval <em>5pts</em></span>
-            <span>🔧 Changes Req. <em>3pts</em></span>
-            <span>👀 Review <em>2pts</em></span>
-            <span>🦸 Stale Rescue <em>5pts</em></span>
-            <span>🌐 Cross-Repo <em>2pts</em></span>
-          </div>
-        </div>
-        <div class="scoreboard-grid">
-          {% for entry in data.scoreboard[:10] %}
-          <div class="scoreboard-card {% if loop.index <= 3 %}top-three{% endif %}">
-            <div class="rank">
-              {% if loop.index == 1 %}🥇{% elif loop.index == 2 %}🥈{% elif loop.index == 3 %}🥉{% else %}#{{ loop.index
-              }}{% endif %}
-            </div>
-            <div class="player-info">
-              <span class="player-name">{{ entry.user }}</span>
-              <span class="player-total">{{ entry.total }} pts</span>
-            </div>
-            <div class="player-stats">
-              {% if entry.ci_triggers %}<span title="CI Triggers">🔬 {{ entry.ci_triggers }}</span>{% endif %}
-              {% if entry.approvals %}<span title="Approvals">✅ {{ entry.approvals }}</span>{% endif %}
-              {% if entry.changes_requested %}<span title="Changes Requested">🔧 {{ entry.changes_requested }}</span>{%
-              endif %}
-              {% if entry.reviews %}<span title="Reviews">👀 {{ entry.reviews }}</span>{% endif %}
-              {% if entry.stale_rescues %}<span title="Stale PR Rescues">🦸 {{ entry.stale_rescues }}</span>{% endif %}
-              <span title="Repos Touched">🌐 {{ entry.cross_repo_count }}</span>
-            </div>
-          </div>
-          {% endfor %}
-        </div>
-        {% if data.scoreboard|length > 10 %}
-        <div class="scoreboard-full" style="margin-top: 1.5rem;">
-          <h3 style="font-size: 1rem; color: var(--text-secondary); margin-bottom: 0.75rem;">All {{
-            data.scoreboard|length }} Contributors</h3>
-          <table class="scoreboard-table">
-            <thead>
-              <tr>
-                <th>#</th>
-                <th>Contributor</th>
-                <th>🔬</th>
-                <th>✅</th>
-                <th>🔧</th>
-                <th>👀</th>
-                <th>🦸</th>
-                <th>🌐</th>
-                <th>Total</th>
-              </tr>
-            </thead>
-            <tbody>
-              {% for entry in data.scoreboard %}
-              <tr>
-                <td>{{ loop.index }}</td>
-                <td>{{ entry.user }}</td>
-                <td>{{ entry.ci_triggers }}</td>
-                <td>{{ entry.approvals }}</td>
-                <td>{{ entry.changes_requested }}</td>
-                <td>{{ entry.reviews }}</td>
-                <td>{{ entry.stale_rescues }}</td>
-                <td>{{ entry.cross_repo_count }}</td>
-                <td><strong>{{ entry.total }}</strong></td>
-              </tr>
-              {% endfor %}
-            </tbody>
-          </table>
-        </div>
-        {% endif %}
-      </section>
-      {% endif %}
-    </div>
+  </main>
 
+  <!-- Scoreboard Page -->
+  <main class="container page-view" data-page="scoreboard">
+    {% if data.scoreboard %}
+    <section class="scoreboard-section">
+      <div class="scoreboard-header">
+        <h2>🏆 Maintainer Scoreboard (Last 12 Months)</h2>
+        <div class="scoreboard-legend">
+          <span>🔬 CI Trigger <em>3pts</em></span>
+          <span>✅ Approval <em>5pts</em></span>
+          <span>🔧 Changes Req. <em>3pts</em></span>
+          <span>👀 Review <em>2pts</em></span>
+          <span>🦸 Stale Rescue <em>5pts</em></span>
+          <span>🌐 Cross-Repo <em>2pts</em></span>
+        </div>
+      </div>
+      <div class="scoreboard-grid">
+        {% for entry in data.scoreboard[:10] %}
+        <div class="scoreboard-card {% if loop.index <= 3 %}top-three{% endif %}">
+          <div class="rank">
+            {% if loop.index == 1 %}🥇{% elif loop.index == 2 %}🥈{% elif loop.index == 3 %}🥉{% else %}#{{ loop.index
+            }}{% endif %}
+          </div>
+          <div class="player-info">
+            <span class="player-name">{{ entry.user }}</span>
+            <span class="player-total">{{ entry.total }} pts</span>
+          </div>
+          <div class="player-stats">
+            {% if entry.ci_triggers %}<span title="CI Triggers">🔬 {{ entry.ci_triggers }}</span>{% endif %}
+            {% if entry.approvals %}<span title="Approvals">✅ {{ entry.approvals }}</span>{% endif %}
+            {% if entry.changes_requested %}<span title="Changes Requested">🔧 {{ entry.changes_requested }}</span>{%
+            endif %}
+            {% if entry.reviews %}<span title="Reviews">👀 {{ entry.reviews }}</span>{% endif %}
+            {% if entry.stale_rescues %}<span title="Stale PR Rescues">🦸 {{ entry.stale_rescues }}</span>{% endif %}
+            <span title="Repos Touched">🌐 {{ entry.cross_repo_count }}</span>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      {% if data.scoreboard|length > 10 %}
+      <div class="scoreboard-full" style="margin-top: 1.5rem;">
+        <h3 style="font-size: 1rem; color: var(--text-secondary); margin-bottom: 0.75rem;">All {{ data.scoreboard|length
+          }} Contributors</h3>
+        <table class="scoreboard-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Contributor</th>
+              <th>🔬</th>
+              <th>✅</th>
+              <th>🔧</th>
+              <th>👀</th>
+              <th>🦸</th>
+              <th>🌐</th>
+              <th>Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for entry in data.scoreboard %}
+            <tr>
+              <td>{{ loop.index }}</td>
+              <td>{{ entry.user }}</td>
+              <td>{{ entry.ci_triggers }}</td>
+              <td>{{ entry.approvals }}</td>
+              <td>{{ entry.changes_requested }}</td>
+              <td>{{ entry.reviews }}</td>
+              <td>{{ entry.stale_rescues }}</td>
+              <td>{{ entry.cross_repo_count }}</td>
+              <td><strong>{{ entry.total }}</strong></td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+      {% endif %}
+    </section>
+    {% endif %}
   </main>
 
   <footer class="dashboard-footer">
@@ -324,12 +325,26 @@
           panel.classList.add('active');
           panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
-        // Scoreboard gets a full-page layout
-        document.body.classList.toggle('scoreboard-active', tabName === 'scoreboard');
       }
 
       tabBtns.forEach(btn => {
         btn.addEventListener('click', () => switchToTab(btn.dataset.tab));
+      });
+
+      // ── Top-level page navigation ──
+      const navBtns = document.querySelectorAll('.nav-btn');
+      const pageViews = document.querySelectorAll('.page-view');
+
+      navBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const page = btn.dataset.page;
+          navBtns.forEach(b => b.classList.remove('active'));
+          pageViews.forEach(p => p.classList.remove('active'));
+          btn.classList.add('active');
+          const target = document.querySelector(`.page-view[data-page="${page}"]`);
+          if (target) target.classList.add('active');
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
       });
 
       // ── Summary Card Click → Tab ──
