@@ -321,7 +321,7 @@ body {
 /* PR # */
 .pr-table th:nth-child(2),
 .pr-table td:nth-child(2) {
-  width: 140px;
+  width: 130px;
 }
 
 /* Repo */
@@ -363,13 +363,13 @@ body {
 /* Updated */
 .pr-table th:nth-child(9),
 .pr-table td:nth-child(9) {
-  width: 95px;
+  width: 110px;
 }
 
 /* Assignees */
 .pr-table th:nth-child(10),
 .pr-table td:nth-child(10) {
-  width: 95px;
+  width: 120px;
 }
 
 /* Reviewers */
@@ -619,6 +619,12 @@ body {
 
 .dashboard-footer a:hover {
   text-decoration: underline;
+}
+
+/* ── Scoreboard page mode ── */
+body.scoreboard-active .summary-grid,
+body.scoreboard-active .filter-bar {
+  display: none;
 }
 
 /* ── Scoreboard ── */
