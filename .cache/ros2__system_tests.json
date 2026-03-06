@@ -1,0 +1,67 @@
+{
+  "prs": [
+    {
+      "number": 549,
+      "title": "Allow test_communication to use idl messages",
+      "url": "https://github.com/ros2/system_tests/pull/549",
+      "repo_full_name": "ros2/system_tests",
+      "author": "MiguelCompany",
+      "author_url": "https://github.com/MiguelCompany",
+      "created_at": "2024-09-24T06:48:19+00:00",
+      "updated_at": "2025-04-02T13:17:57+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "approved"
+        },
+        {
+          "name": "MiguelCompany",
+          "url": "https://github.com/MiguelCompany",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "clalancette"
+      ],
+      "requested_reviewers": [
+        "methylDragon"
+      ],
+      "days_since_update": 337,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 439,
+      "title": "Use RTI_OPENSSL only when needed",
+      "url": "https://github.com/ros2/system_tests/pull/439",
+      "repo_full_name": "ros2/system_tests",
+      "author": "mikaelarguedas",
+      "author_url": "https://github.com/mikaelarguedas",
+      "created_at": "2020-06-30T20:37:28+00:00",
+      "updated_at": "2022-07-18T21:12:15+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "nuclearsandwich"
+      ],
+      "requested_reviewers": [
+        "nuclearsandwich"
+      ],
+      "days_since_update": 1326,
+      "category": "needs_review"
+    }
+  ],
+  "stats": {
+    "full_name": "ros2/system_tests",
+    "url": "https://github.com/ros2/system_tests",
+    "open_pr_count": 28,
+    "open_issue_count": 0
+  }
+}

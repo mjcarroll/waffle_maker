@@ -1,0 +1,857 @@
+{
+  "prs": [
+    {
+      "number": 934,
+      "title": "Add cache mechanism for rosidl code generation",
+      "url": "https://github.com/ros2/rosidl/pull/934",
+      "repo_full_name": "ros2/rosidl",
+      "author": "otamachan",
+      "author_url": "https://github.com/otamachan",
+      "created_at": "2026-02-07T00:23:19+00:00",
+      "updated_at": "2026-02-22T16:15:47+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "gavanderhoorn",
+          "url": "https://github.com/gavanderhoorn",
+          "state": "commented"
+        },
+        {
+          "name": "otamachan",
+          "url": "https://github.com/otamachan",
+          "state": "commented"
+        },
+        {
+          "name": "wjwwood",
+          "url": "https://github.com/wjwwood",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "wjwwood"
+      ],
+      "requested_reviewers": [
+        "mjcarroll"
+      ],
+      "days_since_update": 11,
+      "category": "needs_review"
+    },
+    {
+      "number": 913,
+      "title": "Add folder path for cpplint1.6.1",
+      "url": "https://github.com/ros2/rosidl/pull/913",
+      "repo_full_name": "ros2/rosidl",
+      "author": "InvincibleRMC",
+      "author_url": "https://github.com/InvincibleRMC",
+      "created_at": "2025-10-20T05:32:30+00:00",
+      "updated_at": "2025-10-20T13:55:58+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 136,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 789,
+      "title": "Add support for NaN constants and NaN defaults in ROS IDL",
+      "url": "https://github.com/ros2/rosidl/pull/789",
+      "repo_full_name": "ros2/rosidl",
+      "author": "Ryanf55",
+      "author_url": "https://github.com/Ryanf55",
+      "created_at": "2024-03-05T08:04:33+00:00",
+      "updated_at": "2025-10-08T23:14:11+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "approved"
+        },
+        {
+          "name": "Ryanf55",
+          "url": "https://github.com/Ryanf55",
+          "state": "commented"
+        },
+        {
+          "name": "henrygerardmoore",
+          "url": "https://github.com/henrygerardmoore",
+          "state": "approved"
+        },
+        {
+          "name": "marcoag",
+          "url": "https://github.com/marcoag",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "fujitatomoya",
+          "commenter_url": "https://github.com/fujitatomoya",
+          "comment_date": "2024-09-19T23:44:30+00:00",
+          "comment_url": "https://github.com/ros2/rosidl/pull/789#issuecomment-2362384118",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 14584,
+              "url": "https://ci.ros2.org/job/ci_launcher/14584/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 21862,
+              "url": "https://ci.ros2.org/job/ci_linux/21862/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 16132,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/16132/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 1369,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/1369/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 22573,
+              "url": "https://ci.ros2.org/job/ci_windows/22573/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "fujitatomoya",
+          "commenter_url": "https://github.com/fujitatomoya",
+          "comment_date": "2024-12-18T16:56:26+00:00",
+          "comment_url": "https://github.com/ros2/rosidl/pull/789#issuecomment-2551832369",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 14981,
+              "url": "https://ci.ros2.org/job/ci_launcher/14981/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 22295,
+              "url": "https://ci.ros2.org/job/ci_linux/22295/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 16555,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/16555/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 1826,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/1826/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 23084,
+              "url": "https://ci.ros2.org/job/ci_windows/23084/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "fujitatomoya"
+      ],
+      "requested_reviewers": [
+        "adityapande-1995",
+        "methylDragon",
+        "quarkytale",
+        "sloretz"
+      ],
+      "days_since_update": 148,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 902,
+      "title": "Use IWYU pragma export to avoid clangd warnings for generated headers",
+      "url": "https://github.com/ros2/rosidl/pull/902",
+      "repo_full_name": "ros2/rosidl",
+      "author": "adam-leeper-ai",
+      "author_url": "https://github.com/adam-leeper-ai",
+      "created_at": "2025-09-18T17:16:51+00:00",
+      "updated_at": "2025-10-02T17:27:37+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "fujitatomoya",
+          "commenter_url": "https://github.com/fujitatomoya",
+          "comment_date": "2025-09-18T23:23:29+00:00",
+          "comment_url": "https://github.com/ros2/rosidl/pull/902#issuecomment-3309989722",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 17026,
+              "url": "https://ci.ros2.org/job/ci_launcher/17026/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 24955,
+              "url": "https://ci.ros2.org/job/ci_linux/24955/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 19051,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/19051/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 4430,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/4430/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 25457,
+              "url": "https://ci.ros2.org/job/ci_windows/25457/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "mjcarroll",
+          "commenter_url": "https://github.com/mjcarroll",
+          "comment_date": "2025-09-26T17:54:48+00:00",
+          "comment_url": "https://github.com/ros2/rosidl/pull/902#issuecomment-3339863579",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 25045,
+              "url": "https://ci.ros2.org/job/ci_linux/25045/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 19106,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/19106/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 4522,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/4522/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 25501,
+              "url": "https://ci.ros2.org/job/ci_windows/25501/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "mjcarroll"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 154,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 871,
+      "title": "std::u16string and Unicode characters across C++ standards.",
+      "url": "https://github.com/ros2/rosidl/pull/871",
+      "repo_full_name": "ros2/rosidl",
+      "author": "fujitatomoya",
+      "author_url": "https://github.com/fujitatomoya",
+      "created_at": "2025-05-23T05:23:32+00:00",
+      "updated_at": "2025-09-28T11:05:53+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "fujitatomoya",
+          "commenter_url": "https://github.com/fujitatomoya",
+          "comment_date": "2025-05-28T15:34:39+00:00",
+          "comment_url": "https://github.com/ros2/rosidl/pull/871#issuecomment-2916784427",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 16089,
+              "url": "https://ci.ros2.org/job/ci_launcher/16089/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 23778,
+              "url": "https://ci.ros2.org/job/ci_linux/23778/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 17859,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/17859/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 3200,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/3200/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 24459,
+              "url": "https://ci.ros2.org/job/ci_windows/24459/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "fujitatomoya",
+          "commenter_url": "https://github.com/fujitatomoya",
+          "comment_date": "2025-09-16T13:20:25+00:00",
+          "comment_url": "https://github.com/ros2/rosidl/pull/871#issuecomment-3298746346",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 16970,
+              "url": "https://ci.ros2.org/job/ci_launcher/16970/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 24889,
+              "url": "https://ci.ros2.org/job/ci_linux/24889/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 19021,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/19021/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 4351,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/4351/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 25401,
+              "url": "https://ci.ros2.org/job/ci_windows/25401/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "fujitatomoya"
+      ],
+      "requested_reviewers": [
+        "sloretz"
+      ],
+      "days_since_update": 158,
+      "category": "needs_review"
+    },
+    {
+      "number": 862,
+      "title": "Fix default wstring length",
+      "url": "https://github.com/ros2/rosidl/pull/862",
+      "repo_full_name": "ros2/rosidl",
+      "author": "TonyWelte",
+      "author_url": "https://github.com/TonyWelte",
+      "created_at": "2025-04-27T11:11:48+00:00",
+      "updated_at": "2025-09-11T02:49:15+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "fujitatomoya",
+          "commenter_url": "https://github.com/fujitatomoya",
+          "comment_date": "2025-05-06T15:19:05+00:00",
+          "comment_url": "https://github.com/ros2/rosidl/pull/862#issuecomment-2854984927",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 15920,
+              "url": "https://ci.ros2.org/job/ci_launcher/15920/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 23446,
+              "url": "https://ci.ros2.org/job/ci_linux/23446/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 17636,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/17636/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 2904,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/2904/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 24280,
+              "url": "https://ci.ros2.org/job/ci_windows/24280/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "fujitatomoya",
+          "commenter_url": "https://github.com/fujitatomoya",
+          "comment_date": "2025-05-20T04:18:09+00:00",
+          "comment_url": "https://github.com/ros2/rosidl/pull/862#issuecomment-2892885200",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 16050,
+              "url": "https://ci.ros2.org/job/ci_launcher/16050/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 23706,
+              "url": "https://ci.ros2.org/job/ci_linux/23706/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 17815,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/17815/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 3159,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/3159/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 24414,
+              "url": "https://ci.ros2.org/job/ci_windows/24414/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "fujitatomoya",
+          "commenter_url": "https://github.com/fujitatomoya",
+          "comment_date": "2025-05-21T21:03:17+00:00",
+          "comment_url": "https://github.com/ros2/rosidl/pull/862#issuecomment-2899226564",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 16062,
+              "url": "https://ci.ros2.org/job/ci_launcher/16062/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 23727,
+              "url": "https://ci.ros2.org/job/ci_linux/23727/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 17831,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/17831/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 3171,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/3171/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 24430,
+              "url": "https://ci.ros2.org/job/ci_windows/24430/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "fujitatomoya"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 175,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 886,
+      "title": "add warning message to ensure rosidl_adaptor is available.",
+      "url": "https://github.com/ros2/rosidl/pull/886",
+      "repo_full_name": "ros2/rosidl",
+      "author": "fujitatomoya",
+      "author_url": "https://github.com/fujitatomoya",
+      "created_at": "2025-08-23T07:38:29+00:00",
+      "updated_at": "2025-08-25T08:48:14+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "copilot-pull-request-reviewer[bot]",
+          "url": "https://github.com/apps/copilot-pull-request-reviewer",
+          "state": "commented"
+        },
+        {
+          "name": "GuillaumeDua",
+          "url": "https://github.com/GuillaumeDua",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "fujitatomoya",
+          "commenter_url": "https://github.com/fujitatomoya",
+          "comment_date": "2025-08-23T07:40:28+00:00",
+          "comment_url": "https://github.com/ros2/rosidl/pull/886#issuecomment-3216540293",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 16784,
+              "url": "https://ci.ros2.org/job/ci_launcher/16784/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 24692,
+              "url": "https://ci.ros2.org/job/ci_linux/24692/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 18715,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/18715/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 4143,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/4143/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 25210,
+              "url": "https://ci.ros2.org/job/ci_windows/25210/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "fujitatomoya"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 192,
+      "category": "needs_review"
+    },
+    {
+      "number": 852,
+      "title": "Fix CMake Unity Build variable clashes in the generated C code",
+      "url": "https://github.com/ros2/rosidl/pull/852",
+      "repo_full_name": "ros2/rosidl",
+      "author": "biodranik",
+      "author_url": "https://github.com/biodranik",
+      "created_at": "2025-03-08T19:52:50+00:00",
+      "updated_at": "2025-03-20T17:12:36+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "sloretz"
+      ],
+      "requested_reviewers": [
+        "sloretz"
+      ],
+      "days_since_update": 350,
+      "category": "needs_review"
+    },
+    {
+      "number": 851,
+      "title": "Specify rosidl version dependency in CMake",
+      "url": "https://github.com/ros2/rosidl/pull/851",
+      "repo_full_name": "ros2/rosidl",
+      "author": "Ryanf55",
+      "author_url": "https://github.com/Ryanf55",
+      "created_at": "2025-03-07T00:47:11+00:00",
+      "updated_at": "2025-03-17T22:47:49+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 353,
+      "category": "needs_review"
+    },
+    {
+      "number": 747,
+      "title": "export for the event type support function",
+      "url": "https://github.com/ros2/rosidl/pull/747",
+      "repo_full_name": "ros2/rosidl",
+      "author": "iuhilnehc-ynos",
+      "author_url": "https://github.com/iuhilnehc-ynos",
+      "created_at": "2023-05-26T02:25:39+00:00",
+      "updated_at": "2023-06-09T17:10:55+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "fujitatomoya"
+      ],
+      "requested_reviewers": [
+        "adityapande-1995",
+        "methylDragon",
+        "quarkytale",
+        "sloretz"
+      ],
+      "days_since_update": 1000,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 620,
+      "title": "Escape default arrays and sequences the same other default values",
+      "url": "https://github.com/ros2/rosidl/pull/620",
+      "repo_full_name": "ros2/rosidl",
+      "author": "jacobperron",
+      "author_url": "https://github.com/jacobperron",
+      "created_at": "2021-09-30T01:08:55+00:00",
+      "updated_at": "2023-05-09T00:17:41+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [
+        {
+          "commenter": "jacobperron",
+          "commenter_url": "https://github.com/jacobperron",
+          "comment_date": "2021-09-30T01:10:49+00:00",
+          "comment_url": "https://github.com/ros2/rosidl/pull/620#issuecomment-930663578",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 15332,
+              "url": "https://ci.ros2.org/job/ci_linux/15332/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 10043,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/10043/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_osx",
+              "build_number": 13012,
+              "url": "https://ci.ros2.org/job/ci_osx/13012/",
+              "platform": "macOS"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 15525,
+              "url": "https://ci.ros2.org/job/ci_windows/15525/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "jacobperron",
+          "commenter_url": "https://github.com/jacobperron",
+          "comment_date": "2021-10-05T01:03:42+00:00",
+          "comment_url": "https://github.com/ros2/rosidl/pull/620#issuecomment-933974174",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 15332,
+              "url": "https://ci.ros2.org/job/ci_linux/15332/",
+              "platform": "testReport"
+            }
+          ]
+        },
+        {
+          "commenter": "jacobperron",
+          "commenter_url": "https://github.com/jacobperron",
+          "comment_date": "2021-10-14T20:05:36+00:00",
+          "comment_url": "https://github.com/ros2/rosidl/pull/620#issuecomment-943687706",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 15426,
+              "url": "https://ci.ros2.org/job/ci_linux/15426/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 10129,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/10129/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_osx",
+              "build_number": 13112,
+              "url": "https://ci.ros2.org/job/ci_osx/13112/",
+              "platform": "macOS"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 15645,
+              "url": "https://ci.ros2.org/job/ci_windows/15645/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [],
+      "requested_reviewers": [
+        "sloretz"
+      ],
+      "days_since_update": 1032,
+      "category": "needs_review"
+    },
+    {
+      "number": 721,
+      "title": "ZSH: fix argcomplete clearing previous registered completions",
+      "url": "https://github.com/ros2/rosidl/pull/721",
+      "repo_full_name": "ros2/rosidl",
+      "author": "mjbogusz",
+      "author_url": "https://github.com/mjbogusz",
+      "created_at": "2023-01-17T13:54:56+00:00",
+      "updated_at": "2023-04-27T12:14:13+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [
+        "adityapande-1995",
+        "methylDragon",
+        "quarkytale",
+        "sloretz"
+      ],
+      "days_since_update": 1043,
+      "category": "needs_review"
+    },
+    {
+      "number": 698,
+      "title": "Convert ROSIDL char to IDL char",
+      "url": "https://github.com/ros2/rosidl/pull/698",
+      "repo_full_name": "ros2/rosidl",
+      "author": "ijnek",
+      "author_url": "https://github.com/ijnek",
+      "created_at": "2022-08-08T04:55:25+00:00",
+      "updated_at": "2023-04-24T13:28:40+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 1046,
+      "category": "needs_review"
+    },
+    {
+      "number": 702,
+      "title": "to support complete for rosidl and avoid calling multiple compinit",
+      "url": "https://github.com/ros2/rosidl/pull/702",
+      "repo_full_name": "ros2/rosidl",
+      "author": "iuhilnehc-ynos",
+      "author_url": "https://github.com/iuhilnehc-ynos",
+      "created_at": "2022-08-15T05:24:43+00:00",
+      "updated_at": "2023-01-17T13:35:10+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 1143,
+      "category": "needs_review"
+    }
+  ],
+  "stats": {
+    "full_name": "ros2/rosidl",
+    "url": "https://github.com/ros2/rosidl",
+    "open_pr_count": 96,
+    "open_issue_count": 0
+  }
+}

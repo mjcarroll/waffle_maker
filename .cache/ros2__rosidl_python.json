@@ -1,0 +1,435 @@
+{
+  "prs": [
+    {
+      "number": 237,
+      "title": "Extract imports out from `__init__()` and `__type_support__()`",
+      "url": "https://github.com/ros2/rosidl_python/pull/237",
+      "repo_full_name": "ros2/rosidl_python",
+      "author": "InvincibleRMC",
+      "author_url": "https://github.com/InvincibleRMC",
+      "created_at": "2025-10-01T02:25:26+00:00",
+      "updated_at": "2025-11-16T17:12:11+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 109,
+      "category": "needs_review"
+    },
+    {
+      "number": 184,
+      "title": "allow byte array to use int data",
+      "url": "https://github.com/ros2/rosidl_python/pull/184",
+      "repo_full_name": "ros2/rosidl_python",
+      "author": "iuhilnehc-ynos",
+      "author_url": "https://github.com/iuhilnehc-ynos",
+      "created_at": "2022-09-14T07:48:05+00:00",
+      "updated_at": "2025-10-07T08:43:24+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "approved"
+        },
+        {
+          "name": "iuhilnehc-ynos",
+          "url": "https://github.com/iuhilnehc-ynos",
+          "state": "commented"
+        },
+        {
+          "name": "clalancette",
+          "url": "https://github.com/clalancette",
+          "state": "approved"
+        },
+        {
+          "name": "ahcorde",
+          "url": "https://github.com/ahcorde",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "iuhilnehc-ynos",
+          "commenter_url": "https://github.com/iuhilnehc-ynos",
+          "comment_date": "2023-10-27T09:56:40+00:00",
+          "comment_url": "https://github.com/ros2/rosidl_python/pull/184#issuecomment-1782635396",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 19693,
+              "url": "https://ci.ros2.org/job/ci_linux/19693/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 14199,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/14199/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 20423,
+              "url": "https://ci.ros2.org/job/ci_windows/20423/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "ahcorde",
+          "commenter_url": "https://github.com/ahcorde",
+          "comment_date": "2025-10-03T16:32:13+00:00",
+          "comment_url": "https://github.com/ros2/rosidl_python/pull/184#issuecomment-3366376985",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 17191,
+              "url": "https://ci.ros2.org/job/ci_launcher/17191/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 25293,
+              "url": "https://ci.ros2.org/job/ci_linux/25293/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 19392,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/19392/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 4798,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/4798/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 25625,
+              "url": "https://ci.ros2.org/job/ci_windows/25625/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "clalancette"
+      ],
+      "requested_reviewers": [
+        "quarkytale",
+        "sloretz"
+      ],
+      "days_since_update": 149,
+      "category": "changes_requested"
+    },
+    {
+      "number": 193,
+      "title": "Using C extention base class for every message",
+      "url": "https://github.com/ros2/rosidl_python/pull/193",
+      "repo_full_name": "ros2/rosidl_python",
+      "author": "almaslov",
+      "author_url": "https://github.com/almaslov",
+      "created_at": "2023-02-07T07:41:18+00:00",
+      "updated_at": "2025-06-19T20:04:18+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "Voldivh",
+          "url": "https://github.com/Voldivh",
+          "state": "changes_requested"
+        },
+        {
+          "name": "sloretz",
+          "url": "https://github.com/sloretz",
+          "state": "commented"
+        },
+        {
+          "name": "almaslov",
+          "url": "https://github.com/almaslov",
+          "state": "commented"
+        },
+        {
+          "name": "clalancette",
+          "url": "https://github.com/clalancette",
+          "state": "commented"
+        },
+        {
+          "name": "mjcarroll",
+          "url": "https://github.com/mjcarroll",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "sloretz"
+      ],
+      "requested_reviewers": [
+        "quarkytale"
+      ],
+      "days_since_update": 259,
+      "category": "changes_requested"
+    },
+    {
+      "number": 216,
+      "title": "Added forced casting of int values \u200b\u200bto float for float-typed fields",
+      "url": "https://github.com/ros2/rosidl_python/pull/216",
+      "repo_full_name": "ros2/rosidl_python",
+      "author": "EsipovPA",
+      "author_url": "https://github.com/EsipovPA",
+      "created_at": "2024-09-10T11:56:19+00:00",
+      "updated_at": "2025-03-01T23:07:02+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "clalancette",
+          "url": "https://github.com/clalancette",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "clalancette"
+      ],
+      "requested_reviewers": [
+        "quarkytale",
+        "sloretz"
+      ],
+      "days_since_update": 369,
+      "category": "needs_review"
+    },
+    {
+      "number": 208,
+      "title": "Add null support for constants and defaults",
+      "url": "https://github.com/ros2/rosidl_python/pull/208",
+      "repo_full_name": "ros2/rosidl_python",
+      "author": "Ryanf55",
+      "author_url": "https://github.com/Ryanf55",
+      "created_at": "2024-03-18T21:52:32+00:00",
+      "updated_at": "2024-06-05T14:05:11+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "sloretz",
+        "quarkytale"
+      ],
+      "requested_reviewers": [
+        "quarkytale",
+        "sloretz"
+      ],
+      "days_since_update": 638,
+      "category": "needs_review"
+    },
+    {
+      "number": 164,
+      "title": "Fix rhel and windows builds",
+      "url": "https://github.com/ros2/rosidl_python/pull/164",
+      "repo_full_name": "ros2/rosidl_python",
+      "author": "ivanpauno",
+      "author_url": "https://github.com/ivanpauno",
+      "created_at": "2022-05-16T18:28:00+00:00",
+      "updated_at": "2023-10-04T13:43:44+00:00",
+      "labels": [
+        "bug"
+      ],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "sloretz",
+          "url": "https://github.com/sloretz",
+          "state": "commented"
+        },
+        {
+          "name": "ivanpauno",
+          "url": "https://github.com/ivanpauno",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "ivanpauno",
+          "commenter_url": "https://github.com/ivanpauno",
+          "comment_date": "2022-05-16T18:31:04+00:00",
+          "comment_url": "https://github.com/ros2/rosidl_python/pull/164#issuecomment-1127999677",
+          "runs": [
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 230,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/230/",
+              "platform": "badge"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 230,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/230/",
+              "platform": "Linux-RHEL"
+            }
+          ]
+        },
+        {
+          "commenter": "ivanpauno",
+          "commenter_url": "https://github.com/ivanpauno",
+          "comment_date": "2022-05-16T19:47:54+00:00",
+          "comment_url": "https://github.com/ros2/rosidl_python/pull/164#issuecomment-1128069729",
+          "runs": [
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 231,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/231/",
+              "platform": "badge"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 231,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/231/",
+              "platform": "Linux-RHEL"
+            }
+          ]
+        },
+        {
+          "commenter": "ivanpauno",
+          "commenter_url": "https://github.com/ivanpauno",
+          "comment_date": "2022-05-16T20:38:52+00:00",
+          "comment_url": "https://github.com/ros2/rosidl_python/pull/164#issuecomment-1128113395",
+          "runs": [
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 232,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/232/",
+              "platform": "badge"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 232,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/232/",
+              "platform": "Linux-RHEL"
+            }
+          ]
+        },
+        {
+          "commenter": "ivanpauno",
+          "commenter_url": "https://github.com/ivanpauno",
+          "comment_date": "2022-05-16T20:39:32+00:00",
+          "comment_url": "https://github.com/ros2/rosidl_python/pull/164#issuecomment-1128113904",
+          "runs": [
+            {
+              "job_name": "ci_windows",
+              "build_number": 17109,
+              "url": "https://ci.ros2.org/job/ci_windows/17109/",
+              "platform": "badge"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 17109,
+              "url": "https://ci.ros2.org/job/ci_windows/17109/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "ivanpauno"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 883,
+      "category": "needs_review"
+    },
+    {
+      "number": 130,
+      "title": "Fix int32[] and uint32[] 32 bit sequence types only accepting 16 bit sequences",
+      "url": "https://github.com/ros2/rosidl_python/pull/130",
+      "repo_full_name": "ros2/rosidl_python",
+      "author": "sloretz",
+      "author_url": "https://github.com/sloretz",
+      "created_at": "2021-05-22T04:46:38+00:00",
+      "updated_at": "2022-06-28T14:24:16+00:00",
+      "labels": [
+        "bug"
+      ],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [
+        {
+          "commenter": "sloretz",
+          "commenter_url": "https://github.com/sloretz",
+          "comment_date": "2021-05-22T04:48:03+00:00",
+          "comment_url": "https://github.com/ros2/rosidl_python/pull/130#issuecomment-846349341",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 14678,
+              "url": "https://ci.ros2.org/job/ci_linux/14678/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 9430,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/9430/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_osx",
+              "build_number": 12343,
+              "url": "https://ci.ros2.org/job/ci_osx/12343/",
+              "platform": "macOS"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 14821,
+              "url": "https://ci.ros2.org/job/ci_windows/14821/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "sloretz"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 1346,
+      "category": "needs_review"
+    },
+    {
+      "number": 138,
+      "title": "Do not link against PYTHON_LIBRARIES on macOS",
+      "url": "https://github.com/ros2/rosidl_python/pull/138",
+      "repo_full_name": "ros2/rosidl_python",
+      "author": "Tobias-Fischer",
+      "author_url": "https://github.com/Tobias-Fischer",
+      "created_at": "2021-07-21T23:39:31+00:00",
+      "updated_at": "2022-06-28T14:24:13+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "sloretz"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 1346,
+      "category": "needs_review"
+    }
+  ],
+  "stats": {
+    "full_name": "ros2/rosidl_python",
+    "url": "https://github.com/ros2/rosidl_python",
+    "open_pr_count": 23,
+    "open_issue_count": 0
+  }
+}

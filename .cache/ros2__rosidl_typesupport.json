@@ -1,0 +1,37 @@
+{
+  "prs": [
+    {
+      "number": 110,
+      "title": "Static type support for rosidl_typesupport_c",
+      "url": "https://github.com/ros2/rosidl_typesupport/pull/110",
+      "repo_full_name": "ros2/rosidl_typesupport",
+      "author": "pablogs9",
+      "author_url": "https://github.com/pablogs9",
+      "created_at": "2021-05-14T10:09:58+00:00",
+      "updated_at": "2024-08-16T12:32:05+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "clalancette",
+          "url": "https://github.com/clalancette",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "clalancette"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 566,
+      "category": "needs_review"
+    }
+  ],
+  "stats": {
+    "full_name": "ros2/rosidl_typesupport",
+    "url": "https://github.com/ros2/rosidl_typesupport",
+    "open_pr_count": 9,
+    "open_issue_count": 0
+  }
+}

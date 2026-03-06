@@ -627,11 +627,68 @@ def fetch_all(
     rate = _log_rate_limit(gh, "after fetch")
 
     # Build DashboardData with proper dataclass instances
-    dashboard = DashboardData(
-        generated_at=now.isoformat(),
-        rate_limit_remaining=rate.remaining,
-        rate_limit_total=rate.limit,
+    dashboard = _build_dashboard(all_prs, all_repos, now)
+    dashboard.rate_limit_remaining = rate.remaining
+    dashboard.rate_limit_total = rate.limit
+
+    logger.info(
+        "Done: %d PRs across %d repos (fetched=%d, cached=%d)",
+        len(dashboard.prs), len(dashboard.repos), fetched, cached,
     )
+    return dashboard
+
+
+def load_from_cache(cache_dir: Path = DEFAULT_CACHE_DIR) -> DashboardData:
+    """Load dashboard data entirely from cache, no GitHub API calls.
+
+    Reads all per-repo cache files and assembles a DashboardData object.
+    Useful for regenerating the static site without hitting rate limits.
+    """
+    cache = Cache(cache_dir)
+    now = datetime.now(timezone.utc)
+
+    all_prs: list[dict] = []
+    all_repos: list[dict] = []
+
+    # Find all repo cache files (skip _meta.json)
+    if not cache_dir.exists():
+        logger.warning("Cache directory %s does not exist", cache_dir)
+        return DashboardData(generated_at=now.isoformat())
+
+    for repo_file in sorted(cache_dir.glob("*.json")):
+        if repo_file.name == Cache.META_FILE:
+            continue
+        try:
+            data = json.loads(repo_file.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError) as e:
+            logger.warning("Skipping corrupt cache file %s: %s", repo_file, e)
+            continue
+
+        prs = data.get("prs", [])
+        stats = data.get("stats")
+
+        # Recompute days_since_update
+        for pr_dict in prs:
+            updated = datetime.fromisoformat(pr_dict["updated_at"])
+            pr_dict["days_since_update"] = (now - updated).days
+
+        all_prs.extend(prs)
+        if stats:
+            all_repos.append(stats)
+
+    dashboard = _build_dashboard(all_prs, all_repos, now)
+    logger.info(
+        "Loaded from cache: %d PRs across %d repos",
+        len(dashboard.prs), len(dashboard.repos),
+    )
+    return dashboard
+
+
+def _build_dashboard(
+    all_prs: list[dict], all_repos: list[dict], now: datetime
+) -> DashboardData:
+    """Build a DashboardData from raw PR and repo dicts."""
+    dashboard = DashboardData(generated_at=now.isoformat())
 
     for pr_dict in all_prs:
         ci_triggers = [
@@ -672,8 +729,5 @@ def fetch_all(
             open_issue_count=rs.get("open_issue_count", 0),
         ))
 
-    logger.info(
-        "Done: %d PRs across %d repos (fetched=%d, cached=%d)",
-        len(dashboard.prs), len(dashboard.repos), fetched, cached,
-    )
     return dashboard
+

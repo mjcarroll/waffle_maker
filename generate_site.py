@@ -14,7 +14,7 @@ from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader
 
-from fetch_data import fetch_all
+from fetch_data import fetch_all, load_from_cache
 
 logging.basicConfig(
     level=logging.INFO,
@@ -46,23 +46,32 @@ def main() -> int:
         action="store_true",
         help="Ignore existing cache and re-fetch everything",
     )
+    parser.add_argument(
+        "--cache-only",
+        action="store_true",
+        help="Generate site from cache only, no GitHub API calls",
+    )
     args = parser.parse_args()
 
-    # Get GitHub token
-    token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GITHUB_API_KEY")
-    if not token:
-        logger.error("Set GITHUB_TOKEN or GITHUB_API_KEY environment variable")
-        return 1
+    if args.cache_only:
+        # Render from cache without any API calls
+        logger.info("Loading data from cache (no API calls)...")
+        data = load_from_cache(cache_dir=args.cache_dir)
+    else:
+        # Get GitHub token
+        token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GITHUB_API_KEY")
+        if not token:
+            logger.error("Set GITHUB_TOKEN or GITHUB_API_KEY environment variable")
+            return 1
 
-    # Fetch data
-    logger.info("Fetching PR data from GitHub...")
-    data = fetch_all(token, cache_dir=args.cache_dir, no_cache=args.no_cache)
+        # Fetch data
+        logger.info("Fetching PR data from GitHub...")
+        data = fetch_all(token, cache_dir=args.cache_dir, no_cache=args.no_cache)
+
     logger.info(
-        "Fetched %d PRs across %d repos (rate limit: %d/%d remaining)",
+        "Got %d PRs across %d repos",
         len(data.prs),
         len(data.repos),
-        data.rate_limit_remaining,
-        data.rate_limit_total,
     )
 
     # Collect unique repos and labels for filter dropdowns

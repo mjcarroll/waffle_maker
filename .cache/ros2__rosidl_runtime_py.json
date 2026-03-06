@@ -1,0 +1,154 @@
+{
+  "prs": [
+    {
+      "number": 29,
+      "title": "Speedup conversion of arrays and numpy arrays",
+      "url": "https://github.com/ros2/rosidl_runtime_py/pull/29",
+      "repo_full_name": "ros2/rosidl_runtime_py",
+      "author": "beckzoli",
+      "author_url": "https://github.com/beckzoli",
+      "created_at": "2024-10-16T04:14:26+00:00",
+      "updated_at": "2024-12-18T22:39:32+00:00",
+      "labels": [
+        "enhancement",
+        "more information needed"
+      ],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "sloretz",
+          "url": "https://github.com/sloretz",
+          "state": "changes_requested"
+        },
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "clalancette",
+          "commenter_url": "https://github.com/clalancette",
+          "comment_date": "2024-12-18T22:39:31+00:00",
+          "comment_url": "https://github.com/ros2/rosidl_runtime_py/pull/29#issuecomment-2552404687",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 14983,
+              "url": "https://ci.ros2.org/job/ci_launcher/14983/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 22297,
+              "url": "https://ci.ros2.org/job/ci_linux/22297/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 16557,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/16557/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 1828,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/1828/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 23087,
+              "url": "https://ci.ros2.org/job/ci_windows/23087/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "beckzoli"
+      ],
+      "requested_reviewers": [
+        "sloretz"
+      ],
+      "days_since_update": 442,
+      "category": "changes_requested"
+    },
+    {
+      "number": 30,
+      "title": "fix(set_message): encode strings if field is bytes",
+      "url": "https://github.com/ros2/rosidl_runtime_py/pull/30",
+      "repo_full_name": "ros2/rosidl_runtime_py",
+      "author": "russkel",
+      "author_url": "https://github.com/russkel",
+      "created_at": "2024-11-02T05:08:06+00:00",
+      "updated_at": "2024-11-21T18:49:56+00:00",
+      "labels": [
+        "more information needed"
+      ],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "fujitatomoya",
+          "commenter_url": "https://github.com/fujitatomoya",
+          "comment_date": "2024-11-02T16:23:17+00:00",
+          "comment_url": "https://github.com/ros2/rosidl_runtime_py/pull/30#issuecomment-2453038645",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 14779,
+              "url": "https://ci.ros2.org/job/ci_launcher/14779/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 22083,
+              "url": "https://ci.ros2.org/job/ci_linux/22083/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 16340,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/16340/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 1602,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/1602/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 22819,
+              "url": "https://ci.ros2.org/job/ci_windows/22819/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [],
+      "requested_reviewers": [
+        "sloretz"
+      ],
+      "days_since_update": 469,
+      "category": "ready_to_merge"
+    }
+  ],
+  "stats": {
+    "full_name": "ros2/rosidl_runtime_py",
+    "url": "https://github.com/ros2/rosidl_runtime_py",
+    "open_pr_count": 4,
+    "open_issue_count": 0
+  }
+}

@@ -1,0 +1,1140 @@
+{
+  "prs": [
+    {
+      "number": 1648,
+      "title": "Add Depth Fade Point visualisation style for PointCloud rendering",
+      "url": "https://github.com/ros2/rviz/pull/1648",
+      "repo_full_name": "ros2/rviz",
+      "author": "ksuszka",
+      "author_url": "https://github.com/ksuszka",
+      "created_at": "2025-12-19T12:08:11+00:00",
+      "updated_at": "2026-03-02T10:18:57+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "ahcorde",
+          "url": "https://github.com/ahcorde",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "ahcorde"
+      ],
+      "requested_reviewers": [
+        "ahcorde"
+      ],
+      "days_since_update": 3,
+      "category": "changes_requested"
+    },
+    {
+      "number": 1305,
+      "title": "Update Ogre",
+      "url": "https://github.com/ros2/rviz/pull/1305",
+      "repo_full_name": "ros2/rviz",
+      "author": "mosfet80",
+      "author_url": "https://github.com/mosfet80",
+      "created_at": "2024-11-26T21:48:56+00:00",
+      "updated_at": "2026-02-24T17:27:13+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "clalancette"
+      ],
+      "requested_reviewers": [
+        "ahcorde"
+      ],
+      "days_since_update": 9,
+      "category": "needs_review"
+    },
+    {
+      "number": 1652,
+      "title": "Reduce QFile dependency",
+      "url": "https://github.com/ros2/rviz/pull/1652",
+      "repo_full_name": "ros2/rviz",
+      "author": "ahcorde",
+      "author_url": "https://github.com/ahcorde",
+      "created_at": "2026-01-09T10:24:30+00:00",
+      "updated_at": "2026-01-19T17:40:41+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "ahcorde"
+      ],
+      "requested_reviewers": [
+        "mjcarroll"
+      ],
+      "days_since_update": 45,
+      "category": "needs_review"
+    },
+    {
+      "number": 1329,
+      "title": "When a URDF link has multiple visual tags, use appropriate material for each",
+      "url": "https://github.com/ros2/rviz/pull/1329",
+      "repo_full_name": "ros2/rviz",
+      "author": "ANogin",
+      "author_url": "https://github.com/ANogin",
+      "created_at": "2025-01-22T05:06:07+00:00",
+      "updated_at": "2026-01-19T10:24:40+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "ahcorde",
+          "url": "https://github.com/ahcorde",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "ahcorde",
+          "commenter_url": "https://github.com/ahcorde",
+          "comment_date": "2025-04-25T13:31:26+00:00",
+          "comment_url": "https://github.com/ros2/rviz/pull/1329#issuecomment-2830446140",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 15784,
+              "url": "https://ci.ros2.org/job/ci_launcher/15784/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 23251,
+              "url": "https://ci.ros2.org/job/ci_linux/23251/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 17469,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/17469/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 2719,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/2719/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 24132,
+              "url": "https://ci.ros2.org/job/ci_windows/24132/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "ahcorde"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 45,
+      "category": "changes_requested"
+    },
+    {
+      "number": 1288,
+      "title": "Compressed Image Display",
+      "url": "https://github.com/ros2/rviz/pull/1288",
+      "repo_full_name": "ros2/rviz",
+      "author": "mjforan",
+      "author_url": "https://github.com/mjforan",
+      "created_at": "2024-10-24T15:38:10+00:00",
+      "updated_at": "2026-01-14T01:45:11+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "ahcorde",
+          "url": "https://github.com/ahcorde",
+          "state": "approved"
+        },
+        {
+          "name": "mjforan",
+          "url": "https://github.com/mjforan",
+          "state": "commented"
+        },
+        {
+          "name": "clalancette",
+          "url": "https://github.com/clalancette",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "ahcorde",
+          "commenter_url": "https://github.com/ahcorde",
+          "comment_date": "2025-05-19T15:08:30+00:00",
+          "comment_url": "https://github.com/ros2/rviz/pull/1288#issuecomment-2891384144",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 16039,
+              "url": "https://ci.ros2.org/job/ci_launcher/16039/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 23692,
+              "url": "https://ci.ros2.org/job/ci_linux/23692/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 17802,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/17802/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 3147,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/3147/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 24402,
+              "url": "https://ci.ros2.org/job/ci_windows/24402/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "ahcorde"
+      ],
+      "requested_reviewers": [
+        "ahcorde",
+        "clalancette"
+      ],
+      "days_since_update": 50,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 1653,
+      "title": "Fix FrameView/FrameAligned Controller to track orientation of the frame",
+      "url": "https://github.com/ros2/rviz/pull/1653",
+      "repo_full_name": "ros2/rviz",
+      "author": "jowaibel",
+      "author_url": "https://github.com/jowaibel",
+      "created_at": "2026-01-13T12:19:35+00:00",
+      "updated_at": "2026-01-13T12:19:35+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 51,
+      "category": "needs_review"
+    },
+    {
+      "number": 1569,
+      "title": "Fix compile with wayland",
+      "url": "https://github.com/ros2/rviz/pull/1569",
+      "repo_full_name": "ros2/rviz",
+      "author": "mosfet80",
+      "author_url": "https://github.com/mosfet80",
+      "created_at": "2025-08-27T14:18:50+00:00",
+      "updated_at": "2025-12-11T22:23:35+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "ahcorde",
+          "url": "https://github.com/ahcorde",
+          "state": "changes_requested"
+        },
+        {
+          "name": "sloretz",
+          "url": "https://github.com/sloretz",
+          "state": "commented"
+        },
+        {
+          "name": "fastcat",
+          "url": "https://github.com/fastcat",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "ahcorde"
+      ],
+      "requested_reviewers": [
+        "ahcorde",
+        "sloretz"
+      ],
+      "days_since_update": 84,
+      "category": "changes_requested"
+    },
+    {
+      "number": 1618,
+      "title": "Feature: Load config service",
+      "url": "https://github.com/ros2/rviz/pull/1618",
+      "repo_full_name": "ros2/rviz",
+      "author": "Crola1702",
+      "author_url": "https://github.com/Crola1702",
+      "created_at": "2025-11-02T07:00:03+00:00",
+      "updated_at": "2025-11-07T17:14:06+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "ahcorde",
+          "url": "https://github.com/ahcorde",
+          "state": "changes_requested"
+        },
+        {
+          "name": "clalancette",
+          "url": "https://github.com/clalancette",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "Crola1702"
+      ],
+      "requested_reviewers": [
+        "mjcarroll",
+        "christophebedard"
+      ],
+      "days_since_update": 118,
+      "category": "changes_requested"
+    },
+    {
+      "number": 1034,
+      "title": "Fixed crash when raycasting while map is updated",
+      "url": "https://github.com/ros2/rviz/pull/1034",
+      "repo_full_name": "ros2/rviz",
+      "author": "ahcorde",
+      "author_url": "https://github.com/ahcorde",
+      "created_at": "2023-08-15T20:55:57+00:00",
+      "updated_at": "2025-06-30T11:13:20+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "asymingt",
+          "url": "https://github.com/asymingt",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "ahcorde",
+          "commenter_url": "https://github.com/ahcorde",
+          "comment_date": "2025-05-21T10:09:17+00:00",
+          "comment_url": "https://github.com/ros2/rviz/pull/1034#issuecomment-2897390404",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 16058,
+              "url": "https://ci.ros2.org/job/ci_launcher/16058/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 23723,
+              "url": "https://ci.ros2.org/job/ci_linux/23723/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 17826,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/17826/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 3167,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/3167/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 24426,
+              "url": "https://ci.ros2.org/job/ci_windows/24426/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "ahcorde",
+          "commenter_url": "https://github.com/ahcorde",
+          "comment_date": "2025-06-27T14:46:17+00:00",
+          "comment_url": "https://github.com/ros2/rviz/pull/1034#issuecomment-3013332693",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 24123,
+              "url": "https://ci.ros2.org/job/ci_linux/24123/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 18197,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/18197/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 3547,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/3547/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 24734,
+              "url": "https://ci.ros2.org/job/ci_windows/24734/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "ahcorde",
+          "commenter_url": "https://github.com/ahcorde",
+          "comment_date": "2025-06-30T11:13:20+00:00",
+          "comment_url": "https://github.com/ros2/rviz/pull/1034#issuecomment-3018753349",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 16354,
+              "url": "https://ci.ros2.org/job/ci_launcher/16354/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 24141,
+              "url": "https://ci.ros2.org/job/ci_linux/24141/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 18213,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/18213/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 3566,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/3566/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 24750,
+              "url": "https://ci.ros2.org/job/ci_windows/24750/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "ahcorde"
+      ],
+      "requested_reviewers": [
+        "mjcarroll",
+        "sloretz"
+      ],
+      "days_since_update": 248,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 1483,
+      "title": "Fix/Linker path MacOS x86_64",
+      "url": "https://github.com/ros2/rviz/pull/1483",
+      "repo_full_name": "ros2/rviz",
+      "author": "artcore-c",
+      "author_url": "https://github.com/artcore-c",
+      "created_at": "2025-06-10T04:32:25+00:00",
+      "updated_at": "2025-06-10T05:25:43+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 268,
+      "category": "needs_review"
+    },
+    {
+      "number": 1005,
+      "title": "Allow to select tranport hints in Image display",
+      "url": "https://github.com/ros2/rviz/pull/1005",
+      "repo_full_name": "ros2/rviz",
+      "author": "ahcorde",
+      "author_url": "https://github.com/ahcorde",
+      "created_at": "2023-06-30T17:26:12+00:00",
+      "updated_at": "2025-05-29T17:15:36+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "mjcarroll",
+          "url": "https://github.com/mjcarroll",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "ahcorde",
+          "commenter_url": "https://github.com/ahcorde",
+          "comment_date": "2025-05-21T10:16:10+00:00",
+          "comment_url": "https://github.com/ros2/rviz/pull/1005#issuecomment-2897409134",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 16060,
+              "url": "https://ci.ros2.org/job/ci_launcher/16060/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 23725,
+              "url": "https://ci.ros2.org/job/ci_linux/23725/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 17828,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/17828/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 3169,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/3169/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 24428,
+              "url": "https://ci.ros2.org/job/ci_windows/24428/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "ahcorde",
+          "commenter_url": "https://github.com/ahcorde",
+          "comment_date": "2025-05-22T08:13:54+00:00",
+          "comment_url": "https://github.com/ros2/rviz/pull/1005#issuecomment-2900317841",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 23730,
+              "url": "https://ci.ros2.org/job/ci_linux/23730/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 17834,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/17834/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 3174,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/3174/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 24433,
+              "url": "https://ci.ros2.org/job/ci_windows/24433/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "mjcarroll"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 280,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 972,
+      "title": "Feature/add arrow strip marker",
+      "url": "https://github.com/ros2/rviz/pull/972",
+      "repo_full_name": "ros2/rviz",
+      "author": "riv-tnoble",
+      "author_url": "https://github.com/riv-tnoble",
+      "created_at": "2023-04-20T15:35:07+00:00",
+      "updated_at": "2024-11-21T19:14:55+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "ahcorde",
+          "url": "https://github.com/ahcorde",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "ahcorde"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 469,
+      "category": "changes_requested"
+    },
+    {
+      "number": 950,
+      "title": "Fix issue with high-frequency messages",
+      "url": "https://github.com/ros2/rviz/pull/950",
+      "repo_full_name": "ros2/rviz",
+      "author": "AndreasR30",
+      "author_url": "https://github.com/AndreasR30",
+      "created_at": "2023-02-15T15:33:22+00:00",
+      "updated_at": "2024-10-31T12:11:45+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "mjcarroll"
+      ],
+      "requested_reviewers": [
+        "ahcorde",
+        "mjcarroll"
+      ],
+      "days_since_update": 490,
+      "category": "needs_review"
+    },
+    {
+      "number": 1224,
+      "title": "Removed sensor_msgs::msg::PointCloud references because is deprecated",
+      "url": "https://github.com/ros2/rviz/pull/1224",
+      "repo_full_name": "ros2/rviz",
+      "author": "ahcorde",
+      "author_url": "https://github.com/ahcorde",
+      "created_at": "2024-07-04T15:41:25+00:00",
+      "updated_at": "2024-07-29T14:18:13+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [
+        {
+          "commenter": "ahcorde",
+          "commenter_url": "https://github.com/ahcorde",
+          "comment_date": "2024-07-08T10:53:21+00:00",
+          "comment_url": "https://github.com/ros2/rviz/pull/1224#issuecomment-2213680438",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 21385,
+              "url": "https://ci.ros2.org/job/ci_linux/21385/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 15691,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/15691/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 894,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/894/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 22121,
+              "url": "https://ci.ros2.org/job/ci_windows/22121/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "ahcorde",
+          "commenter_url": "https://github.com/ahcorde",
+          "comment_date": "2024-07-10T09:03:24+00:00",
+          "comment_url": "https://github.com/ros2/rviz/pull/1224#issuecomment-2219957227",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 21432,
+              "url": "https://ci.ros2.org/job/ci_linux/21432/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 15722,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/15722/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 931,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/931/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 22153,
+              "url": "https://ci.ros2.org/job/ci_windows/22153/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "ahcorde",
+          "commenter_url": "https://github.com/ahcorde",
+          "comment_date": "2024-07-29T13:45:36+00:00",
+          "comment_url": "https://github.com/ros2/rviz/pull/1224#issuecomment-2255992931",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 21573,
+              "url": "https://ci.ros2.org/job/ci_linux/21573/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 15862,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/15862/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 1071,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/1071/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 22293,
+              "url": "https://ci.ros2.org/job/ci_windows/22293/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "ahcorde"
+      ],
+      "requested_reviewers": [
+        "clalancette"
+      ],
+      "days_since_update": 584,
+      "category": "needs_review"
+    },
+    {
+      "number": 938,
+      "title": "Fixed \"pragma-patch.diff\" on MacOS Ventura 13.1 / Xcode 14.2 (#925)",
+      "url": "https://github.com/ros2/rviz/pull/938",
+      "repo_full_name": "ros2/rviz",
+      "author": "openvmp",
+      "author_url": "https://github.com/openvmp",
+      "created_at": "2023-01-06T02:26:41+00:00",
+      "updated_at": "2024-01-10T23:43:20+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 785,
+      "category": "needs_review"
+    },
+    {
+      "number": 942,
+      "title": "fix: issue #918",
+      "url": "https://github.com/ros2/rviz/pull/942",
+      "repo_full_name": "ros2/rviz",
+      "author": "MarcoMagriDev",
+      "author_url": "https://github.com/MarcoMagriDev",
+      "created_at": "2023-01-23T16:27:01+00:00",
+      "updated_at": "2023-12-04T14:42:02+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "ahcorde",
+          "url": "https://github.com/ahcorde",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "ahcorde",
+          "commenter_url": "https://github.com/ahcorde",
+          "comment_date": "2023-01-24T14:13:30+00:00",
+          "comment_url": "https://github.com/ros2/rviz/pull/942#issuecomment-1402017288",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 17986,
+              "url": "https://ci.ros2.org/job/ci_linux/17986/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 12516,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/12516/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 18621,
+              "url": "https://ci.ros2.org/job/ci_windows/18621/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 822,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 1033,
+      "title": "call propertyHiddenChanged synchronously",
+      "url": "https://github.com/ros2/rviz/pull/1033",
+      "repo_full_name": "ros2/rviz",
+      "author": "ahcorde",
+      "author_url": "https://github.com/ahcorde",
+      "created_at": "2023-08-15T20:48:47+00:00",
+      "updated_at": "2023-10-16T12:09:14+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "clalancette",
+          "url": "https://github.com/clalancette",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "ahcorde"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 871,
+      "category": "needs_review"
+    },
+    {
+      "number": 1048,
+      "title": "Fix to render window flash problem after resizing (in python environment only)",
+      "url": "https://github.com/ros2/rviz/pull/1048",
+      "repo_full_name": "ros2/rviz",
+      "author": "KKSTB",
+      "author_url": "https://github.com/KKSTB",
+      "created_at": "2023-08-23T03:28:16+00:00",
+      "updated_at": "2023-09-14T17:20:34+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "ahcorde"
+      ],
+      "requested_reviewers": [
+        "ahcorde"
+      ],
+      "days_since_update": 903,
+      "category": "needs_review"
+    },
+    {
+      "number": 881,
+      "title": "Revert usage of tf listener node in favor of callback group",
+      "url": "https://github.com/ros2/rviz/pull/881",
+      "repo_full_name": "ros2/rviz",
+      "author": "Flova",
+      "author_url": "https://github.com/Flova",
+      "created_at": "2022-07-25T08:47:51+00:00",
+      "updated_at": "2023-02-15T17:11:46+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 1114,
+      "category": "needs_review"
+    },
+    {
+      "number": 915,
+      "title": "Document how plugins should transform data",
+      "url": "https://github.com/ros2/rviz/pull/915",
+      "repo_full_name": "ros2/rviz",
+      "author": "sloretz",
+      "author_url": "https://github.com/sloretz",
+      "created_at": "2022-10-05T18:49:04+00:00",
+      "updated_at": "2022-10-10T23:18:54+00:00",
+      "labels": [
+        "documentation"
+      ],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "wjwwood",
+          "url": "https://github.com/wjwwood",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "sloretz"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 1242,
+      "category": "needs_review"
+    },
+    {
+      "number": 913,
+      "title": "Add receiver parameter to constructor of CovarianceProperty",
+      "url": "https://github.com/ros2/rviz/pull/913",
+      "repo_full_name": "ros2/rviz",
+      "author": "AndreasR30",
+      "author_url": "https://github.com/AndreasR30",
+      "created_at": "2022-09-29T08:43:26+00:00",
+      "updated_at": "2022-09-29T08:43:26+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 1253,
+      "category": "needs_review"
+    },
+    {
+      "number": 889,
+      "title": "Add python bindings based on Pyside2",
+      "url": "https://github.com/ros2/rviz/pull/889",
+      "repo_full_name": "ros2/rviz",
+      "author": "hellantos",
+      "author_url": "https://github.com/hellantos",
+      "created_at": "2022-08-28T11:50:29+00:00",
+      "updated_at": "2022-08-30T15:33:08+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 1283,
+      "category": "needs_review"
+    },
+    {
+      "number": 541,
+      "title": "Add nav2_msgs/ParticleCloud display plugin",
+      "url": "https://github.com/ros2/rviz/pull/541",
+      "repo_full_name": "ros2/rviz",
+      "author": "naiveHobo",
+      "author_url": "https://github.com/naiveHobo",
+      "created_at": "2020-05-06T18:36:39+00:00",
+      "updated_at": "2022-06-28T14:25:01+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "SteveMacenski",
+          "url": "https://github.com/SteveMacenski",
+          "state": "commented"
+        },
+        {
+          "name": "clalancette",
+          "url": "https://github.com/clalancette",
+          "state": "commented"
+        },
+        {
+          "name": "wjwwood",
+          "url": "https://github.com/wjwwood",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "jacobperron"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 1346,
+      "category": "needs_review"
+    },
+    {
+      "number": 716,
+      "title": "clean up render window resize logic",
+      "url": "https://github.com/ros2/rviz/pull/716",
+      "repo_full_name": "ros2/rviz",
+      "author": "flynneva",
+      "author_url": "https://github.com/flynneva",
+      "created_at": "2021-06-24T15:51:25+00:00",
+      "updated_at": "2022-06-28T14:24:57+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "flynneva",
+          "url": "https://github.com/flynneva",
+          "state": "commented"
+        },
+        {
+          "name": "ahcorde",
+          "url": "https://github.com/ahcorde",
+          "state": "changes_requested"
+        },
+        {
+          "name": "jacobperron",
+          "url": "https://github.com/jacobperron",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "jacobperron"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 1346,
+      "category": "changes_requested"
+    },
+    {
+      "number": 848,
+      "title": "Add cmake flag -DOGRE_GLSUPPORT_USE_EGL=1",
+      "url": "https://github.com/ros2/rviz/pull/848",
+      "repo_full_name": "ros2/rviz",
+      "author": "ciandonovan",
+      "author_url": "https://github.com/ciandonovan",
+      "created_at": "2022-04-04T19:41:17+00:00",
+      "updated_at": "2022-06-28T14:24:50+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "jacobperron"
+      ],
+      "requested_reviewers": [
+        "jacobperron"
+      ],
+      "days_since_update": 1346,
+      "category": "needs_review"
+    },
+    {
+      "number": 860,
+      "title": "Update CMakeLists.txt to force c++14 on Win32",
+      "url": "https://github.com/ros2/rviz/pull/860",
+      "repo_full_name": "ros2/rviz",
+      "author": "mce16",
+      "author_url": "https://github.com/mce16",
+      "created_at": "2022-05-09T01:06:04+00:00",
+      "updated_at": "2022-06-28T14:24:49+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "aprotyas",
+          "url": "https://github.com/aprotyas",
+          "state": "commented"
+        },
+        {
+          "name": "mce16",
+          "url": "https://github.com/mce16",
+          "state": "commented"
+        },
+        {
+          "name": "clalancette",
+          "url": "https://github.com/clalancette",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "mjeronimo"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 1346,
+      "category": "changes_requested"
+    },
+    {
+      "number": 863,
+      "title": "fix issue #810",
+      "url": "https://github.com/ros2/rviz/pull/863",
+      "repo_full_name": "ros2/rviz",
+      "author": "xlla",
+      "author_url": "https://github.com/xlla",
+      "created_at": "2022-05-10T18:41:36+00:00",
+      "updated_at": "2022-06-28T14:24:48+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "clalancette",
+          "url": "https://github.com/clalancette",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "clalancette"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 1346,
+      "category": "changes_requested"
+    },
+    {
+      "number": 866,
+      "title": "Use CMAKE_STAGING_PREFIX for staging OGRE installation (backport #861)",
+      "url": "https://github.com/ros2/rviz/pull/866",
+      "repo_full_name": "ros2/rviz",
+      "author": "mergify[bot]",
+      "author_url": "https://github.com/apps/mergify",
+      "created_at": "2022-06-10T01:23:26+00:00",
+      "updated_at": "2022-06-13T04:51:50+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "cottsay"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 1361,
+      "category": "needs_review"
+    }
+  ],
+  "stats": {
+    "full_name": "ros2/rviz",
+    "url": "https://github.com/ros2/rviz",
+    "open_pr_count": 181,
+    "open_issue_count": 0
+  }
+}

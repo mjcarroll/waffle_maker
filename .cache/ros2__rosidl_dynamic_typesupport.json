@@ -1,0 +1,107 @@
+{
+  "prs": [
+    {
+      "number": 16,
+      "title": "fix: prevent char16_t redefinition on macOS",
+      "url": "https://github.com/ros2/rosidl_dynamic_typesupport/pull/16",
+      "repo_full_name": "ros2/rosidl_dynamic_typesupport",
+      "author": "artcore-c",
+      "author_url": "https://github.com/artcore-c",
+      "created_at": "2025-06-01T00:09:37+00:00",
+      "updated_at": "2025-10-06T11:06:53+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "approved"
+        },
+        {
+          "name": "ahcorde",
+          "url": "https://github.com/ahcorde",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 150,
+      "category": "changes_requested"
+    },
+    {
+      "number": 13,
+      "title": "Tick-tock _complex_value -> _nested_data",
+      "url": "https://github.com/ros2/rosidl_dynamic_typesupport/pull/13",
+      "repo_full_name": "ros2/rosidl_dynamic_typesupport",
+      "author": "methylDragon",
+      "author_url": "https://github.com/methylDragon",
+      "created_at": "2024-12-31T03:45:21+00:00",
+      "updated_at": "2025-01-07T09:33:21+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "MiguelCompany",
+          "url": "https://github.com/MiguelCompany",
+          "state": "commented"
+        },
+        {
+          "name": "methylDragon",
+          "url": "https://github.com/methylDragon",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "methylDragon",
+          "commenter_url": "https://github.com/methylDragon",
+          "comment_date": "2024-12-31T03:49:21+00:00",
+          "comment_url": "https://github.com/ros2/rosidl_dynamic_typesupport/pull/13#issuecomment-2566108694",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 22335,
+              "url": "https://ci.ros2.org/job/ci_linux/22335/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 16598,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/16598/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 1866,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/1866/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 23126,
+              "url": "https://ci.ros2.org/job/ci_windows/23126/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "methylDragon"
+      ],
+      "requested_reviewers": [
+        "clalancette"
+      ],
+      "days_since_update": 422,
+      "category": "needs_review"
+    }
+  ],
+  "stats": {
+    "full_name": "ros2/rosidl_dynamic_typesupport",
+    "url": "https://github.com/ros2/rosidl_dynamic_typesupport",
+    "open_pr_count": 3,
+    "open_issue_count": 0
+  }
+}

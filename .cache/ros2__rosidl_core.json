@@ -1,0 +1,29 @@
+{
+  "prs": [
+    {
+      "number": 13,
+      "title": "Remove rosidl_generator_rs dependency",
+      "url": "https://github.com/ros2/rosidl_core/pull/13",
+      "repo_full_name": "ros2/rosidl_core",
+      "author": "Guillaumebeuzeboc",
+      "author_url": "https://github.com/Guillaumebeuzeboc",
+      "created_at": "2026-03-05T10:02:02+00:00",
+      "updated_at": "2026-03-05T10:02:02+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 0,
+      "category": "needs_review"
+    }
+  ],
+  "stats": {
+    "full_name": "ros2/rosidl_core",
+    "url": "https://github.com/ros2/rosidl_core",
+    "open_pr_count": 1,
+    "open_issue_count": 0
+  }
+}

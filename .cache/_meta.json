@@ -83,6 +83,26 @@
     "ros2/ros2cli": "2026-03-06T00:13:22+00:00",
     "ros2/ros2cli_common_extensions": "2025-12-10T14:07:31+00:00",
     "ros2/ros_testing": "2025-07-29T20:39:49+00:00",
-    "ros2/rosbag2": "2026-02-26T16:20:27+00:00"
+    "ros2/rosbag2": "2026-02-26T16:20:27+00:00",
+    "ros2/rosidl": "2026-03-02T02:54:06+00:00",
+    "ros2/rosidl_core": "2026-02-23T15:27:58+00:00",
+    "ros2/rosidl_dds": "2025-04-28T20:26:07+00:00",
+    "ros2/rosidl_defaults": "2026-02-23T15:11:15+00:00",
+    "ros2/rosidl_dynamic_typesupport": "2025-11-04T18:27:59+00:00",
+    "ros2/rosidl_dynamic_typesupport_fastrtps": "2025-11-21T11:32:16+00:00",
+    "ros2/rosidl_python": "2026-03-03T17:16:43+00:00",
+    "ros2/rosidl_runtime_py": "2026-01-16T23:23:47+00:00",
+    "ros2/rosidl_typesupport": "2026-01-16T17:07:02+00:00",
+    "ros2/rosidl_typesupport_fastrtps": "2026-03-05T13:35:46+00:00",
+    "ros2/rpyutils": "2025-09-17T13:14:34+00:00",
+    "ros2/rviz": "2026-02-25T22:29:42+00:00",
+    "ros2/spdlog_vendor": "2025-04-25T19:38:29+00:00",
+    "ros2/sros2": "2026-02-27T12:52:56+00:00",
+    "ros2/system_tests": "2026-02-24T00:01:32+00:00",
+    "ros2/test_interface_files": "2025-07-01T14:30:02+00:00",
+    "ros2/tlsf": "2025-07-01T14:26:30+00:00",
+    "ros2/unique_identifier_msgs": "2025-07-29T20:24:13+00:00",
+    "ros2/urdf": "2026-01-19T16:20:29+00:00",
+    "ros2/yaml_cpp_vendor": "2025-12-18T15:01:15+00:00"
   }
 }
