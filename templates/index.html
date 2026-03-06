@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ROS 2 Waffle Dashboard — Open PR triage for maintainers">
+  <title>ROS 2 Waffle Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="dashboard-header">
+    <div class="header-content">
+      <div class="header-title">
+        <span class="logo">🧇</span>
+        <h1>ROS 2 Waffle Dashboard</h1>
+      </div>
+      <div class="header-meta">
+        <span class="timestamp">
+          🕐 Updated {{ data.generated_at[:19] }} UTC
+        </span>
+        <span>API: {{ data.rate_limit_remaining }}/{{ data.rate_limit_total }}</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- Summary Cards -->
+    <section class="summary-grid">
+      <div class="summary-card card-total" data-tab="all">
+        <div class="card-value">{{ data.prs|length }}</div>
+        <div class="card-label">Total Open PRs</div>
+      </div>
+      <div class="summary-card card-ready" data-tab="ready">
+        <div class="card-value">{{ data.ready_to_merge|length }}</div>
+        <div class="card-label">Ready to Merge</div>
+      </div>
+      <div class="summary-card card-ci" data-tab="ci-triggered">
+        <div class="card-value">{{ data.ci_triggered|length }}</div>
+        <div class="card-label">CI Triggered</div>
+      </div>
+      <div class="summary-card card-needs-ci" data-tab="needs-ci">
+        <div class="card-value">{{ data.needs_ci|length }}</div>
+        <div class="card-label">Needs CI Run</div>
+      </div>
+      <div class="summary-card card-review" data-tab="needs-review">
+        <div class="card-value">{{ data.needs_review|length }}</div>
+        <div class="card-label">Needs Review</div>
+      </div>
+      <div class="summary-card card-changes" data-tab="changes">
+        <div class="card-value">{{ data.changes_requested|length }}</div>
+        <div class="card-label">Changes Requested</div>
+      </div>
+      <div class="summary-card card-stale" data-tab="stale">
+        <div class="card-value">{{ data.stale|length }}</div>
+        <div class="card-label">Stale (14+ days)</div>
+      </div>
+    </section>
+
+
+    <!-- Search & Filter -->
+    <div class="filter-bar">
+      <label for="search-input">🔍</label>
+      <input type="text" id="search-input" placeholder="Search by title, repo, or author...">
+      <select id="repo-filter">
+        <option value="">All Repositories</option>
+        {% for repo in repos_sorted %}
+        <option value="{{ repo }}">{{ repo }}</option>
+        {% endfor %}
+      </select>
+      <select id="label-filter">
+        <option value="">All Labels</option>
+        {% for label in labels_sorted %}
+        <option value="{{ label }}">{{ label }}</option>
+        {% endfor %}
+      </select>
+    </div>
+
+    <!-- Tabs -->
+    <div class="tabs" role="tablist">
+      <button class="tab-btn active" data-tab="all" role="tab">
+        All <span class="badge">{{ data.prs|length }}</span>
+      </button>
+      <button class="tab-btn" data-tab="ready" role="tab">
+        ✅ Ready to Merge <span class="badge">{{ data.ready_to_merge|length }}</span>
+      </button>
+      <button class="tab-btn" data-tab="ci-triggered" role="tab">
+        🔄 CI Triggered <span class="badge">{{ data.ci_triggered|length }}</span>
+      </button>
+      <button class="tab-btn" data-tab="needs-ci" role="tab">
+        ⚠️ Needs CI <span class="badge">{{ data.needs_ci|length }}</span>
+      </button>
+      <button class="tab-btn" data-tab="needs-review" role="tab">
+        👀 Needs Review <span class="badge">{{ data.needs_review|length }}</span>
+      </button>
+      <button class="tab-btn" data-tab="changes" role="tab">
+        🔧 Changes Requested <span class="badge">{{ data.changes_requested|length }}</span>
+      </button>
+      <button class="tab-btn" data-tab="stale" role="tab">
+        💤 Stale <span class="badge">{{ data.stale|length }}</span>
+      </button>
+      <button class="tab-btn" data-tab="scoreboard" role="tab">
+        🏆 Scoreboard
+      </button>
+    </div>
+
+    <!-- Tab Panels -->
+    {% macro pr_table(prs, tab_id) %}
+    <div class="tab-panel {{ 'active' if tab_id == 'all' }}" data-panel="{{ tab_id }}">
+      {% if prs %}
+      <div class="pr-table-wrapper">
+        <table class="pr-table" data-table="{{ tab_id }}">
+          <thead>
+            <tr>
+              <th data-sort="number">PR <span class="sort-icon">↕</span></th>
+              <th data-sort="repo">Repository <span class="sort-icon">↕</span></th>
+              <th data-sort="title">Title <span class="sort-icon">↕</span></th>
+              <th data-sort="author">Author <span class="sort-icon">↕</span></th>
+              <th>Labels</th>
+              <th data-sort="review">Review <span class="sort-icon">↕</span></th>
+              <th>CI</th>
+              <th data-sort="days">Updated <span class="sort-icon">↕</span></th>
+              <th data-sort="assignees">Assignees <span class="sort-icon">↕</span></th>
+              <th data-sort="reviewers">Reviewers <span class="sort-icon">↕</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for pr in prs %}
+            <tr class="pr-row" data-repo="{{ pr.repo_full_name }}" data-author="{{ pr.author }}"
+              data-title="{{ pr.title }}" data-labels="{{ pr.labels|join(',') }}" data-days="{{ pr.days_since_update }}"
+              data-review="{{ pr.review_state }}">
+              <td>
+                <a class="pr-number" href="{{ pr.url }}" target="_blank" rel="noopener">#{{ pr.number }}</a>
+              </td>
+              <td><span class="pr-repo clickable-repo">{{ pr.repo_full_name }}</span></td>
+              <td>
+                <a class="pr-title-link" href="{{ pr.url }}" target="_blank" rel="noopener">{{ pr.title }}</a>
+              </td>
+              <td>
+                <a class="pr-author" href="{{ pr.author_url }}" target="_blank" rel="noopener">{{ pr.author }}</a>
+              </td>
+              <td>
+                <div class="label-list">
+                  {% for label in pr.labels %}
+                  <span class="label">{{ label }}</span>
+                  {% endfor %}
+                </div>
+              </td>
+              <td>
+                <span class="review-badge {{ pr.review_state }}">
+                  {% if pr.review_state == 'approved' %}✅ Approved
+                  {% elif pr.review_state == 'changes_requested' %}🔧 Changes
+                  {% elif pr.review_state == 'commented' %}💬 Commented
+                  {% else %}⏳ Pending
+                  {% endif %}
+                </span>
+              </td>
+              <td>
+                {% if pr.ci_triggers %}
+                <div class="ci-info">
+                  {% set latest = pr.ci_triggers[-1] %}
+                  {% for run in latest.runs[:4] %}
+                  <a class="ci-link" href="{{ run.url }}" target="_blank" rel="noopener">
+                    🔗 {{ run.platform }}
+                  </a>
+                  {% endfor %}
+                  <span class="ci-link" style="color: var(--text-muted); font-style: italic;">
+                    by {{ latest.commenter }}
+                  </span>
+                </div>
+                {% else %}
+                <span class="ci-none">—</span>
+                {% endif %}
+              </td>
+              <td>
+                <span
+                  class="days-badge {% if pr.days_since_update < 3 %}fresh{% elif pr.days_since_update < 14 %}aging{% else %}stale{% endif %}">
+                  {{ pr.days_since_update }}d ago
+                </span>
+              </td>
+              <td>
+                {% if pr.assignees %}
+                <span class="assignee-list">{{ pr.assignees|join(', ') }}</span>
+                {% else %}
+                <span class="ci-none">—</span>
+                {% endif %}
+              </td>
+              <td>
+                {% if pr.requested_reviewers %}
+                <span class="reviewer-list">{{ pr.requested_reviewers|join(', ') }}</span>
+                {% else %}
+                <span class="ci-none">—</span>
+                {% endif %}
+              </td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+      {% else %}
+      <div class="empty-state">
+        <div class="icon">🎉</div>
+        <p>No pull requests in this category!</p>
+      </div>
+      {% endif %}
+    </div>
+    {% endmacro %}
+
+    {{ pr_table(data.prs, "all") }}
+    {{ pr_table(data.ready_to_merge, "ready") }}
+    {{ pr_table(data.ci_triggered, "ci-triggered") }}
+    {{ pr_table(data.needs_ci, "needs-ci") }}
+    {{ pr_table(data.needs_review, "needs-review") }}
+    {{ pr_table(data.changes_requested, "changes") }}
+    {{ pr_table(data.stale, "stale") }}
+
+    <!-- Scoreboard Tab -->
+    <div class="tab-panel" data-panel="scoreboard">
+      {% if data.scoreboard %}
+      <section class="scoreboard-section">
+        <div class="scoreboard-header">
+          <h2>🏆 Maintainer Scoreboard (Last 12 Months)</h2>
+          <div class="scoreboard-legend">
+            <span>🔬 CI Trigger <em>3pts</em></span>
+            <span>✅ Approval <em>5pts</em></span>
+            <span>🔧 Changes Req. <em>3pts</em></span>
+            <span>👀 Review <em>2pts</em></span>
+            <span>🦸 Stale Rescue <em>5pts</em></span>
+            <span>🌐 Cross-Repo <em>2pts</em></span>
+          </div>
+        </div>
+        <div class="scoreboard-grid">
+          {% for entry in data.scoreboard[:10] %}
+          <div class="scoreboard-card {% if loop.index <= 3 %}top-three{% endif %}">
+            <div class="rank">
+              {% if loop.index == 1 %}🥇{% elif loop.index == 2 %}🥈{% elif loop.index == 3 %}🥉{% else %}#{{ loop.index
+              }}{% endif %}
+            </div>
+            <div class="player-info">
+              <span class="player-name">{{ entry.user }}</span>
+              <span class="player-total">{{ entry.total }} pts</span>
+            </div>
+            <div class="player-stats">
+              {% if entry.ci_triggers %}<span title="CI Triggers">🔬 {{ entry.ci_triggers }}</span>{% endif %}
+              {% if entry.approvals %}<span title="Approvals">✅ {{ entry.approvals }}</span>{% endif %}
+              {% if entry.changes_requested %}<span title="Changes Requested">🔧 {{ entry.changes_requested }}</span>{%
+              endif %}
+              {% if entry.reviews %}<span title="Reviews">👀 {{ entry.reviews }}</span>{% endif %}
+              {% if entry.stale_rescues %}<span title="Stale PR Rescues">🦸 {{ entry.stale_rescues }}</span>{% endif %}
+              <span title="Repos Touched">🌐 {{ entry.cross_repo_count }}</span>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+        {% if data.scoreboard|length > 10 %}
+        <details class="scoreboard-full">
+          <summary>Show all {{ data.scoreboard|length }} contributors</summary>
+          <table class="scoreboard-table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Contributor</th>
+                <th>🔬</th>
+                <th>✅</th>
+                <th>🔧</th>
+                <th>👀</th>
+                <th>🦸</th>
+                <th>🌐</th>
+                <th>Total</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for entry in data.scoreboard %}
+              <tr>
+                <td>{{ loop.index }}</td>
+                <td>{{ entry.user }}</td>
+                <td>{{ entry.ci_triggers }}</td>
+                <td>{{ entry.approvals }}</td>
+                <td>{{ entry.changes_requested }}</td>
+                <td>{{ entry.reviews }}</td>
+                <td>{{ entry.stale_rescues }}</td>
+                <td>{{ entry.cross_repo_count }}</td>
+                <td><strong>{{ entry.total }}</strong></td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </details>
+        {% endif %}
+      </section>
+      {% endif %}
+    </div>
+
+  </main>
+
+  <footer class="dashboard-footer">
+    <p>
+      ROS 2 Waffle Dashboard · Generated from
+      <a href="https://github.com/ros2/ros2/blob/rolling/ros2.repos" target="_blank" rel="noopener">ros2.repos</a>
+      · {{ data.repos|length }} repos · {{ data.prs|length }} open PRs
+    </p>
+  </footer>
+
+  <script>
+    (function () {
+      'use strict';
+
+      // ── Tabs ──
+      const tabBtns = document.querySelectorAll('.tab-btn');
+      const tabPanels = document.querySelectorAll('.tab-panel');
+
+      function switchToTab(tabName) {
+        tabBtns.forEach(b => b.classList.remove('active'));
+        tabPanels.forEach(p => p.classList.remove('active'));
+        const btn = document.querySelector(`.tab-btn[data-tab="${tabName}"]`);
+        const panel = document.querySelector(`[data-panel="${tabName}"]`);
+        if (btn) btn.classList.add('active');
+        if (panel) {
+          panel.classList.add('active');
+          panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }
+
+      tabBtns.forEach(btn => {
+        btn.addEventListener('click', () => switchToTab(btn.dataset.tab));
+      });
+
+      // ── Summary Card Click → Tab ──
+      document.querySelectorAll('.summary-card[data-tab]').forEach(card => {
+        card.addEventListener('click', () => switchToTab(card.dataset.tab));
+      });
+
+      // ── Clickable Repo Names ──
+      document.addEventListener('click', (e) => {
+        const repo = e.target.closest('.clickable-repo');
+        if (repo) {
+          repoFilter.value = repo.textContent.trim();
+          applyFilters();
+        }
+      });
+
+      // ── Search & Filter ──
+      const searchInput = document.getElementById('search-input');
+      const repoFilter = document.getElementById('repo-filter');
+      const labelFilter = document.getElementById('label-filter');
+
+      function applyFilters() {
+        const query = searchInput.value.toLowerCase();
+        const repo = repoFilter.value;
+        const label = labelFilter.value;
+
+        document.querySelectorAll('.pr-row').forEach(row => {
+          const matchSearch = !query ||
+            row.dataset.title.toLowerCase().includes(query) ||
+            row.dataset.repo.toLowerCase().includes(query) ||
+            row.dataset.author.toLowerCase().includes(query);
+          const matchRepo = !repo || row.dataset.repo === repo;
+          const matchLabel = !label || row.dataset.labels.split(',').includes(label);
+          row.style.display = (matchSearch && matchRepo && matchLabel) ? '' : 'none';
+        });
+      }
+
+      searchInput.addEventListener('input', applyFilters);
+      repoFilter.addEventListener('change', applyFilters);
+      labelFilter.addEventListener('change', applyFilters);
+
+      // ── Sortable Columns ──
+      document.querySelectorAll('.pr-table th[data-sort]').forEach(th => {
+        th.addEventListener('click', () => {
+          const table = th.closest('table');
+          const tbody = table.querySelector('tbody');
+          const rows = Array.from(tbody.querySelectorAll('tr'));
+          const key = th.dataset.sort;
+          const isAsc = !th.classList.contains('sorted-asc');
+
+          // Reset other headers
+          table.querySelectorAll('th').forEach(h => {
+            h.classList.remove('sorted', 'sorted-asc', 'sorted-desc');
+          });
+          th.classList.add('sorted', isAsc ? 'sorted-asc' : 'sorted-desc');
+
+          rows.sort((a, b) => {
+            let av, bv;
+            switch (key) {
+              case 'number':
+                av = parseInt(a.querySelector('.pr-number').textContent.replace('#', ''));
+                bv = parseInt(b.querySelector('.pr-number').textContent.replace('#', ''));
+                break;
+              case 'days':
+                av = parseInt(a.dataset.days);
+                bv = parseInt(b.dataset.days);
+                break;
+              case 'repo':
+                av = a.dataset.repo;
+                bv = b.dataset.repo;
+                break;
+              case 'author':
+                av = a.dataset.author;
+                bv = b.dataset.author;
+                break;
+              case 'title':
+                av = a.dataset.title.toLowerCase();
+                bv = b.dataset.title.toLowerCase();
+                break;
+              case 'review':
+                av = a.dataset.review;
+                bv = b.dataset.review;
+                break;
+              default:
+                av = a.textContent;
+                bv = b.textContent;
+            }
+            if (typeof av === 'number') return isAsc ? av - bv : bv - av;
+            return isAsc ? String(av).localeCompare(String(bv)) : String(bv).localeCompare(String(av));
+          });
+
+          rows.forEach(row => tbody.appendChild(row));
+        });
+      });
+    })();
+  </script>
+
+</body>
+
+</html>
