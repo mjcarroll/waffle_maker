@@ -1,0 +1,235 @@
+{
+  "prs": [
+    {
+      "number": 217,
+      "title": "Took into account of the reference of unmanaged instances",
+      "url": "https://github.com/ros/class_loader/pull/217",
+      "repo_full_name": "ros/class_loader",
+      "author": "CihatAltiparmak",
+      "author_url": "https://github.com/CihatAltiparmak",
+      "created_at": "2024-12-07T20:36:16+00:00",
+      "updated_at": "2024-12-07T21:20:44+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 453,
+      "category": "needs_review"
+    },
+    {
+      "number": 199,
+      "title": "Fix lifetime errors and memory leaks",
+      "url": "https://github.com/ros/class_loader/pull/199",
+      "repo_full_name": "ros/class_loader",
+      "author": "tylerjw",
+      "author_url": "https://github.com/tylerjw",
+      "created_at": "2022-06-24T03:46:40+00:00",
+      "updated_at": "2022-10-22T22:42:25+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "AndyZe",
+          "url": "https://github.com/AndyZe",
+          "state": "commented"
+        },
+        {
+          "name": "tylerjw",
+          "url": "https://github.com/tylerjw",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 1230,
+      "category": "needs_review"
+    },
+    {
+      "number": 186,
+      "title": "Remove memory leaks",
+      "url": "https://github.com/ros/class_loader/pull/186",
+      "repo_full_name": "ros/class_loader",
+      "author": "ahcorde",
+      "author_url": "https://github.com/ahcorde",
+      "created_at": "2021-06-24T11:06:52+00:00",
+      "updated_at": "2022-10-21T02:59:32+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "hidmic",
+          "url": "https://github.com/hidmic",
+          "state": "commented"
+        },
+        {
+          "name": "clalancette",
+          "url": "https://github.com/clalancette",
+          "state": "commented"
+        },
+        {
+          "name": "ahcorde",
+          "url": "https://github.com/ahcorde",
+          "state": "commented"
+        },
+        {
+          "name": "wjwwood",
+          "url": "https://github.com/wjwwood",
+          "state": "commented"
+        },
+        {
+          "name": "tylerjw",
+          "url": "https://github.com/tylerjw",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "ahcorde",
+          "commenter_url": "https://github.com/ahcorde",
+          "comment_date": "2021-06-25T08:30:20+00:00",
+          "comment_url": "https://github.com/ros/class_loader/pull/186#issuecomment-868321785",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 14814,
+              "url": "https://ci.ros2.org/job/ci_linux/14814/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 9564,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/9564/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_osx",
+              "build_number": 12480,
+              "url": "https://ci.ros2.org/job/ci_osx/12480/",
+              "platform": "macOS"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 14969,
+              "url": "https://ci.ros2.org/job/ci_windows/14969/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "ahcorde",
+          "commenter_url": "https://github.com/ahcorde",
+          "comment_date": "2021-09-21T11:20:21+00:00",
+          "comment_url": "https://github.com/ros/class_loader/pull/186#issuecomment-923884559",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 15249,
+              "url": "https://ci.ros2.org/job/ci_linux/15249/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 9968,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/9968/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_osx",
+              "build_number": 12931,
+              "url": "https://ci.ros2.org/job/ci_osx/12931/",
+              "platform": "macOS"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 15443,
+              "url": "https://ci.ros2.org/job/ci_windows/15443/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "ahcorde",
+          "commenter_url": "https://github.com/ahcorde",
+          "comment_date": "2021-10-26T18:28:39+00:00",
+          "comment_url": "https://github.com/ros/class_loader/pull/186#issuecomment-952201118",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 15488,
+              "url": "https://ci.ros2.org/job/ci_linux/15488/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 10180,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/10180/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_osx",
+              "build_number": 13164,
+              "url": "https://ci.ros2.org/job/ci_osx/13164/",
+              "platform": "macOS"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 15704,
+              "url": "https://ci.ros2.org/job/ci_windows/15704/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "ahcorde"
+      ],
+      "requested_reviewers": [
+        "wjwwood",
+        "clalancette"
+      ],
+      "days_since_update": 1231,
+      "category": "needs_review"
+    },
+    {
+      "number": 118,
+      "title": "Improve warning message when unloading a library still in use.",
+      "url": "https://github.com/ros/class_loader/pull/118",
+      "repo_full_name": "ros/class_loader",
+      "author": "nuclearsandwich",
+      "author_url": "https://github.com/nuclearsandwich",
+      "created_at": "2019-01-30T22:51:08+00:00",
+      "updated_at": "2022-06-28T14:17:18+00:00",
+      "labels": [
+        "in progress"
+      ],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "tylerjw",
+          "url": "https://github.com/tylerjw",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "nuclearsandwich"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 1346,
+      "category": "needs_review"
+    }
+  ],
+  "stats": {
+    "full_name": "ros/class_loader",
+    "url": "https://github.com/ros/class_loader",
+    "open_pr_count": 19,
+    "open_issue_count": 0
+  }
+}

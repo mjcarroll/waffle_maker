@@ -1,0 +1,75 @@
+{
+  "prs": [
+    {
+      "number": 339,
+      "title": "Support Qt6",
+      "url": "https://github.com/ros-visualization/rqt/pull/339",
+      "repo_full_name": "ros-visualization/rqt",
+      "author": "ahcorde",
+      "author_url": "https://github.com/ahcorde",
+      "created_at": "2026-02-04T10:47:59+00:00",
+      "updated_at": "2026-03-04T19:27:32+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "asymingt",
+          "url": "https://github.com/asymingt",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 1,
+      "category": "needs_review"
+    },
+    {
+      "number": 319,
+      "title": "Allow support for ROS arguments",
+      "url": "https://github.com/ros-visualization/rqt/pull/319",
+      "repo_full_name": "ros-visualization/rqt",
+      "author": "ernestmc",
+      "author_url": "https://github.com/ernestmc",
+      "created_at": "2025-01-14T11:04:18+00:00",
+      "updated_at": "2025-01-14T11:04:18+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 415,
+      "category": "needs_review"
+    },
+    {
+      "number": 293,
+      "title": "Modifies the name of rqt_gui to rqt",
+      "url": "https://github.com/ros-visualization/rqt/pull/293",
+      "repo_full_name": "ros-visualization/rqt",
+      "author": "Voldivh",
+      "author_url": "https://github.com/Voldivh",
+      "created_at": "2023-05-16T20:16:01+00:00",
+      "updated_at": "2023-05-17T12:15:38+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [
+        "quarkytale"
+      ],
+      "days_since_update": 1023,
+      "category": "needs_review"
+    }
+  ],
+  "stats": {
+    "full_name": "ros-visualization/rqt",
+    "url": "https://github.com/ros-visualization/rqt",
+    "open_pr_count": 33,
+    "open_issue_count": 0
+  }
+}

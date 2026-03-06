@@ -1,0 +1,438 @@
+{
+  "prs": [
+    {
+      "number": 775,
+      "title": "action_tutorials_py: add ament_mypy support",
+      "url": "https://github.com/ros2/demos/pull/775",
+      "repo_full_name": "ros2/demos",
+      "author": "mohit-swaran",
+      "author_url": "https://github.com/mohit-swaran",
+      "created_at": "2026-03-04T18:08:24+00:00",
+      "updated_at": "2026-03-05T23:23:13+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "InvincibleRMC",
+          "url": "https://github.com/InvincibleRMC",
+          "state": "changes_requested"
+        },
+        {
+          "name": "mohit-swaran",
+          "url": "https://github.com/mohit-swaran",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 0,
+      "category": "changes_requested"
+    },
+    {
+      "number": 748,
+      "title": "[composition] Enable tests",
+      "url": "https://github.com/ros2/demos/pull/748",
+      "repo_full_name": "ros2/demos",
+      "author": "SuperJappie08",
+      "author_url": "https://github.com/SuperJappie08",
+      "created_at": "2025-10-23T11:57:33+00:00",
+      "updated_at": "2026-01-15T18:10:22+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "fujitatomoya"
+      ],
+      "requested_reviewers": [
+        "fujitatomoya"
+      ],
+      "days_since_update": 49,
+      "category": "needs_review"
+    },
+    {
+      "number": 646,
+      "title": "Add lifecycle subscriber example and test",
+      "url": "https://github.com/ros2/demos/pull/646",
+      "repo_full_name": "ros2/demos",
+      "author": "carmiac",
+      "author_url": "https://github.com/carmiac",
+      "created_at": "2023-08-01T18:20:19+00:00",
+      "updated_at": "2026-01-05T15:22:16+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [
+        "adityapande-1995",
+        "mjeronimo"
+      ],
+      "days_since_update": 59,
+      "category": "needs_review"
+    },
+    {
+      "number": 671,
+      "title": "[wjwwood] fix: Compilefix for changes to rclcpp::Executor",
+      "url": "https://github.com/ros2/demos/pull/671",
+      "repo_full_name": "ros2/demos",
+      "author": "wjwwood",
+      "author_url": "https://github.com/wjwwood",
+      "created_at": "2024-04-16T04:15:51+00:00",
+      "updated_at": "2026-01-05T15:21:16+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "approved"
+        },
+        {
+          "name": "mjcarroll",
+          "url": "https://github.com/mjcarroll",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "wjwwood"
+      ],
+      "requested_reviewers": [
+        "adityapande-1995",
+        "mjeronimo"
+      ],
+      "days_since_update": 59,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 679,
+      "title": "Allow timer rate to be configurable in`message_lost_talker`",
+      "url": "https://github.com/ros2/demos/pull/679",
+      "repo_full_name": "ros2/demos",
+      "author": "Yadunund",
+      "author_url": "https://github.com/Yadunund",
+      "created_at": "2024-05-05T21:15:03+00:00",
+      "updated_at": "2026-01-05T15:20:17+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "mjcarroll",
+          "url": "https://github.com/mjcarroll",
+          "state": "changes_requested"
+        },
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "changes_requested"
+        },
+        {
+          "name": "clalancette",
+          "url": "https://github.com/clalancette",
+          "state": "commented"
+        },
+        {
+          "name": "ahcorde",
+          "url": "https://github.com/ahcorde",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "Yadunund"
+      ],
+      "requested_reviewers": [
+        "adityapande-1995",
+        "mjeronimo",
+        "fujitatomoya",
+        "mjcarroll",
+        "clalancette"
+      ],
+      "days_since_update": 59,
+      "category": "changes_requested"
+    },
+    {
+      "number": 567,
+      "title": "API changes in class_loader",
+      "url": "https://github.com/ros2/demos/pull/567",
+      "repo_full_name": "ros2/demos",
+      "author": "tylerjw",
+      "author_url": "https://github.com/tylerjw",
+      "created_at": "2022-06-28T05:01:40+00:00",
+      "updated_at": "2025-10-02T14:35:25+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 154,
+      "category": "needs_review"
+    },
+    {
+      "number": 107,
+      "title": "Cam2image py",
+      "url": "https://github.com/ros2/demos/pull/107",
+      "repo_full_name": "ros2/demos",
+      "author": "clalancette",
+      "author_url": "https://github.com/clalancette",
+      "created_at": "2017-01-10T18:18:47+00:00",
+      "updated_at": "2022-06-28T14:18:25+00:00",
+      "labels": [
+        "in review"
+      ],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "dirk-thomas",
+          "url": "https://github.com/dirk-thomas",
+          "state": "commented"
+        },
+        {
+          "name": "clalancette",
+          "url": "https://github.com/clalancette",
+          "state": "commented"
+        },
+        {
+          "name": "mikaelarguedas",
+          "url": "https://github.com/mikaelarguedas",
+          "state": "dismissed"
+        },
+        {
+          "name": "hidmic",
+          "url": "https://github.com/hidmic",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "clalancette",
+          "commenter_url": "https://github.com/clalancette",
+          "comment_date": "2018-07-18T16:58:53+00:00",
+          "comment_url": "https://github.com/ros2/demos/pull/107#issuecomment-406002659",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 4930,
+              "url": "https://ci.ros2.org/job/ci_linux/4930/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 1753,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/1753/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_osx",
+              "build_number": 4092,
+              "url": "https://ci.ros2.org/job/ci_osx/4092/",
+              "platform": "macOS"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 4948,
+              "url": "https://ci.ros2.org/job/ci_windows/4948/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "clalancette",
+          "commenter_url": "https://github.com/clalancette",
+          "comment_date": "2019-01-02T14:53:13+00:00",
+          "comment_url": "https://github.com/ros2/demos/pull/107#issuecomment-450883176",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 6049,
+              "url": "https://ci.ros2.org/job/ci_linux/6049/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 2542,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/2542/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_osx",
+              "build_number": 4988,
+              "url": "https://ci.ros2.org/job/ci_osx/4988/",
+              "platform": "macOS"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 5918,
+              "url": "https://ci.ros2.org/job/ci_windows/5918/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "clalancette",
+          "commenter_url": "https://github.com/clalancette",
+          "comment_date": "2019-07-02T12:36:10+00:00",
+          "comment_url": "https://github.com/ros2/demos/pull/107#issuecomment-507657647",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 7471,
+              "url": "https://ci.ros2.org/job/ci_linux/7471/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 3610,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/3610/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_osx",
+              "build_number": 6125,
+              "url": "https://ci.ros2.org/job/ci_osx/6125/",
+              "platform": "macOS"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 7302,
+              "url": "https://ci.ros2.org/job/ci_windows/7302/",
+              "platform": "Windows"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 7303,
+              "url": "https://ci.ros2.org/job/ci_windows/7303/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "clalancette",
+          "commenter_url": "https://github.com/clalancette",
+          "comment_date": "2019-07-10T22:58:23+00:00",
+          "comment_url": "https://github.com/ros2/demos/pull/107#issuecomment-510261574",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 7527,
+              "url": "https://ci.ros2.org/job/ci_linux/7527/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 3664,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/3664/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_osx",
+              "build_number": 6164,
+              "url": "https://ci.ros2.org/job/ci_osx/6164/",
+              "platform": "macOS"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 7355,
+              "url": "https://ci.ros2.org/job/ci_windows/7355/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "clalancette"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 1346,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 436,
+      "title": "Primary state error transitions",
+      "url": "https://github.com/ros2/demos/pull/436",
+      "repo_full_name": "ros2/demos",
+      "author": "thebyohazard",
+      "author_url": "https://github.com/thebyohazard",
+      "created_at": "2020-04-14T15:29:08+00:00",
+      "updated_at": "2022-06-28T14:18:22+00:00",
+      "labels": [
+        "enhancement"
+      ],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "changes_requested"
+        },
+        {
+          "name": "thebyohazard",
+          "url": "https://github.com/thebyohazard",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "Karsten1987"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 1346,
+      "category": "changes_requested"
+    },
+    {
+      "number": 467,
+      "title": "Implement get_rcl_allocator.",
+      "url": "https://github.com/ros2/demos/pull/467",
+      "repo_full_name": "ros2/demos",
+      "author": "stevewolter",
+      "author_url": "https://github.com/stevewolter",
+      "created_at": "2020-10-26T18:31:22+00:00",
+      "updated_at": "2022-06-28T14:18:20+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "wjwwood",
+          "url": "https://github.com/wjwwood",
+          "state": "commented"
+        },
+        {
+          "name": "stevewolter",
+          "url": "https://github.com/stevewolter",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "wjwwood"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 1346,
+      "category": "needs_review"
+    }
+  ],
+  "stats": {
+    "full_name": "ros2/demos",
+    "url": "https://github.com/ros2/demos",
+    "open_pr_count": 49,
+    "open_issue_count": 0
+  }
+}

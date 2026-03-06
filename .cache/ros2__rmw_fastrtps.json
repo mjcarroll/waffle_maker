@@ -1,0 +1,340 @@
+{
+  "prs": [
+    {
+      "number": 866,
+      "title": "Add thread-local TypeSupport cache to rmw_serialize/deserialize",
+      "url": "https://github.com/ros2/rmw_fastrtps/pull/866",
+      "repo_full_name": "ros2/rmw_fastrtps",
+      "author": "mjcarroll",
+      "author_url": "https://github.com/mjcarroll",
+      "created_at": "2026-03-05T13:35:02+00:00",
+      "updated_at": "2026-03-05T14:31:32+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "MiguelCompany",
+          "url": "https://github.com/MiguelCompany",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 0,
+      "category": "changes_requested"
+    },
+    {
+      "number": 662,
+      "title": "add network notify function",
+      "url": "https://github.com/ros2/rmw_fastrtps/pull/662",
+      "repo_full_name": "ros2/rmw_fastrtps",
+      "author": "jakymiws",
+      "author_url": "https://github.com/jakymiws",
+      "created_at": "2023-01-19T20:50:36+00:00",
+      "updated_at": "2026-03-05T13:36:40+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "alsora",
+          "url": "https://github.com/alsora",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [
+        "gbiggs",
+        "sloretz"
+      ],
+      "days_since_update": 0,
+      "category": "needs_review"
+    },
+    {
+      "number": 586,
+      "title": "Avoid unnecessary sets of GUID_t",
+      "url": "https://github.com/ros2/rmw_fastrtps/pull/586",
+      "repo_full_name": "ros2/rmw_fastrtps",
+      "author": "MiguelCompany",
+      "author_url": "https://github.com/MiguelCompany",
+      "created_at": "2022-03-01T11:27:28+00:00",
+      "updated_at": "2026-03-05T13:36:40+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "EduPonz",
+          "url": "https://github.com/EduPonz",
+          "state": "approved"
+        },
+        {
+          "name": "clalancette",
+          "url": "https://github.com/clalancette",
+          "state": "approved"
+        },
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "clalancette",
+          "commenter_url": "https://github.com/clalancette",
+          "comment_date": "2022-03-01T16:41:06+00:00",
+          "comment_url": "https://github.com/ros2/rmw_fastrtps/pull/586#issuecomment-1055636085",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 16273,
+              "url": "https://ci.ros2.org/job/ci_linux/16273/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 10894,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/10894/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 16639,
+              "url": "https://ci.ros2.org/job/ci_windows/16639/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "clalancette"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 0,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 418,
+      "title": "Fast-DDS service discovery redesign",
+      "url": "https://github.com/ros2/rmw_fastrtps/pull/418",
+      "repo_full_name": "ros2/rmw_fastrtps",
+      "author": "IkerLuengo",
+      "author_url": "https://github.com/IkerLuengo",
+      "created_at": "2020-07-31T08:41:17+00:00",
+      "updated_at": "2026-03-05T13:36:40+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "hidmic",
+          "url": "https://github.com/hidmic",
+          "state": "approved"
+        },
+        {
+          "name": "IkerLuengo",
+          "url": "https://github.com/IkerLuengo",
+          "state": "commented"
+        },
+        {
+          "name": "ivanpauno",
+          "url": "https://github.com/ivanpauno",
+          "state": "approved"
+        },
+        {
+          "name": "clalancette",
+          "url": "https://github.com/clalancette",
+          "state": "commented"
+        },
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "wjwwood"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 0,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 727,
+      "title": "Add `rmw_publisher_count_non_local_matched_subscriptions`",
+      "url": "https://github.com/ros2/rmw_fastrtps/pull/727",
+      "repo_full_name": "ros2/rmw_fastrtps",
+      "author": "MiguelCompany",
+      "author_url": "https://github.com/MiguelCompany",
+      "created_at": "2023-10-20T08:08:44+00:00",
+      "updated_at": "2026-03-05T13:36:39+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "fujitatomoya"
+      ],
+      "requested_reviewers": [
+        "gbiggs",
+        "sloretz"
+      ],
+      "days_since_update": 0,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 847,
+      "title": "Retrieve `HistoryQoS` in discovery when available (humble backport #829)",
+      "url": "https://github.com/ros2/rmw_fastrtps/pull/847",
+      "repo_full_name": "ros2/rmw_fastrtps",
+      "author": "mergify[bot]",
+      "author_url": "https://github.com/apps/mergify",
+      "created_at": "2025-10-15T08:56:01+00:00",
+      "updated_at": "2025-11-19T21:42:19+00:00",
+      "labels": [
+        "conflicts"
+      ],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "ahcorde",
+          "url": "https://github.com/ahcorde",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "ahcorde",
+          "commenter_url": "https://github.com/ahcorde",
+          "comment_date": "2025-11-19T21:42:19+00:00",
+          "comment_url": "https://github.com/ros2/rmw_fastrtps/pull/847#issuecomment-3554745347",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 17547,
+              "url": "https://ci.ros2.org/job/ci_launcher/17547/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 26056,
+              "url": "https://ci.ros2.org/job/ci_linux/26056/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 19870,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/19870/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 5659,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/5659/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 25991,
+              "url": "https://ci.ros2.org/job/ci_windows/25991/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "emersonknapp"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 106,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 846,
+      "title": "Retrieve `HistoryQoS` in discovery when available (jazzy backport #829)",
+      "url": "https://github.com/ros2/rmw_fastrtps/pull/846",
+      "repo_full_name": "ros2/rmw_fastrtps",
+      "author": "mergify[bot]",
+      "author_url": "https://github.com/apps/mergify",
+      "created_at": "2025-10-15T08:55:19+00:00",
+      "updated_at": "2025-11-19T21:32:51+00:00",
+      "labels": [
+        "conflicts"
+      ],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "ahcorde",
+          "url": "https://github.com/ahcorde",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "ahcorde",
+          "commenter_url": "https://github.com/ahcorde",
+          "comment_date": "2025-11-19T21:32:51+00:00",
+          "comment_url": "https://github.com/ros2/rmw_fastrtps/pull/846#issuecomment-3554717963",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 17540,
+              "url": "https://ci.ros2.org/job/ci_launcher/17540/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 26049,
+              "url": "https://ci.ros2.org/job/ci_linux/26049/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 19863,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/19863/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 5652,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/5652/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 25984,
+              "url": "https://ci.ros2.org/job/ci_windows/25984/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "emersonknapp"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 106,
+      "category": "ready_to_merge"
+    }
+  ],
+  "stats": {
+    "full_name": "ros2/rmw_fastrtps",
+    "url": "https://github.com/ros2/rmw_fastrtps",
+    "open_pr_count": 65,
+    "open_issue_count": 0
+  }
+}

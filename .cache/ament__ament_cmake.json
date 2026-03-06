@@ -1,0 +1,587 @@
+{
+  "prs": [
+    {
+      "number": 592,
+      "title": "ament_vendor: Add AMENT_VENDOR_POLICY CMake option",
+      "url": "https://github.com/ament/ament_cmake/pull/592",
+      "repo_full_name": "ament/ament_cmake",
+      "author": "traversaro",
+      "author_url": "https://github.com/traversaro",
+      "created_at": "2025-07-03T08:40:00+00:00",
+      "updated_at": "2026-02-28T14:10:02+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "sloretz",
+          "url": "https://github.com/sloretz",
+          "state": "approved"
+        },
+        {
+          "name": "traversaro",
+          "url": "https://github.com/traversaro",
+          "state": "commented"
+        },
+        {
+          "name": "cottsay",
+          "url": "https://github.com/cottsay",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "sloretz"
+      ],
+      "requested_reviewers": [
+        "cottsay"
+      ],
+      "days_since_update": 5,
+      "category": "changes_requested"
+    },
+    {
+      "number": 372,
+      "title": "Various improvements to `ament_python_install_package`",
+      "url": "https://github.com/ament/ament_cmake/pull/372",
+      "repo_full_name": "ament/ament_cmake",
+      "author": "rhaschke",
+      "author_url": "https://github.com/rhaschke",
+      "created_at": "2022-01-06T15:29:22+00:00",
+      "updated_at": "2025-11-28T10:10:15+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "hidmic",
+          "url": "https://github.com/hidmic",
+          "state": "approved"
+        },
+        {
+          "name": "rhaschke",
+          "url": "https://github.com/rhaschke",
+          "state": "commented"
+        },
+        {
+          "name": "sloretz",
+          "url": "https://github.com/sloretz",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "hidmic",
+          "commenter_url": "https://github.com/hidmic",
+          "comment_date": "2022-02-07T22:53:19+00:00",
+          "comment_url": "https://github.com/ament/ament_cmake/pull/372#issuecomment-1032016240",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 16094,
+              "url": "https://ci.ros2.org/job/ci_linux/16094/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 10739,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/10739/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 16428,
+              "url": "https://ci.ros2.org/job/ci_windows/16428/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "hidmic",
+          "commenter_url": "https://github.com/hidmic",
+          "comment_date": "2022-02-08T16:32:47+00:00",
+          "comment_url": "https://github.com/ament/ament_cmake/pull/372#issuecomment-1032817625",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 16106,
+              "url": "https://ci.ros2.org/job/ci_linux/16106/",
+              "platform": "Linux"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "hidmic"
+      ],
+      "requested_reviewers": [
+        "sloretz"
+      ],
+      "days_since_update": 97,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 605,
+      "title": "Improve byte-compile in ament_cmake_python",
+      "url": "https://github.com/ament/ament_cmake/pull/605",
+      "repo_full_name": "ament/ament_cmake",
+      "author": "cottsay",
+      "author_url": "https://github.com/cottsay",
+      "created_at": "2025-10-10T16:23:56+00:00",
+      "updated_at": "2025-11-20T16:22:06+00:00",
+      "labels": [
+        "bug",
+        "enhancement"
+      ],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "ahcorde",
+          "url": "https://github.com/ahcorde",
+          "state": "approved"
+        },
+        {
+          "name": "sloretz",
+          "url": "https://github.com/sloretz",
+          "state": "changes_requested"
+        },
+        {
+          "name": "jay-sridharan",
+          "url": "https://github.com/jay-sridharan",
+          "state": "commented"
+        },
+        {
+          "name": "cottsay",
+          "url": "https://github.com/cottsay",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "cottsay"
+      ],
+      "requested_reviewers": [
+        "sloretz"
+      ],
+      "days_since_update": 105,
+      "category": "changes_requested"
+    },
+    {
+      "number": 598,
+      "title": "Add tests for ament_python_install_package",
+      "url": "https://github.com/ament/ament_cmake/pull/598",
+      "repo_full_name": "ament/ament_cmake",
+      "author": "rkent",
+      "author_url": "https://github.com/rkent",
+      "created_at": "2025-09-05T23:11:14+00:00",
+      "updated_at": "2025-11-20T16:21:02+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "cottsay"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 105,
+      "category": "needs_review"
+    },
+    {
+      "number": 587,
+      "title": "feature: allow extending a python package in `ament_python_install_package`",
+      "url": "https://github.com/ament/ament_cmake/pull/587",
+      "repo_full_name": "ament/ament_cmake",
+      "author": "nadavelkabets",
+      "author_url": "https://github.com/nadavelkabets",
+      "created_at": "2025-06-14T13:12:46+00:00",
+      "updated_at": "2025-11-20T16:17:25+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "rkent",
+          "url": "https://github.com/rkent",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "cottsay",
+          "commenter_url": "https://github.com/cottsay",
+          "comment_date": "2025-09-24T16:50:39+00:00",
+          "comment_url": "https://github.com/ament/ament_cmake/pull/587#issuecomment-3329844445",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 25025,
+              "url": "https://ci.ros2.org/job/ci_linux/25025/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 19086,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/19086/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 4499,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/4499/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 25482,
+              "url": "https://ci.ros2.org/job/ci_windows/25482/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "cottsay",
+          "commenter_url": "https://github.com/cottsay",
+          "comment_date": "2025-11-20T16:17:25+00:00",
+          "comment_url": "https://github.com/ament/ament_cmake/pull/587#issuecomment-3558910198",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 26122,
+              "url": "https://ci.ros2.org/job/ci_linux/26122/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 19889,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/19889/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 5727,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/5727/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 25995,
+              "url": "https://ci.ros2.org/job/ci_windows/25995/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "mjcarroll"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 105,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 602,
+      "title": "Fix CMake --find-package mode",
+      "url": "https://github.com/ament/ament_cmake/pull/602",
+      "repo_full_name": "ament/ament_cmake",
+      "author": "cottsay",
+      "author_url": "https://github.com/cottsay",
+      "created_at": "2025-10-09T20:36:23+00:00",
+      "updated_at": "2025-10-10T14:43:39+00:00",
+      "labels": [
+        "bug"
+      ],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "cottsay"
+      ],
+      "requested_reviewers": [
+        "sloretz"
+      ],
+      "days_since_update": 146,
+      "category": "needs_review"
+    },
+    {
+      "number": 455,
+      "title": "feat: add option to export libraries as cmake targets",
+      "url": "https://github.com/ament/ament_cmake/pull/455",
+      "repo_full_name": "ament/ament_cmake",
+      "author": "VRichardJP",
+      "author_url": "https://github.com/VRichardJP",
+      "created_at": "2023-05-29T08:14:14+00:00",
+      "updated_at": "2025-09-12T23:22:26+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "wjwwood",
+          "url": "https://github.com/wjwwood",
+          "state": "commented"
+        },
+        {
+          "name": "VRichardJP",
+          "url": "https://github.com/VRichardJP",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "clalancette",
+          "commenter_url": "https://github.com/clalancette",
+          "comment_date": "2023-06-08T17:37:55+00:00",
+          "comment_url": "https://github.com/ament/ament_cmake/pull/455#issuecomment-1583076228",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 18878,
+              "url": "https://ci.ros2.org/job/ci_linux/18878/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 13416,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/13416/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 19639,
+              "url": "https://ci.ros2.org/job/ci_windows/19639/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [],
+      "requested_reviewers": [
+        "mjeronimo"
+      ],
+      "days_since_update": 174,
+      "category": "needs_review"
+    },
+    {
+      "number": 418,
+      "title": "Implement ament_add_default_options (#390)",
+      "url": "https://github.com/ament/ament_cmake/pull/418",
+      "repo_full_name": "ament/ament_cmake",
+      "author": "hannes09",
+      "author_url": "https://github.com/hannes09",
+      "created_at": "2022-12-17T13:21:58+00:00",
+      "updated_at": "2025-03-27T20:22:04+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "sloretz"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 343,
+      "category": "needs_review"
+    },
+    {
+      "number": 563,
+      "title": "GTest improvements",
+      "url": "https://github.com/ament/ament_cmake/pull/563",
+      "repo_full_name": "ament/ament_cmake",
+      "author": "andy9a9",
+      "author_url": "https://github.com/andy9a9",
+      "created_at": "2024-11-28T18:28:26+00:00",
+      "updated_at": "2024-12-06T20:47:21+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "sloretz",
+          "url": "https://github.com/sloretz",
+          "state": "commented"
+        },
+        {
+          "name": "andy9a9",
+          "url": "https://github.com/andy9a9",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "sloretz"
+      ],
+      "requested_reviewers": [
+        "clalancette"
+      ],
+      "days_since_update": 454,
+      "category": "needs_review"
+    },
+    {
+      "number": 389,
+      "title": "Introduce relocatable <package>_IMPORT_PREFIX variable",
+      "url": "https://github.com/ament/ament_cmake/pull/389",
+      "repo_full_name": "ament/ament_cmake",
+      "author": "roehling",
+      "author_url": "https://github.com/roehling",
+      "created_at": "2022-05-12T10:43:50+00:00",
+      "updated_at": "2024-09-27T21:54:30+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "hidmic"
+      ],
+      "requested_reviewers": [
+        "hidmic"
+      ],
+      "days_since_update": 524,
+      "category": "needs_review"
+    },
+    {
+      "number": 457,
+      "title": "feat: support components in ament_export_dependencies",
+      "url": "https://github.com/ament/ament_cmake/pull/457",
+      "repo_full_name": "ament/ament_cmake",
+      "author": "VRichardJP",
+      "author_url": "https://github.com/VRichardJP",
+      "created_at": "2023-05-30T03:44:05+00:00",
+      "updated_at": "2024-07-23T06:57:48+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "clalancette",
+          "url": "https://github.com/clalancette",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [
+        "mjeronimo"
+      ],
+      "days_since_update": 590,
+      "category": "needs_review"
+    },
+    {
+      "number": 496,
+      "title": "Improve Python install path detection",
+      "url": "https://github.com/ament/ament_cmake/pull/496",
+      "repo_full_name": "ament/ament_cmake",
+      "author": "roehling",
+      "author_url": "https://github.com/roehling",
+      "created_at": "2023-11-27T21:49:07+00:00",
+      "updated_at": "2024-02-29T18:23:30+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "cottsay"
+      ],
+      "requested_reviewers": [
+        "mjeronimo",
+        "clalancette",
+        "sloretz"
+      ],
+      "days_since_update": 735,
+      "category": "needs_review"
+    },
+    {
+      "number": 450,
+      "title": "fix(ament_cmake_python): respect DESTDIR during compilation",
+      "url": "https://github.com/ament/ament_cmake/pull/450",
+      "repo_full_name": "ament/ament_cmake",
+      "author": "AntoninRousset",
+      "author_url": "https://github.com/AntoninRousset",
+      "created_at": "2023-05-19T10:05:36+00:00",
+      "updated_at": "2023-10-12T18:12:02+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "cottsay"
+      ],
+      "requested_reviewers": [
+        "mjeronimo"
+      ],
+      "days_since_update": 875,
+      "category": "needs_review"
+    },
+    {
+      "number": 402,
+      "title": "Fix include order: correctly consider _all_ dependencies recursively",
+      "url": "https://github.com/ament/ament_cmake/pull/402",
+      "repo_full_name": "ament/ament_cmake",
+      "author": "rhaschke",
+      "author_url": "https://github.com/rhaschke",
+      "created_at": "2022-09-09T15:08:27+00:00",
+      "updated_at": "2022-09-25T08:34:04+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 1257,
+      "category": "needs_review"
+    },
+    {
+      "number": 401,
+      "title": "ament_cmake_tests: add support for TEST_REFIX to run_test.py",
+      "url": "https://github.com/ament/ament_cmake/pull/401",
+      "repo_full_name": "ament/ament_cmake",
+      "author": "cwecht",
+      "author_url": "https://github.com/cwecht",
+      "created_at": "2022-09-09T12:32:53+00:00",
+      "updated_at": "2022-09-09T12:38:11+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 1273,
+      "category": "needs_review"
+    },
+    {
+      "number": 257,
+      "title": "Add ament_cmake_auto_gtest",
+      "url": "https://github.com/ament/ament_cmake/pull/257",
+      "repo_full_name": "ament/ament_cmake",
+      "author": "cho3",
+      "author_url": "https://github.com/cho3",
+      "created_at": "2020-05-16T01:45:13+00:00",
+      "updated_at": "2022-06-28T14:14:22+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "mjcarroll"
+      ],
+      "requested_reviewers": [
+        "mjcarroll"
+      ],
+      "days_since_update": 1346,
+      "category": "needs_review"
+    }
+  ],
+  "stats": {
+    "full_name": "ament/ament_cmake",
+    "url": "https://github.com/ament/ament_cmake",
+    "open_pr_count": 77,
+    "open_issue_count": 0
+  }
+}

@@ -1,0 +1,464 @@
+{
+  "prs": [
+    {
+      "number": 302,
+      "title": "Add BatteryStates msg",
+      "url": "https://github.com/ros2/common_interfaces/pull/302",
+      "repo_full_name": "ros2/common_interfaces",
+      "author": "YaraShahin",
+      "author_url": "https://github.com/YaraShahin",
+      "created_at": "2025-10-24T11:34:01+00:00",
+      "updated_at": "2026-03-05T13:57:08+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        },
+        {
+          "name": "bmagyar",
+          "url": "https://github.com/bmagyar",
+          "state": "approved"
+        },
+        {
+          "name": "christophebedard",
+          "url": "https://github.com/christophebedard",
+          "state": "commented"
+        },
+        {
+          "name": "YaraShahin",
+          "url": "https://github.com/YaraShahin",
+          "state": "commented"
+        },
+        {
+          "name": "tfoote",
+          "url": "https://github.com/tfoote",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "mjcarroll"
+      ],
+      "requested_reviewers": [
+        "christophebedard",
+        "fujitatomoya"
+      ],
+      "days_since_update": 0,
+      "category": "changes_requested"
+    },
+    {
+      "number": 304,
+      "title": "Add Altitude.msg",
+      "url": "https://github.com/ros2/common_interfaces/pull/304",
+      "repo_full_name": "ros2/common_interfaces",
+      "author": "ViktorCVS",
+      "author_url": "https://github.com/ViktorCVS",
+      "created_at": "2025-11-07T16:40:47+00:00",
+      "updated_at": "2026-01-11T16:30:37+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "tfoote",
+          "url": "https://github.com/tfoote",
+          "state": "changes_requested"
+        },
+        {
+          "name": "ViktorCVS",
+          "url": "https://github.com/ViktorCVS",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "tfoote"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 53,
+      "category": "changes_requested"
+    },
+    {
+      "number": 299,
+      "title": "Update BatteryState.msg with Battery Node Information",
+      "url": "https://github.com/ros2/common_interfaces/pull/299",
+      "repo_full_name": "ros2/common_interfaces",
+      "author": "cmccrave-CPR",
+      "author_url": "https://github.com/cmccrave-CPR",
+      "created_at": "2025-09-22T19:41:51+00:00",
+      "updated_at": "2025-10-20T03:53:59+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        },
+        {
+          "name": "cmccrave-CPR",
+          "url": "https://github.com/cmccrave-CPR",
+          "state": "commented"
+        },
+        {
+          "name": "gavanderhoorn",
+          "url": "https://github.com/gavanderhoorn",
+          "state": "commented"
+        },
+        {
+          "name": "tfoote",
+          "url": "https://github.com/tfoote",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 136,
+      "category": "changes_requested"
+    },
+    {
+      "number": 297,
+      "title": "Set of relevant messages for embedded sensors.",
+      "url": "https://github.com/ros2/common_interfaces/pull/297",
+      "repo_full_name": "ros2/common_interfaces",
+      "author": "bperseghetti",
+      "author_url": "https://github.com/bperseghetti",
+      "created_at": "2025-09-19T17:28:54+00:00",
+      "updated_at": "2025-10-02T14:09:41+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "tfoote",
+          "url": "https://github.com/tfoote",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 154,
+      "category": "changes_requested"
+    },
+    {
+      "number": 291,
+      "title": "Add Contact.msg to sensor_msgs package",
+      "url": "https://github.com/ros2/common_interfaces/pull/291",
+      "repo_full_name": "ros2/common_interfaces",
+      "author": "BartlomiejK2",
+      "author_url": "https://github.com/BartlomiejK2",
+      "created_at": "2025-07-05T11:23:37+00:00",
+      "updated_at": "2025-09-12T15:25:11+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "tfoote",
+          "url": "https://github.com/tfoote",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "tfoote"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 174,
+      "category": "changes_requested"
+    },
+    {
+      "number": 287,
+      "title": "add mesh vertex colours and normals",
+      "url": "https://github.com/ros2/common_interfaces/pull/287",
+      "repo_full_name": "ros2/common_interfaces",
+      "author": "christian-rauch",
+      "author_url": "https://github.com/christian-rauch",
+      "created_at": "2025-06-24T14:52:04+00:00",
+      "updated_at": "2025-06-24T16:42:29+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "ahcorde",
+          "url": "https://github.com/ahcorde",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [
+        "tfoote"
+      ],
+      "days_since_update": 254,
+      "category": "changes_requested"
+    },
+    {
+      "number": 276,
+      "title": "Change comment of percentage in BatteryState.msg",
+      "url": "https://github.com/ros2/common_interfaces/pull/276",
+      "repo_full_name": "ros2/common_interfaces",
+      "author": "RasmusLar",
+      "author_url": "https://github.com/RasmusLar",
+      "created_at": "2025-04-09T08:45:06+00:00",
+      "updated_at": "2025-05-01T17:23:21+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        },
+        {
+          "name": "christophebedard",
+          "url": "https://github.com/christophebedard",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "christophebedard"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 308,
+      "category": "needs_review"
+    },
+    {
+      "number": 257,
+      "title": "reapply yuv encoding deprecation",
+      "url": "https://github.com/ros2/common_interfaces/pull/257",
+      "repo_full_name": "ros2/common_interfaces",
+      "author": "christianrauch",
+      "author_url": "https://github.com/christianrauch",
+      "created_at": "2024-09-08T10:45:47+00:00",
+      "updated_at": "2025-02-26T07:00:07+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "mjcarroll",
+          "url": "https://github.com/mjcarroll",
+          "state": "commented"
+        },
+        {
+          "name": "christianrauch",
+          "url": "https://github.com/christianrauch",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "ahcorde",
+          "commenter_url": "https://github.com/ahcorde",
+          "comment_date": "2024-09-09T08:38:15+00:00",
+          "comment_url": "https://github.com/ros2/common_interfaces/pull/257#issuecomment-2337489151",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 21816,
+              "url": "https://ci.ros2.org/job/ci_linux/21816/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 16087,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/16087/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 1319,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/1319/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 22517,
+              "url": "https://ci.ros2.org/job/ci_windows/22517/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "ahcorde",
+          "commenter_url": "https://github.com/ahcorde",
+          "comment_date": "2024-12-02T09:51:10+00:00",
+          "comment_url": "https://github.com/ros2/common_interfaces/pull/257#issuecomment-2511055696",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 14885,
+              "url": "https://ci.ros2.org/job/ci_launcher/14885/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 22197,
+              "url": "https://ci.ros2.org/job/ci_linux/22197/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 16449,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/16449/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 1718,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/1718/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 22947,
+              "url": "https://ci.ros2.org/job/ci_windows/22947/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "mjcarroll"
+      ],
+      "requested_reviewers": [
+        "tfoote",
+        "mjcarroll"
+      ],
+      "days_since_update": 372,
+      "category": "needs_review"
+    },
+    {
+      "number": 237,
+      "title": "Update CompressedImage",
+      "url": "https://github.com/ros2/common_interfaces/pull/237",
+      "repo_full_name": "ros2/common_interfaces",
+      "author": "ahcorde",
+      "author_url": "https://github.com/ahcorde",
+      "created_at": "2024-02-07T14:08:03+00:00",
+      "updated_at": "2024-09-04T21:06:17+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "clalancette",
+          "url": "https://github.com/clalancette",
+          "state": "commented"
+        },
+        {
+          "name": "calderpg-tri",
+          "url": "https://github.com/calderpg-tri",
+          "state": "commented"
+        },
+        {
+          "name": "tfoote",
+          "url": "https://github.com/tfoote",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "ahcorde"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 547,
+      "category": "needs_review"
+    },
+    {
+      "number": 254,
+      "title": "Removed sensor_msgs::msg::PointCloud",
+      "url": "https://github.com/ros2/common_interfaces/pull/254",
+      "repo_full_name": "ros2/common_interfaces",
+      "author": "ahcorde",
+      "author_url": "https://github.com/ahcorde",
+      "created_at": "2024-07-04T15:39:04+00:00",
+      "updated_at": "2024-09-04T20:38:27+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "tfoote",
+          "url": "https://github.com/tfoote",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "ahcorde"
+      ],
+      "requested_reviewers": [
+        "clalancette"
+      ],
+      "days_since_update": 547,
+      "category": "changes_requested"
+    },
+    {
+      "number": 118,
+      "title": "Add nav_msgs/PoseParticle and nav_msgs/PoseParticleCloud messages",
+      "url": "https://github.com/ros2/common_interfaces/pull/118",
+      "repo_full_name": "ros2/common_interfaces",
+      "author": "naiveHobo",
+      "author_url": "https://github.com/naiveHobo",
+      "created_at": "2020-05-19T21:23:04+00:00",
+      "updated_at": "2022-06-28T14:18:00+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "SteveMacenski",
+          "url": "https://github.com/SteveMacenski",
+          "state": "approved"
+        },
+        {
+          "name": "wjwwood",
+          "url": "https://github.com/wjwwood",
+          "state": "commented"
+        },
+        {
+          "name": "naiveHobo",
+          "url": "https://github.com/naiveHobo",
+          "state": "commented"
+        },
+        {
+          "name": "jacobperron",
+          "url": "https://github.com/jacobperron",
+          "state": "commented"
+        },
+        {
+          "name": "tfoote",
+          "url": "https://github.com/tfoote",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "tfoote"
+      ],
+      "requested_reviewers": [
+        "tfoote"
+      ],
+      "days_since_update": 1346,
+      "category": "changes_requested"
+    }
+  ],
+  "stats": {
+    "full_name": "ros2/common_interfaces",
+    "url": "https://github.com/ros2/common_interfaces",
+    "open_pr_count": 45,
+    "open_issue_count": 0
+  }
+}

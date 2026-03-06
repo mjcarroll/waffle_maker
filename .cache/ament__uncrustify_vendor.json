@@ -1,0 +1,33 @@
+{
+  "prs": [
+    {
+      "number": 40,
+      "title": "fix(cmake): Align Python3 find strategy with ament_core",
+      "url": "https://github.com/ament/uncrustify_vendor/pull/40",
+      "repo_full_name": "ament/uncrustify_vendor",
+      "author": "lbmeng",
+      "author_url": "https://github.com/lbmeng",
+      "created_at": "2025-12-24T12:40:09+00:00",
+      "updated_at": "2026-01-08T18:10:37+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "cottsay"
+      ],
+      "requested_reviewers": [
+        "cottsay"
+      ],
+      "days_since_update": 56,
+      "category": "needs_review"
+    }
+  ],
+  "stats": {
+    "full_name": "ament/uncrustify_vendor",
+    "url": "https://github.com/ament/uncrustify_vendor",
+    "open_pr_count": 2,
+    "open_issue_count": 0
+  }
+}

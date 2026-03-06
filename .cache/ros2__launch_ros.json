@@ -1,0 +1,598 @@
+{
+  "prs": [
+    {
+      "number": 524,
+      "title": "Correct typos",
+      "url": "https://github.com/ros2/launch_ros/pull/524",
+      "repo_full_name": "ros2/launch_ros",
+      "author": "augustelalande",
+      "author_url": "https://github.com/augustelalande",
+      "created_at": "2026-03-05T06:15:52+00:00",
+      "updated_at": "2026-03-05T17:14:51+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "ahcorde",
+          "url": "https://github.com/ahcorde",
+          "state": "changes_requested"
+        },
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 0,
+      "category": "changes_requested"
+    },
+    {
+      "number": 523,
+      "title": "Add load_node_timeout parameter to ComposableNodeContainer and LoadComposableNodes actions",
+      "url": "https://github.com/ros2/launch_ros/pull/523",
+      "repo_full_name": "ros2/launch_ros",
+      "author": "bjsowa",
+      "author_url": "https://github.com/bjsowa",
+      "created_at": "2026-03-03T14:19:55+00:00",
+      "updated_at": "2026-03-03T14:20:46+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 2,
+      "category": "needs_review"
+    },
+    {
+      "number": 522,
+      "title": "Add ament-index resource substitution",
+      "url": "https://github.com/ros2/launch_ros/pull/522",
+      "repo_full_name": "ros2/launch_ros",
+      "author": "nwn",
+      "author_url": "https://github.com/nwn",
+      "created_at": "2026-03-03T04:48:14+00:00",
+      "updated_at": "2026-03-03T04:48:14+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 2,
+      "category": "needs_review"
+    },
+    {
+      "number": 518,
+      "title": "Porting RewrittenYaml from Nav2",
+      "url": "https://github.com/ros2/launch_ros/pull/518",
+      "repo_full_name": "ros2/launch_ros",
+      "author": "DLu",
+      "author_url": "https://github.com/DLu",
+      "created_at": "2026-02-17T17:17:54+00:00",
+      "updated_at": "2026-02-28T09:10:52+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "mjcarroll"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 5,
+      "category": "needs_review"
+    },
+    {
+      "number": 520,
+      "title": "Surpressing multi-threaded process warning from flake8.",
+      "url": "https://github.com/ros2/launch_ros/pull/520",
+      "repo_full_name": "ros2/launch_ros",
+      "author": "fujitatomoya",
+      "author_url": "https://github.com/fujitatomoya",
+      "created_at": "2026-02-19T06:58:03+00:00",
+      "updated_at": "2026-02-26T17:54:15+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "fujitatomoya"
+      ],
+      "requested_reviewers": [
+        "ahcorde"
+      ],
+      "days_since_update": 7,
+      "category": "needs_review"
+    },
+    {
+      "number": 516,
+      "title": "Load composable nodes safely by optionally shutting down the launch process if it fails to load",
+      "url": "https://github.com/ros2/launch_ros/pull/516",
+      "repo_full_name": "ros2/launch_ros",
+      "author": "xaru8145",
+      "author_url": "https://github.com/xaru8145",
+      "created_at": "2026-02-12T17:10:54+00:00",
+      "updated_at": "2026-02-19T18:11:06+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "wjwwood"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 14,
+      "category": "needs_review"
+    },
+    {
+      "number": 510,
+      "title": "implement allow_substs for set_parameters_from_file",
+      "url": "https://github.com/ros2/launch_ros/pull/510",
+      "repo_full_name": "ros2/launch_ros",
+      "author": "benaliabderrahmane",
+      "author_url": "https://github.com/benaliabderrahmane",
+      "created_at": "2025-12-10T10:02:22+00:00",
+      "updated_at": "2025-12-18T18:28:26+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "emersonknapp"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 77,
+      "category": "needs_review"
+    },
+    {
+      "number": 435,
+      "title": "Add --remap argument to launch command",
+      "url": "https://github.com/ros2/launch_ros/pull/435",
+      "repo_full_name": "ros2/launch_ros",
+      "author": "JoLichtenfeld",
+      "author_url": "https://github.com/JoLichtenfeld",
+      "created_at": "2025-01-28T16:19:57+00:00",
+      "updated_at": "2025-12-03T10:34:18+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        },
+        {
+          "name": "JoLichtenfeld",
+          "url": "https://github.com/JoLichtenfeld",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "fujitatomoya"
+      ],
+      "requested_reviewers": [
+        "fujitatomoya"
+      ],
+      "days_since_update": 92,
+      "category": "needs_review"
+    },
+    {
+      "number": 476,
+      "title": "[humble] Autostarting lifecycle nodes and example launch file demo (backport #430)",
+      "url": "https://github.com/ros2/launch_ros/pull/476",
+      "repo_full_name": "ros2/launch_ros",
+      "author": "mergify[bot]",
+      "author_url": "https://github.com/apps/mergify",
+      "created_at": "2025-07-25T16:42:47+00:00",
+      "updated_at": "2025-10-06T10:49:15+00:00",
+      "labels": [
+        "conflicts"
+      ],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "christophebedard",
+          "url": "https://github.com/christophebedard",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "christophebedard",
+          "commenter_url": "https://github.com/christophebedard",
+          "comment_date": "2025-08-08T17:51:56+00:00",
+          "comment_url": "https://github.com/ros2/launch_ros/pull/476#issuecomment-3168856061",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 16687,
+              "url": "https://ci.ros2.org/job/ci_launcher/16687/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 24560,
+              "url": "https://ci.ros2.org/job/ci_linux/24560/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 18608,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/18608/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 4017,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/4017/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 25101,
+              "url": "https://ci.ros2.org/job/ci_windows/25101/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "christophebedard"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 150,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 481,
+      "title": "Fix ComposableLifecycleNode autostart not using resolved name",
+      "url": "https://github.com/ros2/launch_ros/pull/481",
+      "repo_full_name": "ros2/launch_ros",
+      "author": "SuperJappie08",
+      "author_url": "https://github.com/SuperJappie08",
+      "created_at": "2025-08-23T14:35:07+00:00",
+      "updated_at": "2025-10-01T09:10:27+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 155,
+      "category": "needs_review"
+    },
+    {
+      "number": 429,
+      "title": "Append ros namespace to target container if available.",
+      "url": "https://github.com/ros2/launch_ros/pull/429",
+      "repo_full_name": "ros2/launch_ros",
+      "author": "mbharatheesha",
+      "author_url": "https://github.com/mbharatheesha",
+      "created_at": "2024-12-13T22:49:45+00:00",
+      "updated_at": "2025-05-31T02:29:14+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "fujitatomoya",
+          "commenter_url": "https://github.com/fujitatomoya",
+          "comment_date": "2025-01-03T19:54:00+00:00",
+          "comment_url": "https://github.com/ros2/launch_ros/pull/429#issuecomment-2569741287",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 15028,
+              "url": "https://ci.ros2.org/job/ci_launcher/15028/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 22344,
+              "url": "https://ci.ros2.org/job/ci_linux/22344/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 16607,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/16607/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 1875,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/1875/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 23135,
+              "url": "https://ci.ros2.org/job/ci_windows/23135/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "mjcarroll"
+      ],
+      "requested_reviewers": [
+        "ahcorde",
+        "sloretz"
+      ],
+      "days_since_update": 278,
+      "category": "needs_review"
+    },
+    {
+      "number": 463,
+      "title": "Scoped Include compatibility",
+      "url": "https://github.com/ros2/launch_ros/pull/463",
+      "repo_full_name": "ros2/launch_ros",
+      "author": "SuperJappie08",
+      "author_url": "https://github.com/SuperJappie08",
+      "created_at": "2025-05-01T19:20:25+00:00",
+      "updated_at": "2025-05-09T17:00:18+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "christophebedard"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 300,
+      "category": "needs_review"
+    },
+    {
+      "number": 433,
+      "title": "Add --namespace argument to launch command.",
+      "url": "https://github.com/ros2/launch_ros/pull/433",
+      "repo_full_name": "ros2/launch_ros",
+      "author": "StefanFabian",
+      "author_url": "https://github.com/StefanFabian",
+      "created_at": "2025-01-23T10:09:28+00:00",
+      "updated_at": "2025-04-11T03:50:08+00:00",
+      "labels": [
+        "more information needed"
+      ],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "sloretz",
+          "commenter_url": "https://github.com/sloretz",
+          "comment_date": "2025-04-10T23:44:27+00:00",
+          "comment_url": "https://github.com/ros2/launch_ros/pull/433#issuecomment-2795405685",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 15660,
+              "url": "https://ci.ros2.org/job/ci_launcher/15660/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 23120,
+              "url": "https://ci.ros2.org/job/ci_linux/23120/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 17334,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/17334/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 2592,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/2592/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 23992,
+              "url": "https://ci.ros2.org/job/ci_windows/23992/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "fujitatomoya"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 328,
+      "category": "changes_requested"
+    },
+    {
+      "number": 441,
+      "title": "LoadComposableNodes: unload on shutdown",
+      "url": "https://github.com/ros2/launch_ros/pull/441",
+      "repo_full_name": "ros2/launch_ros",
+      "author": "rayferric",
+      "author_url": "https://github.com/rayferric",
+      "created_at": "2025-02-22T15:13:24+00:00",
+      "updated_at": "2025-03-07T07:06:09+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "alsora"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 363,
+      "category": "needs_review"
+    },
+    {
+      "number": 391,
+      "title": "support invalid handle exception from rclpy in the action LoadComposableNodes",
+      "url": "https://github.com/ros2/launch_ros/pull/391",
+      "repo_full_name": "ros2/launch_ros",
+      "author": "firemark",
+      "author_url": "https://github.com/firemark",
+      "created_at": "2024-02-02T10:33:42+00:00",
+      "updated_at": "2024-02-15T18:40:09+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "sloretz"
+      ],
+      "requested_reviewers": [
+        "adityapande-1995",
+        "methylDragon"
+      ],
+      "days_since_update": 749,
+      "category": "needs_review"
+    },
+    {
+      "number": 215,
+      "title": "Execute process refactor",
+      "url": "https://github.com/ros2/launch_ros/pull/215",
+      "repo_full_name": "ros2/launch_ros",
+      "author": "roger-strain",
+      "author_url": "https://github.com/roger-strain",
+      "created_at": "2021-01-25T21:52:06+00:00",
+      "updated_at": "2023-12-15T22:48:21+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "hidmic",
+          "url": "https://github.com/hidmic",
+          "state": "commented"
+        },
+        {
+          "name": "roger-strain",
+          "url": "https://github.com/roger-strain",
+          "state": "commented"
+        },
+        {
+          "name": "jacobperron",
+          "url": "https://github.com/jacobperron",
+          "state": "commented"
+        },
+        {
+          "name": "mlanting",
+          "url": "https://github.com/mlanting",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "hidmic"
+      ],
+      "requested_reviewers": [
+        "adityapande-1995",
+        "methylDragon"
+      ],
+      "days_since_update": 811,
+      "category": "needs_review"
+    },
+    {
+      "number": 322,
+      "title": "Remove comments from yaml file before applying substitutions",
+      "url": "https://github.com/ros2/launch_ros/pull/322",
+      "repo_full_name": "ros2/launch_ros",
+      "author": "ivanpauno",
+      "author_url": "https://github.com/ivanpauno",
+      "created_at": "2022-08-26T15:59:30+00:00",
+      "updated_at": "2022-09-01T02:40:14+00:00",
+      "labels": [
+        "bug"
+      ],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "iuhilnehc-ynos",
+          "url": "https://github.com/iuhilnehc-ynos",
+          "state": "commented"
+        },
+        {
+          "name": "ivanpauno",
+          "url": "https://github.com/ivanpauno",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "ivanpauno"
+      ],
+      "requested_reviewers": [
+        "hidmic"
+      ],
+      "days_since_update": 1281,
+      "category": "needs_review"
+    },
+    {
+      "number": 15,
+      "title": "Unit tests for composition actions",
+      "url": "https://github.com/ros2/launch_ros/pull/15",
+      "repo_full_name": "ros2/launch_ros",
+      "author": "sloretz",
+      "author_url": "https://github.com/sloretz",
+      "created_at": "2019-04-16T23:20:35+00:00",
+      "updated_at": "2022-06-28T14:19:27+00:00",
+      "labels": [
+        "in progress"
+      ],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "sloretz"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 1346,
+      "category": "needs_review"
+    }
+  ],
+  "stats": {
+    "full_name": "ros2/launch_ros",
+    "url": "https://github.com/ros2/launch_ros",
+    "open_pr_count": 72,
+    "open_issue_count": 0
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "prs": [
+    {
+      "number": 21,
+      "title": "Add cmake option/function to be able to skip mimick based tests",
+      "url": "https://github.com/ros2/mimick_vendor/pull/21",
+      "repo_full_name": "ros2/mimick_vendor",
+      "author": "ivanpauno",
+      "author_url": "https://github.com/ivanpauno",
+      "created_at": "2021-07-09T16:46:59+00:00",
+      "updated_at": "2022-06-28T14:19:51+00:00",
+      "labels": [
+        "enhancement"
+      ],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "hidmic",
+          "url": "https://github.com/hidmic",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "ivanpauno"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 1346,
+      "category": "needs_review"
+    }
+  ],
+  "stats": {
+    "full_name": "ros2/mimick_vendor",
+    "url": "https://github.com/ros2/mimick_vendor",
+    "open_pr_count": 2,
+    "open_issue_count": 0
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "prs": [
+    {
+      "number": 219,
+      "title": "Update Connext from 7.3.0 to 7.7.0",
+      "url": "https://github.com/ros2/rmw_connextdds/pull/219",
+      "repo_full_name": "ros2/rmw_connextdds",
+      "author": "fgallegosalido",
+      "author_url": "https://github.com/fgallegosalido",
+      "created_at": "2026-02-10T17:29:38+00:00",
+      "updated_at": "2026-02-19T18:15:07+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "approved"
+        },
+        {
+          "name": "ahcorde",
+          "url": "https://github.com/ahcorde",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "ahcorde",
+          "commenter_url": "https://github.com/ahcorde",
+          "comment_date": "2026-02-11T10:41:30+00:00",
+          "comment_url": "https://github.com/ros2/rmw_connextdds/pull/219#issuecomment-3883617845",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 18171,
+              "url": "https://ci.ros2.org/job/ci_launcher/18171/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 27630,
+              "url": "https://ci.ros2.org/job/ci_linux/27630/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 20688,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/20688/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 7502,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/7502/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 26647,
+              "url": "https://ci.ros2.org/job/ci_windows/26647/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "cottsay"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 14,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 140,
+      "title": "Add DDS_TIME_INVALID and DDS_Time_is_invalid for connext micro",
+      "url": "https://github.com/ros2/rmw_connextdds/pull/140",
+      "repo_full_name": "ros2/rmw_connextdds",
+      "author": "cwecht",
+      "author_url": "https://github.com/cwecht",
+      "created_at": "2024-02-06T10:15:52+00:00",
+      "updated_at": "2024-02-14T06:40:52+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 750,
+      "category": "needs_review"
+    },
+    {
+      "number": 137,
+      "title": "prevent setting CONNEXTDDS_ARCH when a more proper one exists",
+      "url": "https://github.com/ros2/rmw_connextdds/pull/137",
+      "repo_full_name": "ros2/rmw_connextdds",
+      "author": "WanruXX",
+      "author_url": "https://github.com/WanruXX",
+      "created_at": "2023-11-21T13:22:04+00:00",
+      "updated_at": "2023-11-30T11:32:18+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "approved"
+        },
+        {
+          "name": "WanruXX",
+          "url": "https://github.com/WanruXX",
+          "state": "commented"
+        },
+        {
+          "name": "iuhilnehc-ynos",
+          "url": "https://github.com/iuhilnehc-ynos",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "fujitatomoya"
+      ],
+      "requested_reviewers": [
+        "asorbini"
+      ],
+      "days_since_update": 826,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 99,
+      "title": "Add stub dynamic network interface implementation.",
+      "url": "https://github.com/ros2/rmw_connextdds/pull/99",
+      "repo_full_name": "ros2/rmw_connextdds",
+      "author": "jakymiws",
+      "author_url": "https://github.com/jakymiws",
+      "created_at": "2023-01-23T17:10:52+00:00",
+      "updated_at": "2023-03-30T02:47:29+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "alsora",
+          "url": "https://github.com/alsora",
+          "state": "commented"
+        },
+        {
+          "name": "jakymiws",
+          "url": "https://github.com/jakymiws",
+          "state": "commented"
+        },
+        {
+          "name": "asorbini",
+          "url": "https://github.com/asorbini",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 1071,
+      "category": "needs_review"
+    },
+    {
+      "number": 42,
+      "title": "Add XML files to describe built-in QoS configuration",
+      "url": "https://github.com/ros2/rmw_connextdds/pull/42",
+      "repo_full_name": "ros2/rmw_connextdds",
+      "author": "asorbini",
+      "author_url": "https://github.com/asorbini",
+      "created_at": "2021-04-23T04:00:20+00:00",
+      "updated_at": "2022-06-28T14:22:28+00:00",
+      "labels": [
+        "galactic-backports",
+        "foxy-backports",
+        "humble"
+      ],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "asorbini"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 1346,
+      "category": "needs_review"
+    }
+  ],
+  "stats": {
+    "full_name": "ros2/rmw_connextdds",
+    "url": "https://github.com/ros2/rmw_connextdds",
+    "open_pr_count": 28,
+    "open_issue_count": 0
+  }
+}

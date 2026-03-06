@@ -1,0 +1,122 @@
+{
+  "prs": [
+    {
+      "number": 210,
+      "title": "Add window size",
+      "url": "https://github.com/ros-tooling/libstatistics_collector/pull/210",
+      "repo_full_name": "ros-tooling/libstatistics_collector",
+      "author": "Tacha-S",
+      "author_url": "https://github.com/Tacha-S",
+      "created_at": "2025-02-20T00:11:14+00:00",
+      "updated_at": "2025-11-06T21:29:51+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "christophebedard",
+          "url": "https://github.com/christophebedard",
+          "state": "approved"
+        },
+        {
+          "name": "MichaelOrlov",
+          "url": "https://github.com/MichaelOrlov",
+          "state": "commented"
+        },
+        {
+          "name": "emersonknapp",
+          "url": "https://github.com/emersonknapp",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "emersonknapp",
+          "commenter_url": "https://github.com/emersonknapp",
+          "comment_date": "2025-04-15T17:29:09+00:00",
+          "comment_url": "https://github.com/ros-tooling/libstatistics_collector/pull/210#issuecomment-2806964190",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 15705,
+              "url": "https://ci.ros2.org/job/ci_launcher/15705/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 23171,
+              "url": "https://ci.ros2.org/job/ci_linux/23171/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 17384,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/17384/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 2638,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/2638/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 24046,
+              "url": "https://ci.ros2.org/job/ci_windows/24046/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "ahcorde",
+          "commenter_url": "https://github.com/ahcorde",
+          "comment_date": "2025-10-02T11:58:51+00:00",
+          "comment_url": "https://github.com/ros-tooling/libstatistics_collector/pull/210#issuecomment-3360841327",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 17130,
+              "url": "https://ci.ros2.org/job/ci_launcher/17130/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 25260,
+              "url": "https://ci.ros2.org/job/ci_linux/25260/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 19314,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/19314/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 4766,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/4766/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 25564,
+              "url": "https://ci.ros2.org/job/ci_windows/25564/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 119,
+      "category": "ready_to_merge"
+    }
+  ],
+  "stats": {
+    "full_name": "ros-tooling/libstatistics_collector",
+    "url": "https://github.com/ros-tooling/libstatistics_collector",
+    "open_pr_count": 4,
+    "open_issue_count": 0
+  }
+}

@@ -1,0 +1,862 @@
+{
+  "prs": [
+    {
+      "number": 1616,
+      "title": "Fix incorrect action client/server callback type hints",
+      "url": "https://github.com/ros2/rclpy/pull/1616",
+      "repo_full_name": "ros2/rclpy",
+      "author": "bjsowa",
+      "author_url": "https://github.com/bjsowa",
+      "created_at": "2026-03-02T01:56:12+00:00",
+      "updated_at": "2026-03-05T23:16:35+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [
+        {
+          "commenter": "InvincibleRMC",
+          "commenter_url": "https://github.com/InvincibleRMC",
+          "comment_date": "2026-03-05T02:12:04+00:00",
+          "comment_url": "https://github.com/ros2/rclpy/pull/1616#issuecomment-4001625555",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 18364,
+              "url": "https://ci.ros2.org/job/ci_launcher/18364/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 27881,
+              "url": "https://ci.ros2.org/job/ci_linux/27881/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 20884,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/20884/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 7740,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/7740/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 26857,
+              "url": "https://ci.ros2.org/job/ci_windows/26857/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "InvincibleRMC",
+          "commenter_url": "https://github.com/InvincibleRMC",
+          "comment_date": "2026-03-05T17:27:23+00:00",
+          "comment_url": "https://github.com/ros2/rclpy/pull/1616#issuecomment-4006541750",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 18367,
+              "url": "https://ci.ros2.org/job/ci_launcher/18367/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 27885,
+              "url": "https://ci.ros2.org/job/ci_linux/27885/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 20887,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/20887/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 7743,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/7743/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 26860,
+              "url": "https://ci.ros2.org/job/ci_windows/26860/",
+              "platform": "Windows"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 27888,
+              "url": "https://ci.ros2.org/job/ci_linux/27888/",
+              "platform": "Linux"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "InvincibleRMC"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 0,
+      "category": "needs_review"
+    },
+    {
+      "number": 1605,
+      "title": "Prevents the Future result from being set twice. (backport #1599)",
+      "url": "https://github.com/ros2/rclpy/pull/1605",
+      "repo_full_name": "ros2/rclpy",
+      "author": "mergify[bot]",
+      "author_url": "https://github.com/apps/mergify",
+      "created_at": "2026-02-04T23:12:08+00:00",
+      "updated_at": "2026-03-02T21:01:33+00:00",
+      "labels": [
+        "conflicts"
+      ],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "fujitatomoya"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 3,
+      "category": "needs_review"
+    },
+    {
+      "number": 1613,
+      "title": "EventsExecutor: Handle async callbacks for services and subscriptions (backport #1478)",
+      "url": "https://github.com/ros2/rclpy/pull/1613",
+      "repo_full_name": "ros2/rclpy",
+      "author": "bjsowa",
+      "author_url": "https://github.com/bjsowa",
+      "created_at": "2026-02-22T23:15:32+00:00",
+      "updated_at": "2026-02-22T23:29:19+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 11,
+      "category": "needs_review"
+    },
+    {
+      "number": 1454,
+      "title": "Backport of the EventsExecutor (#1391)",
+      "url": "https://github.com/ros2/rclpy/pull/1454",
+      "repo_full_name": "ros2/rclpy",
+      "author": "n8hui",
+      "author_url": "https://github.com/n8hui",
+      "created_at": "2025-05-03T11:47:16+00:00",
+      "updated_at": "2026-02-21T07:28:26+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "mjcarroll"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 12,
+      "category": "needs_review"
+    },
+    {
+      "number": 1575,
+      "title": "Fix #1455: Failed to get number of ready entities for action client: wait set index for status subscription is out of bounds",
+      "url": "https://github.com/ros2/rclpy/pull/1575",
+      "repo_full_name": "ros2/rclpy",
+      "author": "szobov",
+      "author_url": "https://github.com/szobov",
+      "created_at": "2026-01-08T19:08:04+00:00",
+      "updated_at": "2026-01-15T18:06:22+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "mjcarroll"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 49,
+      "category": "needs_review"
+    },
+    {
+      "number": 1399,
+      "title": "Feature: new asyncio executor",
+      "url": "https://github.com/ros2/rclpy/pull/1399",
+      "repo_full_name": "ros2/rclpy",
+      "author": "nadavelkabets",
+      "author_url": "https://github.com/nadavelkabets",
+      "created_at": "2025-01-15T16:04:23+00:00",
+      "updated_at": "2026-01-13T21:11:40+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 51,
+      "category": "needs_review"
+    },
+    {
+      "number": 1470,
+      "title": "Feature: add AbstractExecutor and BaseExecutor",
+      "url": "https://github.com/ros2/rclpy/pull/1470",
+      "repo_full_name": "ros2/rclpy",
+      "author": "nadavelkabets",
+      "author_url": "https://github.com/nadavelkabets",
+      "created_at": "2025-06-15T11:19:58+00:00",
+      "updated_at": "2026-01-09T17:05:40+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "mjcarroll",
+          "url": "https://github.com/mjcarroll",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "sloretz"
+      ],
+      "requested_reviewers": [
+        "sloretz"
+      ],
+      "days_since_update": 55,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 599,
+      "title": "Composition API",
+      "url": "https://github.com/ros2/rclpy/pull/599",
+      "repo_full_name": "ros2/rclpy",
+      "author": "crystaldust",
+      "author_url": "https://github.com/crystaldust",
+      "created_at": "2020-07-14T16:04:15+00:00",
+      "updated_at": "2025-12-10T09:28:32+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "jacobperron",
+          "url": "https://github.com/jacobperron",
+          "state": "commented"
+        },
+        {
+          "name": "sloretz",
+          "url": "https://github.com/sloretz",
+          "state": "approved"
+        },
+        {
+          "name": "crystaldust",
+          "url": "https://github.com/crystaldust",
+          "state": "commented"
+        },
+        {
+          "name": "wjwwood",
+          "url": "https://github.com/wjwwood",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "sloretz",
+          "commenter_url": "https://github.com/sloretz",
+          "comment_date": "2024-03-31T16:23:28+00:00",
+          "comment_url": "https://github.com/ros2/rclpy/pull/599#issuecomment-2028813695",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 20683,
+              "url": "https://ci.ros2.org/job/ci_linux/20683/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 15004,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/15004/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 21379,
+              "url": "https://ci.ros2.org/job/ci_windows/21379/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "sloretz"
+      ],
+      "requested_reviewers": [
+        "mjcarroll",
+        "adityapande-1995"
+      ],
+      "days_since_update": 85,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 1494,
+      "title": "[Draft]Add structured parameter support",
+      "url": "https://github.com/ros2/rclpy/pull/1494",
+      "repo_full_name": "ros2/rclpy",
+      "author": "Rahul-K-A",
+      "author_url": "https://github.com/Rahul-K-A",
+      "created_at": "2025-08-30T13:27:10+00:00",
+      "updated_at": "2025-11-23T17:52:45+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "wjwwood"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 102,
+      "category": "needs_review"
+    },
+    {
+      "number": 973,
+      "title": "Add benchmark tests",
+      "url": "https://github.com/ros2/rclpy/pull/973",
+      "repo_full_name": "ros2/rclpy",
+      "author": "sloretz",
+      "author_url": "https://github.com/sloretz",
+      "created_at": "2022-07-19T23:50:47+00:00",
+      "updated_at": "2025-10-01T11:13:49+00:00",
+      "labels": [
+        "enhancement"
+      ],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        },
+        {
+          "name": "jacobperron",
+          "url": "https://github.com/jacobperron",
+          "state": "approved"
+        },
+        {
+          "name": "sloretz",
+          "url": "https://github.com/sloretz",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "sloretz",
+          "commenter_url": "https://github.com/sloretz",
+          "comment_date": "2022-07-25T22:34:02+00:00",
+          "comment_url": "https://github.com/ros2/rclpy/pull/973#issuecomment-1194721482",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 17018,
+              "url": "https://ci.ros2.org/job/ci_linux/17018/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 11579,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/11579/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 17436,
+              "url": "https://ci.ros2.org/job/ci_windows/17436/",
+              "platform": "Windows"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 17019,
+              "url": "https://ci.ros2.org/job/ci_linux/17019/",
+              "platform": "badge"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 17019,
+              "url": "https://ci.ros2.org/job/ci_linux/17019/",
+              "platform": "Linux"
+            }
+          ]
+        },
+        {
+          "commenter": "sloretz",
+          "commenter_url": "https://github.com/sloretz",
+          "comment_date": "2022-07-27T18:50:24+00:00",
+          "comment_url": "https://github.com/ros2/rclpy/pull/973#issuecomment-1197230899",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 17036,
+              "url": "https://ci.ros2.org/job/ci_linux/17036/",
+              "platform": "badge"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 17036,
+              "url": "https://ci.ros2.org/job/ci_linux/17036/",
+              "platform": "Linux"
+            }
+          ]
+        },
+        {
+          "commenter": "sloretz",
+          "commenter_url": "https://github.com/sloretz",
+          "comment_date": "2022-10-14T01:56:17+00:00",
+          "comment_url": "https://github.com/ros2/rclpy/pull/973#issuecomment-1278370588",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 17498,
+              "url": "https://ci.ros2.org/job/ci_linux/17498/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 12023,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/12023/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 18045,
+              "url": "https://ci.ros2.org/job/ci_windows/18045/",
+              "platform": "Windows"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 17497,
+              "url": "https://ci.ros2.org/job/ci_linux/17497/",
+              "platform": "badge"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 17497,
+              "url": "https://ci.ros2.org/job/ci_linux/17497/",
+              "platform": "Linux"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "sloretz"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 155,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 1502,
+      "title": "Feature: expose event callback setter in subscription, service, client and timer (backport #1496)",
+      "url": "https://github.com/ros2/rclpy/pull/1502",
+      "repo_full_name": "ros2/rclpy",
+      "author": "mergify[bot]",
+      "author_url": "https://github.com/apps/mergify",
+      "created_at": "2025-09-17T23:26:05+00:00",
+      "updated_at": "2025-09-17T23:27:09+00:00",
+      "labels": [
+        "conflicts"
+      ],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 169,
+      "category": "needs_review"
+    },
+    {
+      "number": 1481,
+      "title": "Add new RAW_STEADY_TIME changes",
+      "url": "https://github.com/ros2/rclpy/pull/1481",
+      "repo_full_name": "ros2/rclpy",
+      "author": "saikishor",
+      "author_url": "https://github.com/saikishor",
+      "created_at": "2025-07-20T19:16:39+00:00",
+      "updated_at": "2025-08-04T08:01:25+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "saikishor"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 213,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 1268,
+      "title": "Add support for spin_until_complete",
+      "url": "https://github.com/ros2/rclpy/pull/1268",
+      "repo_full_name": "ros2/rclpy",
+      "author": "christophebedard",
+      "author_url": "https://github.com/christophebedard",
+      "created_at": "2024-04-02T20:29:42+00:00",
+      "updated_at": "2025-05-02T15:48:14+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "christophebedard",
+          "url": "https://github.com/christophebedard",
+          "state": "commented"
+        },
+        {
+          "name": "wjwwood",
+          "url": "https://github.com/wjwwood",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "wjwwood"
+      ],
+      "requested_reviewers": [
+        "sloretz",
+        "adityapande-1995"
+      ],
+      "days_since_update": 307,
+      "category": "needs_review"
+    },
+    {
+      "number": 1395,
+      "title": "Ignore exceptions raised in user created tasks",
+      "url": "https://github.com/ros2/rclpy/pull/1395",
+      "repo_full_name": "ros2/rclpy",
+      "author": "nadavelkabets",
+      "author_url": "https://github.com/nadavelkabets",
+      "created_at": "2025-01-04T20:54:35+00:00",
+      "updated_at": "2025-04-16T17:40:03+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "approved"
+        },
+        {
+          "name": "sloretz",
+          "url": "https://github.com/sloretz",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "sloretz"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 323,
+      "category": "changes_requested"
+    },
+    {
+      "number": 971,
+      "title": "Enable limited use of asyncio with executors",
+      "url": "https://github.com/ros2/rclpy/pull/971",
+      "repo_full_name": "ros2/rclpy",
+      "author": "sloretz",
+      "author_url": "https://github.com/sloretz",
+      "created_at": "2022-07-18T19:11:20+00:00",
+      "updated_at": "2024-11-03T21:56:06+00:00",
+      "labels": [
+        "enhancement"
+      ],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [
+        {
+          "commenter": "sloretz",
+          "commenter_url": "https://github.com/sloretz",
+          "comment_date": "2022-07-22T22:14:36+00:00",
+          "comment_url": "https://github.com/ros2/rclpy/pull/971#issuecomment-1192973776",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 17010,
+              "url": "https://ci.ros2.org/job/ci_linux/17010/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 11571,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/11571/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 17426,
+              "url": "https://ci.ros2.org/job/ci_windows/17426/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "sloretz"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 487,
+      "category": "needs_review"
+    },
+    {
+      "number": 919,
+      "title": "Update spin_until_complete",
+      "url": "https://github.com/ros2/rclpy/pull/919",
+      "repo_full_name": "ros2/rclpy",
+      "author": "hliberacki",
+      "author_url": "https://github.com/hliberacki",
+      "created_at": "2022-03-30T13:36:27+00:00",
+      "updated_at": "2024-04-02T21:15:09+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "approved"
+        },
+        {
+          "name": "hliberacki",
+          "url": "https://github.com/hliberacki",
+          "state": "commented"
+        },
+        {
+          "name": "wjwwood",
+          "url": "https://github.com/wjwwood",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [
+        "wjwwood"
+      ],
+      "days_since_update": 702,
+      "category": "changes_requested"
+    },
+    {
+      "number": 1211,
+      "title": "Fix recursive spinning from within a callback?",
+      "url": "https://github.com/ros2/rclpy/pull/1211",
+      "repo_full_name": "ros2/rclpy",
+      "author": "meyerj",
+      "author_url": "https://github.com/meyerj",
+      "created_at": "2024-01-20T12:41:44+00:00",
+      "updated_at": "2024-01-27T00:40:17+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [
+        "sloretz",
+        "adityapande-1995"
+      ],
+      "days_since_update": 768,
+      "category": "needs_review"
+    },
+    {
+      "number": 1164,
+      "title": "Fix race conditions in action client",
+      "url": "https://github.com/ros2/rclpy/pull/1164",
+      "repo_full_name": "ros2/rclpy",
+      "author": "augustelalande",
+      "author_url": "https://github.com/augustelalande",
+      "created_at": "2023-09-17T04:17:57+00:00",
+      "updated_at": "2023-10-16T18:55:19+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [
+        "sloretz",
+        "adityapande-1995"
+      ],
+      "days_since_update": 871,
+      "category": "needs_review"
+    },
+    {
+      "number": 1074,
+      "title": "Add SubscriptionOptions wrapper",
+      "url": "https://github.com/ros2/rclpy/pull/1074",
+      "repo_full_name": "ros2/rclpy",
+      "author": "clintlombard",
+      "author_url": "https://github.com/clintlombard",
+      "created_at": "2023-01-30T13:39:30+00:00",
+      "updated_at": "2023-03-01T07:32:03+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        },
+        {
+          "name": "adityapande-1995",
+          "url": "https://github.com/adityapande-1995",
+          "state": "commented"
+        },
+        {
+          "name": "clintlombard",
+          "url": "https://github.com/clintlombard",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "adityapande-1995"
+      ],
+      "requested_reviewers": [
+        "sloretz"
+      ],
+      "days_since_update": 1100,
+      "category": "needs_review"
+    },
+    {
+      "number": 993,
+      "title": "fix timers in task",
+      "url": "https://github.com/ros2/rclpy/pull/993",
+      "repo_full_name": "ros2/rclpy",
+      "author": "koonpeng",
+      "author_url": "https://github.com/koonpeng",
+      "created_at": "2022-08-19T08:23:21+00:00",
+      "updated_at": "2023-02-24T19:25:54+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        },
+        {
+          "name": "ivanpauno",
+          "url": "https://github.com/ivanpauno",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 1105,
+      "category": "changes_requested"
+    },
+    {
+      "number": 806,
+      "title": "Fix Python linking on OSX",
+      "url": "https://github.com/ros2/rclpy/pull/806",
+      "repo_full_name": "ros2/rclpy",
+      "author": "Tobias-Fischer",
+      "author_url": "https://github.com/Tobias-Fischer",
+      "created_at": "2021-07-20T22:27:20+00:00",
+      "updated_at": "2022-06-28T14:21:52+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "sloretz",
+          "url": "https://github.com/sloretz",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "sloretz",
+          "commenter_url": "https://github.com/sloretz",
+          "comment_date": "2021-07-21T23:28:41+00:00",
+          "comment_url": "https://github.com/ros2/rclpy/pull/806#issuecomment-884561938",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 14915,
+              "url": "https://ci.ros2.org/job/ci_linux/14915/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 9657,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/9657/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_osx",
+              "build_number": 12586,
+              "url": "https://ci.ros2.org/job/ci_osx/12586/",
+              "platform": "macOS"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 15074,
+              "url": "https://ci.ros2.org/job/ci_windows/15074/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "sloretz"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 1346,
+      "category": "ready_to_merge"
+    }
+  ],
+  "stats": {
+    "full_name": "ros2/rclpy",
+    "url": "https://github.com/ros2/rclpy",
+    "open_pr_count": 141,
+    "open_issue_count": 0
+  }
+}

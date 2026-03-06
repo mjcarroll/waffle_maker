@@ -1,0 +1,70 @@
+{
+  "prs": [
+    {
+      "number": 358,
+      "title": "Add `rmw_publisher_count_non_local_matched_subscriptions`",
+      "url": "https://github.com/ros2/rmw/pull/358",
+      "repo_full_name": "ros2/rmw",
+      "author": "MiguelCompany",
+      "author_url": "https://github.com/MiguelCompany",
+      "created_at": "2023-10-20T08:07:23+00:00",
+      "updated_at": "2023-11-03T00:19:16+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "fujitatomoya"
+      ],
+      "requested_reviewers": [
+        "methylDragon",
+        "ivanpauno",
+        "wjwwood"
+      ],
+      "days_since_update": 854,
+      "category": "changes_requested"
+    },
+    {
+      "number": 344,
+      "title": "Add call-through function for notifying about network interfaces",
+      "url": "https://github.com/ros2/rmw/pull/344",
+      "repo_full_name": "ros2/rmw",
+      "author": "jakymiws",
+      "author_url": "https://github.com/jakymiws",
+      "created_at": "2023-01-19T20:30:21+00:00",
+      "updated_at": "2023-02-21T22:29:52+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [
+        "methylDragon",
+        "ivanpauno",
+        "wjwwood"
+      ],
+      "days_since_update": 1108,
+      "category": "needs_review"
+    }
+  ],
+  "stats": {
+    "full_name": "ros2/rmw",
+    "url": "https://github.com/ros2/rmw",
+    "open_pr_count": 26,
+    "open_issue_count": 0
+  }
+}

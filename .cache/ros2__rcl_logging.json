@@ -1,0 +1,243 @@
+{
+  "prs": [
+    {
+      "number": 139,
+      "title": "feat: add env variable to configure flushing interval",
+      "url": "https://github.com/ros2/rcl_logging/pull/139",
+      "repo_full_name": "ros2/rcl_logging",
+      "author": "Achllle",
+      "author_url": "https://github.com/Achllle",
+      "created_at": "2026-01-30T06:30:29+00:00",
+      "updated_at": "2026-03-05T22:51:57+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "approved"
+        },
+        {
+          "name": "Achllle",
+          "url": "https://github.com/Achllle",
+          "state": "commented"
+        },
+        {
+          "name": "ahcorde",
+          "url": "https://github.com/ahcorde",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "fujitatomoya",
+          "commenter_url": "https://github.com/fujitatomoya",
+          "comment_date": "2026-02-08T23:54:35+00:00",
+          "comment_url": "https://github.com/ros2/rcl_logging/pull/139#issuecomment-3868589550",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 18146,
+              "url": "https://ci.ros2.org/job/ci_launcher/18146/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 27598,
+              "url": "https://ci.ros2.org/job/ci_linux/27598/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 20663,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/20663/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 7477,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/7477/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 26619,
+              "url": "https://ci.ros2.org/job/ci_windows/26619/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "ahcorde",
+          "commenter_url": "https://github.com/ahcorde",
+          "comment_date": "2026-02-09T09:29:11+00:00",
+          "comment_url": "https://github.com/ros2/rcl_logging/pull/139#issuecomment-3870471263",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 18151,
+              "url": "https://ci.ros2.org/job/ci_launcher/18151/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 27606,
+              "url": "https://ci.ros2.org/job/ci_linux/27606/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 20670,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/20670/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 7484,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/7484/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 26626,
+              "url": "https://ci.ros2.org/job/ci_windows/26626/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "fujitatomoya",
+          "commenter_url": "https://github.com/fujitatomoya",
+          "comment_date": "2026-03-04T00:40:49+00:00",
+          "comment_url": "https://github.com/ros2/rcl_logging/pull/139#issuecomment-3994472403",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 18359,
+              "url": "https://ci.ros2.org/job/ci_launcher/18359/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 27870,
+              "url": "https://ci.ros2.org/job/ci_linux/27870/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 20879,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/20879/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 7733,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/7733/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 26849,
+              "url": "https://ci.ros2.org/job/ci_windows/26849/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "fujitatomoya",
+          "commenter_url": "https://github.com/fujitatomoya",
+          "comment_date": "2026-03-05T00:28:58+00:00",
+          "comment_url": "https://github.com/ros2/rcl_logging/pull/139#issuecomment-4001188103",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 27875,
+              "url": "https://ci.ros2.org/job/ci_linux/27875/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 26853,
+              "url": "https://ci.ros2.org/job/ci_windows/26853/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "ahcorde",
+        "Achllle"
+      ],
+      "requested_reviewers": [
+        "wjwwood"
+      ],
+      "days_since_update": 0,
+      "category": "changes_requested"
+    },
+    {
+      "number": 106,
+      "title": "Add RCL_LOGGING_DISABLE_FILE_WRITING to disable file logging",
+      "url": "https://github.com/ros2/rcl_logging/pull/106",
+      "repo_full_name": "ros2/rcl_logging",
+      "author": "mganeff",
+      "author_url": "https://github.com/mganeff",
+      "created_at": "2023-10-25T06:29:31+00:00",
+      "updated_at": "2025-09-18T16:08:07+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [
+        "clalancette",
+        "wjwwood"
+      ],
+      "days_since_update": 168,
+      "category": "needs_review"
+    },
+    {
+      "number": 103,
+      "title": "Spdlog rotate patch",
+      "url": "https://github.com/ros2/rcl_logging/pull/103",
+      "repo_full_name": "ros2/rcl_logging",
+      "author": "cfveeden",
+      "author_url": "https://github.com/cfveeden",
+      "created_at": "2023-09-15T20:08:52+00:00",
+      "updated_at": "2025-03-20T17:29:54+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "fujitatomoya"
+      ],
+      "requested_reviewers": [
+        "clalancette",
+        "wjwwood"
+      ],
+      "days_since_update": 350,
+      "category": "needs_review"
+    }
+  ],
+  "stats": {
+    "full_name": "ros2/rcl_logging",
+    "url": "https://github.com/ros2/rcl_logging",
+    "open_pr_count": 16,
+    "open_issue_count": 0
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "prs": [
+    {
+      "number": 38,
+      "title": "Support Qt6",
+      "url": "https://github.com/ros-visualization/rqt_service_caller/pull/38",
+      "repo_full_name": "ros-visualization/rqt_service_caller",
+      "author": "ahcorde",
+      "author_url": "https://github.com/ahcorde",
+      "created_at": "2026-02-16T09:50:38+00:00",
+      "updated_at": "2026-02-16T09:50:38+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "ahcorde"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 17,
+      "category": "needs_review"
+    },
+    {
+      "number": 27,
+      "title": "Feature/print cmd formatted service call",
+      "url": "https://github.com/ros-visualization/rqt_service_caller/pull/27",
+      "repo_full_name": "ros-visualization/rqt_service_caller",
+      "author": "lcford2",
+      "author_url": "https://github.com/lcford2",
+      "created_at": "2023-06-02T19:00:13+00:00",
+      "updated_at": "2023-06-02T19:00:13+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 1007,
+      "category": "needs_review"
+    }
+  ],
+  "stats": {
+    "full_name": "ros-visualization/rqt_service_caller",
+    "url": "https://github.com/ros-visualization/rqt_service_caller",
+    "open_pr_count": 6,
+    "open_issue_count": 0
+  }
+}

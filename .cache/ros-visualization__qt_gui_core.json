@@ -1,0 +1,48 @@
+{
+  "prs": [
+    {
+      "number": 301,
+      "title": "Allow plugin arguments to be passed always",
+      "url": "https://github.com/ros-visualization/qt_gui_core/pull/301",
+      "repo_full_name": "ros-visualization/qt_gui_core",
+      "author": "ernestmc",
+      "author_url": "https://github.com/ernestmc",
+      "created_at": "2025-01-14T10:43:31+00:00",
+      "updated_at": "2025-01-14T10:43:31+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 415,
+      "category": "needs_review"
+    },
+    {
+      "number": 285,
+      "title": "Enable custom message handler for pyside2",
+      "url": "https://github.com/ros-visualization/qt_gui_core/pull/285",
+      "repo_full_name": "ros-visualization/qt_gui_core",
+      "author": "evan-flynn-apexai",
+      "author_url": "https://github.com/evan-flynn-apexai",
+      "created_at": "2023-11-07T22:38:39+00:00",
+      "updated_at": "2023-11-14T15:24:18+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 842,
+      "category": "needs_review"
+    }
+  ],
+  "stats": {
+    "full_name": "ros-visualization/qt_gui_core",
+    "url": "https://github.com/ros-visualization/qt_gui_core",
+    "open_pr_count": 14,
+    "open_issue_count": 0
+  }
+}

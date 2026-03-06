@@ -1,0 +1,1224 @@
+{
+  "prs": [
+    {
+      "number": 1204,
+      "title": "ros2 param set /node_name <param1 value1 param2 value2...> support.",
+      "url": "https://github.com/ros2/ros2cli/pull/1204",
+      "repo_full_name": "ros2/ros2cli",
+      "author": "fujitatomoya",
+      "author_url": "https://github.com/fujitatomoya",
+      "created_at": "2026-03-05T05:57:46+00:00",
+      "updated_at": "2026-03-06T00:14:19+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "copilot-pull-request-reviewer[bot]",
+          "url": "https://github.com/apps/copilot-pull-request-reviewer",
+          "state": "commented"
+        },
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        },
+        {
+          "name": "Barry-Xu-2018",
+          "url": "https://github.com/Barry-Xu-2018",
+          "state": "approved"
+        },
+        {
+          "name": "ahcorde",
+          "url": "https://github.com/ahcorde",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "fujitatomoya",
+          "commenter_url": "https://github.com/fujitatomoya",
+          "comment_date": "2026-03-05T06:07:36+00:00",
+          "comment_url": "https://github.com/ros2/ros2cli/pull/1204#issuecomment-4002478601",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 18366,
+              "url": "https://ci.ros2.org/job/ci_launcher/18366/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 27884,
+              "url": "https://ci.ros2.org/job/ci_linux/27884/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 20886,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/20886/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 7742,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/7742/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 26859,
+              "url": "https://ci.ros2.org/job/ci_windows/26859/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "fujitatomoya",
+          "commenter_url": "https://github.com/fujitatomoya",
+          "comment_date": "2026-03-06T00:13:50+00:00",
+          "comment_url": "https://github.com/ros2/ros2cli/pull/1204#issuecomment-4008617589",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 27889,
+              "url": "https://ci.ros2.org/job/ci_linux/27889/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 20888,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/20888/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 7744,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/7744/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 26861,
+              "url": "https://ci.ros2.org/job/ci_windows/26861/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "fujitatomoya"
+      ],
+      "requested_reviewers": [
+        "ahcorde"
+      ],
+      "days_since_update": 0,
+      "category": "changes_requested"
+    },
+    {
+      "number": 1202,
+      "title": "Add `--message` field to the creation of ROS2 packages.",
+      "url": "https://github.com/ros2/ros2cli/pull/1202",
+      "repo_full_name": "ros2/ros2cli",
+      "author": "leander-dsouza",
+      "author_url": "https://github.com/leander-dsouza",
+      "created_at": "2026-03-02T03:18:42+00:00",
+      "updated_at": "2026-03-05T20:09:35+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "peci1",
+          "url": "https://github.com/peci1",
+          "state": "approved"
+        },
+        {
+          "name": "leander-dsouza",
+          "url": "https://github.com/leander-dsouza",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 0,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 1201,
+      "title": "Fix auto-completed YAML string for `ros2service`",
+      "url": "https://github.com/ros2/ros2cli/pull/1201",
+      "repo_full_name": "ros2/ros2cli",
+      "author": "leander-dsouza",
+      "author_url": "https://github.com/leander-dsouza",
+      "created_at": "2026-02-28T02:59:47+00:00",
+      "updated_at": "2026-03-05T19:36:53+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "approved"
+        },
+        {
+          "name": "peci1",
+          "url": "https://github.com/peci1",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "fujitatomoya",
+          "commenter_url": "https://github.com/fujitatomoya",
+          "comment_date": "2026-03-05T00:59:48+00:00",
+          "comment_url": "https://github.com/ros2/ros2cli/pull/1201#issuecomment-4001291829",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 18361,
+              "url": "https://ci.ros2.org/job/ci_launcher/18361/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 27876,
+              "url": "https://ci.ros2.org/job/ci_linux/27876/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 20881,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/20881/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 7735,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/7735/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 26854,
+              "url": "https://ci.ros2.org/job/ci_windows/26854/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "fujitatomoya"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 0,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 1191,
+      "title": "feat: fzf inline editing completion",
+      "url": "https://github.com/ros2/ros2cli/pull/1191",
+      "repo_full_name": "ros2/ros2cli",
+      "author": "ArkhamKnight25",
+      "author_url": "https://github.com/ArkhamKnight25",
+      "created_at": "2026-02-17T10:47:47+00:00",
+      "updated_at": "2026-03-05T17:41:53+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        },
+        {
+          "name": "ArkhamKnight25",
+          "url": "https://github.com/ArkhamKnight25",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "mjcarroll"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 0,
+      "category": "needs_review"
+    },
+    {
+      "number": 1161,
+      "title": "ros2doctor: add node and parameter info to report",
+      "url": "https://github.com/ros2/ros2cli/pull/1161",
+      "repo_full_name": "ros2/ros2cli",
+      "author": "BhuvanB404",
+      "author_url": "https://github.com/BhuvanB404",
+      "created_at": "2026-01-09T21:44:39+00:00",
+      "updated_at": "2026-02-19T18:19:36+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "copilot-pull-request-reviewer[bot]",
+          "url": "https://github.com/apps/copilot-pull-request-reviewer",
+          "state": "commented"
+        },
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "changes_requested"
+        },
+        {
+          "name": "BhuvanB404",
+          "url": "https://github.com/BhuvanB404",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "InvincibleRMC",
+        "fujitatomoya"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 14,
+      "category": "changes_requested"
+    },
+    {
+      "number": 1185,
+      "title": "add timeout arguments elsewhere",
+      "url": "https://github.com/ros2/ros2cli/pull/1185",
+      "repo_full_name": "ros2/ros2cli",
+      "author": "fujitatomoya",
+      "author_url": "https://github.com/fujitatomoya",
+      "created_at": "2026-02-05T23:55:38+00:00",
+      "updated_at": "2026-02-18T04:01:31+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "araitaiga",
+          "url": "https://github.com/araitaiga",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "fujitatomoya",
+          "commenter_url": "https://github.com/fujitatomoya",
+          "comment_date": "2026-02-05T23:58:07+00:00",
+          "comment_url": "https://github.com/ros2/ros2cli/pull/1185#issuecomment-3857046216",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 18138,
+              "url": "https://ci.ros2.org/job/ci_launcher/18138/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 27589,
+              "url": "https://ci.ros2.org/job/ci_linux/27589/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 20654,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/20654/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 7468,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/7468/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 26611,
+              "url": "https://ci.ros2.org/job/ci_windows/26611/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "fujitatomoya"
+      ],
+      "requested_reviewers": [
+        "ahcorde"
+      ],
+      "days_since_update": 15,
+      "category": "needs_review"
+    },
+    {
+      "number": 1025,
+      "title": "[ros2pkg] Template update for compatibility with virtual environments (#1024)",
+      "url": "https://github.com/ros2/ros2cli/pull/1025",
+      "repo_full_name": "ros2/ros2cli",
+      "author": "cortesvitor",
+      "author_url": "https://github.com/cortesvitor",
+      "created_at": "2025-05-12T09:32:29+00:00",
+      "updated_at": "2025-12-15T22:39:08+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "cottsay"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 80,
+      "category": "needs_review"
+    },
+    {
+      "number": 1001,
+      "title": "Patch CVE-2024-42002",
+      "url": "https://github.com/ros2/ros2cli/pull/1001",
+      "repo_full_name": "ros2/ros2cli",
+      "author": "mjcarroll",
+      "author_url": "https://github.com/mjcarroll",
+      "created_at": "2025-04-03T13:59:15+00:00",
+      "updated_at": "2025-12-08T16:11:33+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "ahcorde",
+          "url": "https://github.com/ahcorde",
+          "state": "approved"
+        },
+        {
+          "name": "florcabral",
+          "url": "https://github.com/florcabral",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "ahcorde",
+          "commenter_url": "https://github.com/ahcorde",
+          "comment_date": "2025-04-03T15:03:55+00:00",
+          "comment_url": "https://github.com/ros2/ros2cli/pull/1001#issuecomment-2776094973",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 15571,
+              "url": "https://ci.ros2.org/job/ci_launcher/15571/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 23002,
+              "url": "https://ci.ros2.org/job/ci_linux/23002/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 17227,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/17227/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 2489,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/2489/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 23876,
+              "url": "https://ci.ros2.org/job/ci_windows/23876/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "mjcarroll",
+          "commenter_url": "https://github.com/mjcarroll",
+          "comment_date": "2025-04-04T19:14:18+00:00",
+          "comment_url": "https://github.com/ros2/ros2cli/pull/1001#issuecomment-2779553519",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 23024,
+              "url": "https://ci.ros2.org/job/ci_linux/23024/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 17252,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/17252/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 2511,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/2511/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 23902,
+              "url": "https://ci.ros2.org/job/ci_windows/23902/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "mjcarroll",
+          "commenter_url": "https://github.com/mjcarroll",
+          "comment_date": "2025-05-19T23:00:25+00:00",
+          "comment_url": "https://github.com/ros2/ros2cli/pull/1001#issuecomment-2892470505",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 16045,
+              "url": "https://ci.ros2.org/job/ci_launcher/16045/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 23699,
+              "url": "https://ci.ros2.org/job/ci_linux/23699/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 17810,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/17810/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 3154,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/3154/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 24409,
+              "url": "https://ci.ros2.org/job/ci_windows/24409/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "mjcarroll",
+          "commenter_url": "https://github.com/mjcarroll",
+          "comment_date": "2025-05-19T23:46:39+00:00",
+          "comment_url": "https://github.com/ros2/ros2cli/pull/1001#issuecomment-2892524408",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 16047,
+              "url": "https://ci.ros2.org/job/ci_launcher/16047/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 23701,
+              "url": "https://ci.ros2.org/job/ci_linux/23701/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 17812,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/17812/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 3156,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/3156/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 24411,
+              "url": "https://ci.ros2.org/job/ci_windows/24411/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "mjcarroll",
+          "commenter_url": "https://github.com/mjcarroll",
+          "comment_date": "2025-05-20T14:52:25+00:00",
+          "comment_url": "https://github.com/ros2/ros2cli/pull/1001#issuecomment-2894725786",
+          "runs": [
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 17812,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/17812/",
+              "platform": "testReport"
+            }
+          ]
+        },
+        {
+          "commenter": "ahcorde",
+          "commenter_url": "https://github.com/ahcorde",
+          "comment_date": "2025-10-06T10:48:45+00:00",
+          "comment_url": "https://github.com/ros2/ros2cli/pull/1001#issuecomment-3371006055",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 17223,
+              "url": "https://ci.ros2.org/job/ci_launcher/17223/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 25329,
+              "url": "https://ci.ros2.org/job/ci_linux/25329/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 19429,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/19429/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 4833,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/4833/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 25658,
+              "url": "https://ci.ros2.org/job/ci_windows/25658/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "ahcorde",
+          "commenter_url": "https://github.com/ahcorde",
+          "comment_date": "2025-10-07T08:57:18+00:00",
+          "comment_url": "https://github.com/ros2/ros2cli/pull/1001#issuecomment-3375870237",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 25341,
+              "url": "https://ci.ros2.org/job/ci_linux/25341/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 19440,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/19440/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 4880,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/4880/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 25669,
+              "url": "https://ci.ros2.org/job/ci_windows/25669/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "mjcarroll"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 87,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 1105,
+      "title": "Fix ros2 topic pub --stdin",
+      "url": "https://github.com/ros2/ros2cli/pull/1105",
+      "repo_full_name": "ros2/ros2cli",
+      "author": "wentasah",
+      "author_url": "https://github.com/wentasah",
+      "created_at": "2025-09-23T04:52:28+00:00",
+      "updated_at": "2025-10-06T10:47:00+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "wentasah"
+      ],
+      "requested_reviewers": [
+        "fujitatomoya"
+      ],
+      "days_since_update": 150,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 1099,
+      "title": "Add environment variable to override daemon endpoint",
+      "url": "https://github.com/ros2/ros2cli/pull/1099",
+      "repo_full_name": "ros2/ros2cli",
+      "author": "cottsay",
+      "author_url": "https://github.com/cottsay",
+      "created_at": "2025-09-04T20:11:47+00:00",
+      "updated_at": "2025-09-04T23:04:47+00:00",
+      "labels": [
+        "enhancement"
+      ],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "cottsay",
+          "url": "https://github.com/cottsay",
+          "state": "commented"
+        },
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "cottsay"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 182,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 1080,
+      "title": "Added ament_cmake_python package creation",
+      "url": "https://github.com/ros2/ros2cli/pull/1080",
+      "repo_full_name": "ros2/ros2cli",
+      "author": "bismuth01",
+      "author_url": "https://github.com/bismuth01",
+      "created_at": "2025-07-17T08:41:34+00:00",
+      "updated_at": "2025-07-24T17:26:37+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "ahcorde",
+          "url": "https://github.com/ahcorde",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "christophebedard"
+      ],
+      "requested_reviewers": [
+        "christophebedard"
+      ],
+      "days_since_update": 224,
+      "category": "changes_requested"
+    },
+    {
+      "number": 1003,
+      "title": "Fix 'ros2 topic hz'",
+      "url": "https://github.com/ros2/ros2cli/pull/1003",
+      "repo_full_name": "ros2/ros2cli",
+      "author": "christophebedard",
+      "author_url": "https://github.com/christophebedard",
+      "created_at": "2025-04-04T20:56:28+00:00",
+      "updated_at": "2025-04-04T22:32:34+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "fujitatomoya",
+          "commenter_url": "https://github.com/fujitatomoya",
+          "comment_date": "2025-04-04T21:10:45+00:00",
+          "comment_url": "https://github.com/ros2/ros2cli/pull/1003#issuecomment-2779737446",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 15562,
+              "url": "https://ci.ros2.org/job/ci_launcher/15562/",
+              "platform": "parameters"
+            }
+          ]
+        },
+        {
+          "commenter": "christophebedard",
+          "commenter_url": "https://github.com/christophebedard",
+          "comment_date": "2025-04-04T21:11:25+00:00",
+          "comment_url": "https://github.com/ros2/ros2cli/pull/1003#issuecomment-2779738318",
+          "runs": [
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 17214,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/17214/",
+              "platform": "testReport"
+            }
+          ]
+        },
+        {
+          "commenter": "fujitatomoya",
+          "commenter_url": "https://github.com/fujitatomoya",
+          "comment_date": "2025-04-04T21:16:33+00:00",
+          "comment_url": "https://github.com/ros2/ros2cli/pull/1003#issuecomment-2779745347",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 15595,
+              "url": "https://ci.ros2.org/job/ci_launcher/15595/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 23029,
+              "url": "https://ci.ros2.org/job/ci_linux/23029/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 17257,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/17257/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 2515,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/2515/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 23906,
+              "url": "https://ci.ros2.org/job/ci_windows/23906/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "christophebedard",
+          "commenter_url": "https://github.com/christophebedard",
+          "comment_date": "2025-04-04T22:14:41+00:00",
+          "comment_url": "https://github.com/ros2/ros2cli/pull/1003#issuecomment-2779814188",
+          "runs": [
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 17257,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/17257/",
+              "platform": "testReport"
+            }
+          ]
+        }
+      ],
+      "assignees": [],
+      "requested_reviewers": [
+        "mjcarroll"
+      ],
+      "days_since_update": 335,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 583,
+      "title": "Revert \"Skip CLI tests on Windows until we resolve the blocking/hanging isuse. (#489)\"",
+      "url": "https://github.com/ros2/ros2cli/pull/583",
+      "repo_full_name": "ros2/ros2cli",
+      "author": "hidmic",
+      "author_url": "https://github.com/hidmic",
+      "created_at": "2021-01-12T22:07:14+00:00",
+      "updated_at": "2025-04-02T22:21:16+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "clalancette",
+          "url": "https://github.com/clalancette",
+          "state": "commented"
+        },
+        {
+          "name": "hidmic",
+          "url": "https://github.com/hidmic",
+          "state": "commented"
+        },
+        {
+          "name": "ivanpauno",
+          "url": "https://github.com/ivanpauno",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "hidmic",
+          "commenter_url": "https://github.com/hidmic",
+          "comment_date": "2021-01-13T13:28:44+00:00",
+          "comment_url": "https://github.com/ros2/ros2cli/pull/583#issuecomment-759448149",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 13414,
+              "url": "https://ci.ros2.org/job/ci_linux/13414/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 8334,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/8334/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_osx",
+              "build_number": 11139,
+              "url": "https://ci.ros2.org/job/ci_osx/11139/",
+              "platform": "macOS"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 13484,
+              "url": "https://ci.ros2.org/job/ci_windows/13484/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "hidmic",
+          "commenter_url": "https://github.com/hidmic",
+          "comment_date": "2021-02-18T21:43:04+00:00",
+          "comment_url": "https://github.com/ros2/ros2cli/pull/583#issuecomment-781653737",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 13699,
+              "url": "https://ci.ros2.org/job/ci_linux/13699/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 8576,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/8576/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_osx",
+              "build_number": 11415,
+              "url": "https://ci.ros2.org/job/ci_osx/11415/",
+              "platform": "macOS"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 13770,
+              "url": "https://ci.ros2.org/job/ci_windows/13770/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "hidmic"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 337,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 753,
+      "title": "Add interactive mode for message creation",
+      "url": "https://github.com/ros2/ros2cli/pull/753",
+      "repo_full_name": "ros2/ros2cli",
+      "author": "Flova",
+      "author_url": "https://github.com/Flova",
+      "created_at": "2022-09-01T14:55:02+00:00",
+      "updated_at": "2025-04-02T22:21:16+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "clalancette",
+          "url": "https://github.com/clalancette",
+          "state": "changes_requested"
+        },
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "clalancette"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 337,
+      "category": "changes_requested"
+    },
+    {
+      "number": 389,
+      "title": "[ros2param] Provide tests for ros2param verbs",
+      "url": "https://github.com/ros2/ros2cli/pull/389",
+      "repo_full_name": "ros2/ros2cli",
+      "author": "BMarchi",
+      "author_url": "https://github.com/BMarchi",
+      "created_at": "2019-10-30T14:30:27+00:00",
+      "updated_at": "2025-04-02T22:21:16+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "hidmic",
+          "url": "https://github.com/hidmic",
+          "state": "approved"
+        },
+        {
+          "name": "BMarchi",
+          "url": "https://github.com/BMarchi",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "BMarchi",
+          "commenter_url": "https://github.com/BMarchi",
+          "comment_date": "2019-11-11T19:28:27+00:00",
+          "comment_url": "https://github.com/ros2/ros2cli/pull/389#issuecomment-552580439",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 8630,
+              "url": "https://ci.ros2.org/job/ci_linux/8630/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 4479,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/4479/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 8552,
+              "url": "https://ci.ros2.org/job/ci_windows/8552/",
+              "platform": "Windows"
+            },
+            {
+              "job_name": "ci_osx",
+              "build_number": 7044,
+              "url": "https://ci.ros2.org/job/ci_osx/7044/",
+              "platform": "macOS"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "hidmic"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 337,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 390,
+      "title": "[ros2component] Add tests for ros2component",
+      "url": "https://github.com/ros2/ros2cli/pull/390",
+      "repo_full_name": "ros2/ros2cli",
+      "author": "BMarchi",
+      "author_url": "https://github.com/BMarchi",
+      "created_at": "2019-11-01T16:26:20+00:00",
+      "updated_at": "2025-04-02T22:21:16+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "hidmic",
+          "url": "https://github.com/hidmic",
+          "state": "changes_requested"
+        },
+        {
+          "name": "BMarchi",
+          "url": "https://github.com/BMarchi",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "hidmic"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 337,
+      "category": "changes_requested"
+    },
+    {
+      "number": 467,
+      "title": "Add /usr/lib/<pkg> and /usr/libexec/<pkg> to search paths",
+      "url": "https://github.com/ros2/ros2cli/pull/467",
+      "repo_full_name": "ros2/ros2cli",
+      "author": "sloretz",
+      "author_url": "https://github.com/sloretz",
+      "created_at": "2020-03-19T20:34:11+00:00",
+      "updated_at": "2025-04-02T22:21:16+00:00",
+      "labels": [
+        "enhancement"
+      ],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "dirk-thomas",
+          "url": "https://github.com/dirk-thomas",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "sloretz"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 337,
+      "category": "changes_requested"
+    },
+    {
+      "number": 727,
+      "title": "Support setting parameters atomically",
+      "url": "https://github.com/ros2/ros2cli/pull/727",
+      "repo_full_name": "ros2/ros2cli",
+      "author": "ihasdapie",
+      "author_url": "https://github.com/ihasdapie",
+      "created_at": "2022-06-23T03:52:19+00:00",
+      "updated_at": "2025-04-02T22:21:16+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "ihasdapie"
+      ],
+      "requested_reviewers": [
+        "jacobperron",
+        "deepanshubansal01",
+        "adityapande-1995"
+      ],
+      "days_since_update": 337,
+      "category": "needs_review"
+    },
+    {
+      "number": 728,
+      "title": "Set multiple parameters",
+      "url": "https://github.com/ros2/ros2cli/pull/728",
+      "repo_full_name": "ros2/ros2cli",
+      "author": "ihasdapie",
+      "author_url": "https://github.com/ihasdapie",
+      "created_at": "2022-06-23T22:03:08+00:00",
+      "updated_at": "2025-04-02T22:21:16+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "clalancette",
+          "url": "https://github.com/clalancette",
+          "state": "approved"
+        },
+        {
+          "name": "ihasdapie",
+          "url": "https://github.com/ihasdapie",
+          "state": "commented"
+        },
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "clalancette",
+          "commenter_url": "https://github.com/clalancette",
+          "comment_date": "2022-10-28T13:53:20+00:00",
+          "comment_url": "https://github.com/ros2/ros2cli/pull/728#issuecomment-1295028905",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 17553,
+              "url": "https://ci.ros2.org/job/ci_linux/17553/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 12091,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/12091/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 18120,
+              "url": "https://ci.ros2.org/job/ci_windows/18120/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "ihasdapie"
+      ],
+      "requested_reviewers": [
+        "jacobperron"
+      ],
+      "days_since_update": 337,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 762,
+      "title": "[humble] Backport. Use set_message_fields from rosidl_runtime_py",
+      "url": "https://github.com/ros2/ros2cli/pull/762",
+      "repo_full_name": "ros2/ros2cli",
+      "author": "esteve",
+      "author_url": "https://github.com/esteve",
+      "created_at": "2022-09-12T14:46:24+00:00",
+      "updated_at": "2022-10-06T12:59:46+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 1246,
+      "category": "needs_review"
+    }
+  ],
+  "stats": {
+    "full_name": "ros2/ros2cli",
+    "url": "https://github.com/ros2/ros2cli",
+    "open_pr_count": 107,
+    "open_issue_count": 0
+  }
+}

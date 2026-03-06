@@ -1,0 +1,548 @@
+{
+  "prs": [
+    {
+      "number": 561,
+      "title": "perf(rmw_cyclonedds_cpp): Add thread-local caching to rmw_serialize and rmw_deserialize",
+      "url": "https://github.com/ros2/rmw_cyclonedds/pull/561",
+      "repo_full_name": "ros2/rmw_cyclonedds",
+      "author": "mjcarroll",
+      "author_url": "https://github.com/mjcarroll",
+      "created_at": "2026-03-05T14:06:13+00:00",
+      "updated_at": "2026-03-05T18:04:12+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "biodranik",
+          "url": "https://github.com/biodranik",
+          "state": "commented"
+        },
+        {
+          "name": "mjcarroll",
+          "url": "https://github.com/mjcarroll",
+          "state": "commented"
+        },
+        {
+          "name": "MoffKalast",
+          "url": "https://github.com/MoffKalast",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 0,
+      "category": "needs_review"
+    },
+    {
+      "number": 436,
+      "title": "Detect incompatible types from incompatible QoS callbacks",
+      "url": "https://github.com/ros2/rmw_cyclonedds/pull/436",
+      "repo_full_name": "ros2/rmw_cyclonedds",
+      "author": "allenh1",
+      "author_url": "https://github.com/allenh1",
+      "created_at": "2023-02-16T19:01:55+00:00",
+      "updated_at": "2026-03-05T13:42:50+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "eboasson",
+          "url": "https://github.com/eboasson",
+          "state": "commented"
+        },
+        {
+          "name": "allenh1",
+          "url": "https://github.com/allenh1",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [
+        "ivanpauno",
+        "clalancette"
+      ],
+      "days_since_update": 0,
+      "category": "needs_review"
+    },
+    {
+      "number": 510,
+      "title": "suppress leak sanitizer for expected leak",
+      "url": "https://github.com/ros2/rmw_cyclonedds/pull/510",
+      "repo_full_name": "ros2/rmw_cyclonedds",
+      "author": "comicfans",
+      "author_url": "https://github.com/comicfans",
+      "created_at": "2024-09-04T19:54:53+00:00",
+      "updated_at": "2026-03-05T13:42:50+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "eboasson"
+      ],
+      "requested_reviewers": [
+        "eboasson",
+        "ivanpauno"
+      ],
+      "days_since_update": 0,
+      "category": "needs_review"
+    },
+    {
+      "number": 550,
+      "title": "Key support",
+      "url": "https://github.com/ros2/rmw_cyclonedds/pull/550",
+      "repo_full_name": "ros2/rmw_cyclonedds",
+      "author": "eboasson",
+      "author_url": "https://github.com/eboasson",
+      "created_at": "2026-01-06T14:27:48+00:00",
+      "updated_at": "2026-03-05T13:42:50+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "approved"
+        },
+        {
+          "name": "eboasson",
+          "url": "https://github.com/eboasson",
+          "state": "commented"
+        },
+        {
+          "name": "jmachowinski",
+          "url": "https://github.com/jmachowinski",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "eboasson",
+          "commenter_url": "https://github.com/eboasson",
+          "comment_date": "2026-01-14T13:56:55+00:00",
+          "comment_url": "https://github.com/ros2/rmw_cyclonedds/pull/550#issuecomment-3749680738",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 26903,
+              "url": "https://ci.ros2.org/job/ci_linux/26903/",
+              "platform": "console"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 26876,
+              "url": "https://ci.ros2.org/job/ci_linux/26876/",
+              "platform": "console"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 26382,
+              "url": "https://ci.ros2.org/job/ci_windows/26382/",
+              "platform": "Windows"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 26920,
+              "url": "https://ci.ros2.org/job/ci_linux/26920/",
+              "platform": "Linux"
+            }
+          ]
+        },
+        {
+          "commenter": "fujitatomoya",
+          "commenter_url": "https://github.com/fujitatomoya",
+          "comment_date": "2026-01-14T23:31:07+00:00",
+          "comment_url": "https://github.com/ros2/rmw_cyclonedds/pull/550#issuecomment-3752178537",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 26903,
+              "url": "https://ci.ros2.org/job/ci_linux/26903/",
+              "platform": "console"
+            }
+          ]
+        },
+        {
+          "commenter": "eboasson",
+          "commenter_url": "https://github.com/eboasson",
+          "comment_date": "2026-01-22T14:39:44+00:00",
+          "comment_url": "https://github.com/ros2/rmw_cyclonedds/pull/550#issuecomment-3784736527",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 27129,
+              "url": "https://ci.ros2.org/job/ci_linux/27129/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 20523,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/20523/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 6910,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/6910/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 26478,
+              "url": "https://ci.ros2.org/job/ci_windows/26478/",
+              "platform": "Windows"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 27135,
+              "url": "https://ci.ros2.org/job/ci_linux/27135/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 20528,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/20528/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 6915,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/6915/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 26483,
+              "url": "https://ci.ros2.org/job/ci_windows/26483/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "eboasson",
+          "commenter_url": "https://github.com/eboasson",
+          "comment_date": "2026-01-23T08:36:16+00:00",
+          "comment_url": "https://github.com/ros2/rmw_cyclonedds/pull/550#issuecomment-3789061448",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 27196,
+              "url": "https://ci.ros2.org/job/ci_linux/27196/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 20543,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/20543/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 6967,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/6967/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 26494,
+              "url": "https://ci.ros2.org/job/ci_windows/26494/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "eboasson",
+          "commenter_url": "https://github.com/eboasson",
+          "comment_date": "2026-01-23T17:38:22+00:00",
+          "comment_url": "https://github.com/ros2/rmw_cyclonedds/pull/550#issuecomment-3791445011",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 27202,
+              "url": "https://ci.ros2.org/job/ci_linux/27202/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 20547,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/20547/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 6973,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/6973/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 26499,
+              "url": "https://ci.ros2.org/job/ci_windows/26499/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "asymingt",
+          "commenter_url": "https://github.com/asymingt",
+          "comment_date": "2026-02-05T18:44:47+00:00",
+          "comment_url": "https://github.com/ros2/rmw_cyclonedds/pull/550#issuecomment-3855507711",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 18035,
+              "url": "https://ci.ros2.org/job/ci_launcher/18035/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 27582,
+              "url": "https://ci.ros2.org/job/ci_linux/27582/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 20653,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/20653/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 7463,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/7463/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 26610,
+              "url": "https://ci.ros2.org/job/ci_windows/26610/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "fujitatomoya",
+          "commenter_url": "https://github.com/fujitatomoya",
+          "comment_date": "2026-02-17T12:32:17+00:00",
+          "comment_url": "https://github.com/ros2/rmw_cyclonedds/pull/550#issuecomment-3914459275",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 18215,
+              "url": "https://ci.ros2.org/job/ci_launcher/18215/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 27676,
+              "url": "https://ci.ros2.org/job/ci_linux/27676/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 20732,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/20732/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 7553,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/7553/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 26695,
+              "url": "https://ci.ros2.org/job/ci_windows/26695/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "knmcguire",
+          "commenter_url": "https://github.com/knmcguire",
+          "comment_date": "2026-02-18T13:32:52+00:00",
+          "comment_url": "https://github.com/ros2/rmw_cyclonedds/pull/550#issuecomment-3920857749",
+          "runs": [
+            {
+              "job_name": "test_ci_windows",
+              "build_number": 704,
+              "url": "https://ci.ros2.org/job/test_ci_windows/704/",
+              "platform": "Windows"
+            },
+            {
+              "job_name": "test_ci_windows",
+              "build_number": 706,
+              "url": "https://ci.ros2.org/job/test_ci_windows/706/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "asymingt",
+        "fujitatomoya"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 0,
+      "category": "changes_requested"
+    },
+    {
+      "number": 433,
+      "title": "Add stub implementation for dynamic network interface notifying",
+      "url": "https://github.com/ros2/rmw_cyclonedds/pull/433",
+      "repo_full_name": "ros2/rmw_cyclonedds",
+      "author": "jakymiws",
+      "author_url": "https://github.com/jakymiws",
+      "created_at": "2023-01-23T17:19:41+00:00",
+      "updated_at": "2026-03-05T13:42:50+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [
+        "eboasson",
+        "ivanpauno"
+      ],
+      "days_since_update": 0,
+      "category": "needs_review"
+    },
+    {
+      "number": 551,
+      "title": "Avoid extra copy for serialized SHM chunks",
+      "url": "https://github.com/ros2/rmw_cyclonedds/pull/551",
+      "repo_full_name": "ros2/rmw_cyclonedds",
+      "author": "StanByriukov02",
+      "author_url": "https://github.com/StanByriukov02",
+      "created_at": "2026-02-04T12:22:38+00:00",
+      "updated_at": "2026-03-05T13:42:49+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 0,
+      "category": "needs_review"
+    },
+    {
+      "number": 555,
+      "title": "Performance improvements in serialization (backport #553)",
+      "url": "https://github.com/ros2/rmw_cyclonedds/pull/555",
+      "repo_full_name": "ros2/rmw_cyclonedds",
+      "author": "mergify[bot]",
+      "author_url": "https://github.com/apps/mergify",
+      "created_at": "2026-02-19T15:48:08+00:00",
+      "updated_at": "2026-02-26T17:45:05+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "jmachowinski",
+          "commenter_url": "https://github.com/jmachowinski",
+          "comment_date": "2026-02-19T16:20:00+00:00",
+          "comment_url": "https://github.com/ros2/rmw_cyclonedds/pull/555#issuecomment-3928309729",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 18258,
+              "url": "https://ci.ros2.org/job/ci_launcher/18258/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 27733,
+              "url": "https://ci.ros2.org/job/ci_linux/27733/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 20776,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/20776/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 7604,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/7604/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 26739,
+              "url": "https://ci.ros2.org/job/ci_windows/26739/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "jmachowinski",
+          "commenter_url": "https://github.com/jmachowinski",
+          "comment_date": "2026-02-19T16:30:43+00:00",
+          "comment_url": "https://github.com/ros2/rmw_cyclonedds/pull/555#issuecomment-3928373803",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 18261,
+              "url": "https://ci.ros2.org/job/ci_launcher/18261/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 27765,
+              "url": "https://ci.ros2.org/job/ci_linux/27765/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 20779,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/20779/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 7609,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/7609/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 26758,
+              "url": "https://ci.ros2.org/job/ci_windows/26758/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "eboasson"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 7,
+      "category": "ready_to_merge"
+    }
+  ],
+  "stats": {
+    "full_name": "ros2/rmw_cyclonedds",
+    "url": "https://github.com/ros2/rmw_cyclonedds",
+    "open_pr_count": 78,
+    "open_issue_count": 0
+  }
+}

@@ -1,0 +1,270 @@
+{
+  "prs": [
+    {
+      "number": 435,
+      "title": "Improve minimal_subscriber README with overview, message flow explanation, and usage guidance",
+      "url": "https://github.com/ros2/examples/pull/435",
+      "repo_full_name": "ros2/examples",
+      "author": "yadnyeshwar",
+      "author_url": "https://github.com/yadnyeshwar",
+      "created_at": "2026-03-04T17:37:36+00:00",
+      "updated_at": "2026-03-04T17:37:36+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 1,
+      "category": "needs_review"
+    },
+    {
+      "number": 430,
+      "title": "Add pluginlib tutorial code",
+      "url": "https://github.com/ros2/examples/pull/430",
+      "repo_full_name": "ros2/examples",
+      "author": "mini-1235",
+      "author_url": "https://github.com/mini-1235",
+      "created_at": "2025-11-06T11:35:12+00:00",
+      "updated_at": "2025-11-20T02:14:06+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "ahcorde",
+          "url": "https://github.com/ahcorde",
+          "state": "changes_requested"
+        },
+        {
+          "name": "mini-1235",
+          "url": "https://github.com/mini-1235",
+          "state": "commented"
+        },
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [
+        "ahcorde",
+        "mjcarroll"
+      ],
+      "days_since_update": 105,
+      "category": "changes_requested"
+    },
+    {
+      "number": 385,
+      "title": "Use a single executor instance for spinning in client_async_callback. (backport #382)",
+      "url": "https://github.com/ros2/examples/pull/385",
+      "repo_full_name": "ros2/examples",
+      "author": "mergify[bot]",
+      "author_url": "https://github.com/apps/mergify",
+      "created_at": "2024-05-16T20:37:22+00:00",
+      "updated_at": "2024-05-24T14:06:44+00:00",
+      "labels": [
+        "conflicts"
+      ],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "clalancette"
+      ],
+      "requested_reviewers": [
+        "adityapande-1995",
+        "ahcorde"
+      ],
+      "days_since_update": 650,
+      "category": "needs_review"
+    },
+    {
+      "number": 377,
+      "title": "Switching to examples_interfaces",
+      "url": "https://github.com/ros2/examples/pull/377",
+      "repo_full_name": "ros2/examples",
+      "author": "CursedRock17",
+      "author_url": "https://github.com/CursedRock17",
+      "created_at": "2024-04-30T00:00:55+00:00",
+      "updated_at": "2024-05-16T13:22:40+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "ahcorde",
+          "url": "https://github.com/ahcorde",
+          "state": "approved"
+        },
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "ahcorde",
+          "commenter_url": "https://github.com/ahcorde",
+          "comment_date": "2024-04-30T08:43:15+00:00",
+          "comment_url": "https://github.com/ros2/examples/pull/377#issuecomment-2084733177",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 20965,
+              "url": "https://ci.ros2.org/job/ci_linux/20965/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 15264,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/15264/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 21644,
+              "url": "https://ci.ros2.org/job/ci_windows/21644/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "CursedRock17",
+          "commenter_url": "https://github.com/CursedRock17",
+          "comment_date": "2024-04-30T20:09:51+00:00",
+          "comment_url": "https://github.com/ros2/examples/pull/377#issuecomment-2087029134",
+          "runs": [
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 14853,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/14853/",
+              "platform": "testReport"
+            }
+          ]
+        },
+        {
+          "commenter": "ahcorde",
+          "commenter_url": "https://github.com/ahcorde",
+          "comment_date": "2024-05-08T08:56:10+00:00",
+          "comment_url": "https://github.com/ros2/examples/pull/377#issuecomment-2100091855",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 21017,
+              "url": "https://ci.ros2.org/job/ci_linux/21017/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 15320,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/15320/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 21707,
+              "url": "https://ci.ros2.org/job/ci_windows/21707/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [],
+      "requested_reviewers": [
+        "adityapande-1995"
+      ],
+      "days_since_update": 658,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 317,
+      "title": "Update services examples",
+      "url": "https://github.com/ros2/examples/pull/317",
+      "repo_full_name": "ros2/examples",
+      "author": "threeal",
+      "author_url": "https://github.com/threeal",
+      "created_at": "2021-07-03T14:46:04+00:00",
+      "updated_at": "2024-01-02T19:35:50+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "ralph-lange",
+          "url": "https://github.com/ralph-lange",
+          "state": "changes_requested"
+        },
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "adityapande-1995"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 793,
+      "category": "changes_requested"
+    },
+    {
+      "number": 362,
+      "title": "Add test package for single and multi thread",
+      "url": "https://github.com/ros2/examples/pull/362",
+      "repo_full_name": "ros2/examples",
+      "author": "icsl-Jeon",
+      "author_url": "https://github.com/icsl-Jeon",
+      "created_at": "2023-05-20T14:16:38+00:00",
+      "updated_at": "2023-07-20T19:06:51+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "clalancette",
+          "url": "https://github.com/clalancette",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 959,
+      "category": "changes_requested"
+    },
+    {
+      "number": 336,
+      "title": "[rclcpp action example] Added new action package: random_generator ",
+      "url": "https://github.com/ros2/examples/pull/336",
+      "repo_full_name": "ros2/examples",
+      "author": "Tirine",
+      "author_url": "https://github.com/Tirine",
+      "created_at": "2022-01-29T14:33:55+00:00",
+      "updated_at": "2022-06-28T14:18:41+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "adityapande-1995"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 1346,
+      "category": "needs_review"
+    }
+  ],
+  "stats": {
+    "full_name": "ros2/examples",
+    "url": "https://github.com/ros2/examples",
+    "open_pr_count": 23,
+    "open_issue_count": 0
+  }
+}

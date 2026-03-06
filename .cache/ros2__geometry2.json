@@ -1,0 +1,654 @@
+{
+  "prs": [
+    {
+      "number": 896,
+      "title": "Fix misleading extrapolation time in buffer_core (#832)",
+      "url": "https://github.com/ros2/geometry2/pull/896",
+      "repo_full_name": "ros2/geometry2",
+      "author": "selimrecep",
+      "author_url": "https://github.com/selimrecep",
+      "created_at": "2026-02-23T16:53:51+00:00",
+      "updated_at": "2026-02-24T03:39:49+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "polortiz4",
+          "url": "https://github.com/polortiz4",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [
+        "tfoote"
+      ],
+      "days_since_update": 9,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 574,
+      "title": "Buffer server service",
+      "url": "https://github.com/ros2/geometry2/pull/574",
+      "repo_full_name": "ros2/geometry2",
+      "author": "tonynajjar",
+      "author_url": "https://github.com/tonynajjar",
+      "created_at": "2022-12-12T09:37:41+00:00",
+      "updated_at": "2025-12-18T18:53:40+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "tonynajjar",
+          "url": "https://github.com/tonynajjar",
+          "state": "commented"
+        },
+        {
+          "name": "clalancette",
+          "url": "https://github.com/clalancette",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "mjcarroll"
+      ],
+      "requested_reviewers": [
+        "ahcorde"
+      ],
+      "days_since_update": 77,
+      "category": "changes_requested"
+    },
+    {
+      "number": 697,
+      "title": "transform polygone: Do not clear poly_in before transforming points",
+      "url": "https://github.com/ros2/geometry2/pull/697",
+      "repo_full_name": "ros2/geometry2",
+      "author": "Fellfalla",
+      "author_url": "https://github.com/Fellfalla",
+      "created_at": "2024-06-19T06:00:15+00:00",
+      "updated_at": "2025-08-22T05:12:18+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "ahcorde",
+          "url": "https://github.com/ahcorde",
+          "state": "changes_requested"
+        },
+        {
+          "name": "CursedRock17",
+          "url": "https://github.com/CursedRock17",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [
+        "clalancette"
+      ],
+      "days_since_update": 195,
+      "category": "changes_requested"
+    },
+    {
+      "number": 811,
+      "title": "Fix numerical precision issues in quaternion to RPY conversion",
+      "url": "https://github.com/ros2/geometry2/pull/811",
+      "repo_full_name": "ros2/geometry2",
+      "author": "roman-y-wu",
+      "author_url": "https://github.com/roman-y-wu",
+      "created_at": "2025-07-25T01:13:13+00:00",
+      "updated_at": "2025-08-19T09:37:03+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "ahcorde",
+          "url": "https://github.com/ahcorde",
+          "state": "changes_requested"
+        },
+        {
+          "name": "mjcarroll",
+          "url": "https://github.com/mjcarroll",
+          "state": "changes_requested"
+        },
+        {
+          "name": "roman-y-wu",
+          "url": "https://github.com/roman-y-wu",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "ahcorde",
+          "commenter_url": "https://github.com/ahcorde",
+          "comment_date": "2025-08-18T10:33:02+00:00",
+          "comment_url": "https://github.com/ros2/geometry2/pull/811#issuecomment-3196102991",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 16733,
+              "url": "https://ci.ros2.org/job/ci_launcher/16733/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 24612,
+              "url": "https://ci.ros2.org/job/ci_linux/24612/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 18658,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/18658/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 4069,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/4069/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 25156,
+              "url": "https://ci.ros2.org/job/ci_windows/25156/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "mjcarroll"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 198,
+      "category": "changes_requested"
+    },
+    {
+      "number": 545,
+      "title": "Enable TFListener to get Authority",
+      "url": "https://github.com/ros2/geometry2/pull/545",
+      "repo_full_name": "ros2/geometry2",
+      "author": "sloretz",
+      "author_url": "https://github.com/sloretz",
+      "created_at": "2022-07-25T22:21:30+00:00",
+      "updated_at": "2025-06-20T20:14:37+00:00",
+      "labels": [
+        "enhancement"
+      ],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "clalancette",
+          "url": "https://github.com/clalancette",
+          "state": "changes_requested"
+        },
+        {
+          "name": "roncapat",
+          "url": "https://github.com/roncapat",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "sloretz",
+          "commenter_url": "https://github.com/sloretz",
+          "comment_date": "2022-07-25T22:36:26+00:00",
+          "comment_url": "https://github.com/ros2/geometry2/pull/545#issuecomment-1194723848",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 17020,
+              "url": "https://ci.ros2.org/job/ci_linux/17020/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 11580,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/11580/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 17437,
+              "url": "https://ci.ros2.org/job/ci_windows/17437/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "sloretz"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 258,
+      "category": "changes_requested"
+    },
+    {
+      "number": 728,
+      "title": "Add Tf2 versions of lookupTransform, lookupVelocity, setTransform",
+      "url": "https://github.com/ros2/geometry2/pull/728",
+      "repo_full_name": "ros2/geometry2",
+      "author": "kyle-basis",
+      "author_url": "https://github.com/kyle-basis",
+      "created_at": "2024-11-12T07:53:40+00:00",
+      "updated_at": "2025-04-25T15:04:10+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "ahcorde",
+          "url": "https://github.com/ahcorde",
+          "state": "changes_requested"
+        },
+        {
+          "name": "kyle-basis",
+          "url": "https://github.com/kyle-basis",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "ahcorde"
+      ],
+      "requested_reviewers": [
+        "clalancette",
+        "tfoote"
+      ],
+      "days_since_update": 314,
+      "category": "changes_requested"
+    },
+    {
+      "number": 518,
+      "title": "Added additional flag to fix race condition in TransformListener",
+      "url": "https://github.com/ros2/geometry2/pull/518",
+      "repo_full_name": "ros2/geometry2",
+      "author": "zygfrydw",
+      "author_url": "https://github.com/zygfrydw",
+      "created_at": "2022-04-14T13:27:42+00:00",
+      "updated_at": "2024-10-23T12:29:57+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "clalancette"
+      ],
+      "requested_reviewers": [
+        "clalancette"
+      ],
+      "days_since_update": 498,
+      "category": "needs_review"
+    },
+    {
+      "number": 672,
+      "title": "Improved Accuracy with RCUTILS",
+      "url": "https://github.com/ros2/geometry2/pull/672",
+      "repo_full_name": "ros2/geometry2",
+      "author": "CursedRock17",
+      "author_url": "https://github.com/CursedRock17",
+      "created_at": "2024-04-23T03:11:58+00:00",
+      "updated_at": "2024-08-19T16:14:10+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "ahcorde",
+          "url": "https://github.com/ahcorde",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "ahcorde"
+      ],
+      "requested_reviewers": [
+        "clalancette"
+      ],
+      "days_since_update": 563,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 665,
+      "title": "Split tf2_kdl and Port Python Functionality",
+      "url": "https://github.com/ros2/geometry2/pull/665",
+      "repo_full_name": "ros2/geometry2",
+      "author": "CursedRock17",
+      "author_url": "https://github.com/CursedRock17",
+      "created_at": "2024-04-01T23:06:46+00:00",
+      "updated_at": "2024-08-12T09:10:55+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "ahcorde",
+          "url": "https://github.com/ahcorde",
+          "state": "changes_requested"
+        },
+        {
+          "name": "clalancette",
+          "url": "https://github.com/clalancette",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "ahcorde",
+          "commenter_url": "https://github.com/ahcorde",
+          "comment_date": "2024-04-04T07:52:25+00:00",
+          "comment_url": "https://github.com/ros2/geometry2/pull/665#issuecomment-2036441064",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 20735,
+              "url": "https://ci.ros2.org/job/ci_linux/20735/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 15037,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/15037/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 21414,
+              "url": "https://ci.ros2.org/job/ci_windows/21414/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "ahcorde",
+          "commenter_url": "https://github.com/ahcorde",
+          "comment_date": "2024-04-05T07:50:08+00:00",
+          "comment_url": "https://github.com/ros2/geometry2/pull/665#issuecomment-2039174347",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 20755,
+              "url": "https://ci.ros2.org/job/ci_linux/20755/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 15054,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/15054/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 21434,
+              "url": "https://ci.ros2.org/job/ci_windows/21434/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "clalancette",
+          "commenter_url": "https://github.com/clalancette",
+          "comment_date": "2024-04-10T11:42:51+00:00",
+          "comment_url": "https://github.com/ros2/geometry2/pull/665#issuecomment-2047307560",
+          "runs": [
+            {
+              "job_name": "ci_windows",
+              "build_number": 21434,
+              "url": "https://ci.ros2.org/job/ci_windows/21434/",
+              "platform": "consoleFull"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "ahcorde"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 570,
+      "category": "changes_requested"
+    },
+    {
+      "number": 670,
+      "title": "Restoring tf2_eigen Tests",
+      "url": "https://github.com/ros2/geometry2/pull/670",
+      "repo_full_name": "ros2/geometry2",
+      "author": "CursedRock17",
+      "author_url": "https://github.com/CursedRock17",
+      "created_at": "2024-04-07T03:58:36+00:00",
+      "updated_at": "2024-04-14T03:41:23+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "clalancette",
+          "url": "https://github.com/clalancette",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "ahcorde",
+          "commenter_url": "https://github.com/ahcorde",
+          "comment_date": "2024-04-09T17:00:46+00:00",
+          "comment_url": "https://github.com/ros2/geometry2/pull/670#issuecomment-2045674407",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 20802,
+              "url": "https://ci.ros2.org/job/ci_linux/20802/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 15105,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/15105/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 21479,
+              "url": "https://ci.ros2.org/job/ci_windows/21479/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [],
+      "requested_reviewers": [
+        "ahcorde"
+      ],
+      "days_since_update": 690,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 491,
+      "title": "[tf2] Output canTransform msg only on state change",
+      "url": "https://github.com/ros2/geometry2/pull/491",
+      "repo_full_name": "ros2/geometry2",
+      "author": "aprotyas",
+      "author_url": "https://github.com/aprotyas",
+      "created_at": "2021-12-27T20:02:31+00:00",
+      "updated_at": "2024-02-22T20:21:17+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "emersonknapp",
+          "url": "https://github.com/emersonknapp",
+          "state": "approved"
+        },
+        {
+          "name": "tfoote",
+          "url": "https://github.com/tfoote",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "emersonknapp",
+          "commenter_url": "https://github.com/emersonknapp",
+          "comment_date": "2022-12-06T22:19:33+00:00",
+          "comment_url": "https://github.com/ros2/geometry2/pull/491#issuecomment-1340084688",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 11230,
+              "url": "https://ci.ros2.org/job/ci_launcher/11230/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 17766,
+              "url": "https://ci.ros2.org/job/ci_linux/17766/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 12309,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/12309/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 18411,
+              "url": "https://ci.ros2.org/job/ci_windows/18411/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "clalancette"
+      ],
+      "requested_reviewers": [
+        "clalancette"
+      ],
+      "days_since_update": 742,
+      "category": "changes_requested"
+    },
+    {
+      "number": 573,
+      "title": "Fix growing CPU usage caused by buffer server",
+      "url": "https://github.com/ros2/geometry2/pull/573",
+      "repo_full_name": "ros2/geometry2",
+      "author": "tonynajjar",
+      "author_url": "https://github.com/tonynajjar",
+      "created_at": "2022-12-09T10:55:22+00:00",
+      "updated_at": "2023-11-13T12:13:55+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "clalancette",
+          "url": "https://github.com/clalancette",
+          "state": "changes_requested"
+        },
+        {
+          "name": "tfoote",
+          "url": "https://github.com/tfoote",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [
+        "ahcorde",
+        "clalancette"
+      ],
+      "days_since_update": 843,
+      "category": "changes_requested"
+    },
+    {
+      "number": 427,
+      "title": "New approach for toMsg()/fromMsg()",
+      "url": "https://github.com/ros2/geometry2/pull/427",
+      "repo_full_name": "ros2/geometry2",
+      "author": "gleichdick",
+      "author_url": "https://github.com/gleichdick",
+      "created_at": "2021-05-26T19:49:04+00:00",
+      "updated_at": "2023-09-22T08:39:12+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "ahcorde",
+          "url": "https://github.com/ahcorde",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "clalancette"
+      ],
+      "requested_reviewers": [
+        "clalancette",
+        "methylDragon"
+      ],
+      "days_since_update": 895,
+      "category": "changes_requested"
+    },
+    {
+      "number": 544,
+      "title": "Prevent tf message filter from preempting the oldest message while it is waiting for transforms.",
+      "url": "https://github.com/ros2/geometry2/pull/544",
+      "repo_full_name": "ros2/geometry2",
+      "author": "malban",
+      "author_url": "https://github.com/malban",
+      "created_at": "2022-07-21T21:37:00+00:00",
+      "updated_at": "2022-08-04T13:16:05+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "clalancette"
+      ],
+      "requested_reviewers": [
+        "clalancette"
+      ],
+      "days_since_update": 1309,
+      "category": "needs_review"
+    },
+    {
+      "number": 434,
+      "title": "Fix tf2_eigen for MSVC",
+      "url": "https://github.com/ros2/geometry2/pull/434",
+      "repo_full_name": "ros2/geometry2",
+      "author": "Ace314159",
+      "author_url": "https://github.com/Ace314159",
+      "created_at": "2021-06-26T07:38:11+00:00",
+      "updated_at": "2022-06-28T14:19:02+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "clalancette"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 1346,
+      "category": "needs_review"
+    }
+  ],
+  "stats": {
+    "full_name": "ros2/geometry2",
+    "url": "https://github.com/ros2/geometry2",
+    "open_pr_count": 87,
+    "open_issue_count": 0
+  }
+}

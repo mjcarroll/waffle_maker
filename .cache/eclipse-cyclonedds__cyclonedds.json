@@ -1,0 +1,673 @@
+{
+  "prs": [
+    {
+      "number": 2353,
+      "title": "Update OSPL references to CycloneDDS in options.md",
+      "url": "https://github.com/eclipse-cyclonedds/cyclonedds/pull/2353",
+      "repo_full_name": "eclipse-cyclonedds/cyclonedds",
+      "author": "RamziKaroui",
+      "author_url": "https://github.com/RamziKaroui",
+      "created_at": "2026-02-24T15:03:32+00:00",
+      "updated_at": "2026-03-03T14:11:45+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "eboasson",
+          "url": "https://github.com/eboasson",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 2,
+      "category": "needs_review"
+    },
+    {
+      "number": 2330,
+      "title": "align `serdata` within a context only",
+      "url": "https://github.com/eclipse-cyclonedds/cyclonedds/pull/2330",
+      "repo_full_name": "eclipse-cyclonedds/cyclonedds",
+      "author": "Splinter1984",
+      "author_url": "https://github.com/Splinter1984",
+      "created_at": "2025-12-11T15:39:45+00:00",
+      "updated_at": "2025-12-19T12:27:35+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 76,
+      "category": "needs_review"
+    },
+    {
+      "number": 2332,
+      "title": "Flakeify",
+      "url": "https://github.com/eclipse-cyclonedds/cyclonedds/pull/2332",
+      "repo_full_name": "eclipse-cyclonedds/cyclonedds",
+      "author": "treychariot",
+      "author_url": "https://github.com/treychariot",
+      "created_at": "2025-12-17T02:30:19+00:00",
+      "updated_at": "2025-12-17T02:30:19+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 78,
+      "category": "needs_review"
+    },
+    {
+      "number": 2303,
+      "title": "dds content filtered topic",
+      "url": "https://github.com/eclipse-cyclonedds/cyclonedds/pull/2303",
+      "repo_full_name": "eclipse-cyclonedds/cyclonedds",
+      "author": "Splinter1984",
+      "author_url": "https://github.com/Splinter1984",
+      "created_at": "2025-10-15T12:17:40+00:00",
+      "updated_at": "2025-11-25T14:32:06+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 100,
+      "category": "needs_review"
+    },
+    {
+      "number": 2298,
+      "title": "feat: improved library build system when building as third party",
+      "url": "https://github.com/eclipse-cyclonedds/cyclonedds/pull/2298",
+      "repo_full_name": "eclipse-cyclonedds/cyclonedds",
+      "author": "Davide-1998",
+      "author_url": "https://github.com/Davide-1998",
+      "created_at": "2025-10-01T08:06:36+00:00",
+      "updated_at": "2025-11-24T15:45:49+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "eboasson",
+          "url": "https://github.com/eboasson",
+          "state": "commented"
+        },
+        {
+          "name": "Davide-1998",
+          "url": "https://github.com/Davide-1998",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 101,
+      "category": "needs_review"
+    },
+    {
+      "number": 1696,
+      "title": "Use full version in shared objects",
+      "url": "https://github.com/eclipse-cyclonedds/cyclonedds/pull/1696",
+      "repo_full_name": "eclipse-cyclonedds/cyclonedds",
+      "author": "eboasson",
+      "author_url": "https://github.com/eboasson",
+      "created_at": "2023-05-22T12:05:16+00:00",
+      "updated_at": "2025-10-29T07:43:55+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 127,
+      "category": "needs_review"
+    },
+    {
+      "number": 2250,
+      "title": "fix typos",
+      "url": "https://github.com/eclipse-cyclonedds/cyclonedds/pull/2250",
+      "repo_full_name": "eclipse-cyclonedds/cyclonedds",
+      "author": "poetinger",
+      "author_url": "https://github.com/poetinger",
+      "created_at": "2025-07-23T09:12:28+00:00",
+      "updated_at": "2025-10-08T11:25:33+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "dpotman",
+          "url": "https://github.com/dpotman",
+          "state": "approved"
+        },
+        {
+          "name": "eboasson",
+          "url": "https://github.com/eboasson",
+          "state": "commented"
+        },
+        {
+          "name": "poetinger",
+          "url": "https://github.com/poetinger",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [
+        "eboasson"
+      ],
+      "days_since_update": 148,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 2299,
+      "title": "Fix subtle concurrency bugs in ddsrt_init(), ddsrt_fini()",
+      "url": "https://github.com/eclipse-cyclonedds/cyclonedds/pull/2299",
+      "repo_full_name": "eclipse-cyclonedds/cyclonedds",
+      "author": "mvandenhoek",
+      "author_url": "https://github.com/mvandenhoek",
+      "created_at": "2025-10-03T08:50:46+00:00",
+      "updated_at": "2025-10-03T10:21:31+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 153,
+      "category": "needs_review"
+    },
+    {
+      "number": 2244,
+      "title": "Macos rpath fix",
+      "url": "https://github.com/eclipse-cyclonedds/cyclonedds/pull/2244",
+      "repo_full_name": "eclipse-cyclonedds/cyclonedds",
+      "author": "artcore-c",
+      "author_url": "https://github.com/artcore-c",
+      "created_at": "2025-07-07T01:36:03+00:00",
+      "updated_at": "2025-07-07T04:20:19+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 241,
+      "category": "needs_review"
+    },
+    {
+      "number": 2174,
+      "title": "add android build to ci",
+      "url": "https://github.com/eclipse-cyclonedds/cyclonedds/pull/2174",
+      "repo_full_name": "eclipse-cyclonedds/cyclonedds",
+      "author": "trittsv",
+      "author_url": "https://github.com/trittsv",
+      "created_at": "2025-02-13T19:07:15+00:00",
+      "updated_at": "2025-02-19T08:10:54+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 379,
+      "category": "needs_review"
+    },
+    {
+      "number": 2132,
+      "title": "feature/implement-PID_PRODUCT_VERSION",
+      "url": "https://github.com/eclipse-cyclonedds/cyclonedds/pull/2132",
+      "repo_full_name": "eclipse-cyclonedds/cyclonedds",
+      "author": "trittsv",
+      "author_url": "https://github.com/trittsv",
+      "created_at": "2024-11-08T22:35:12+00:00",
+      "updated_at": "2024-11-19T11:57:46+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "eboasson",
+          "url": "https://github.com/eboasson",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 471,
+      "category": "needs_review"
+    },
+    {
+      "number": 1484,
+      "title": "Expose seqnum via sampleinfo",
+      "url": "https://github.com/eclipse-cyclonedds/cyclonedds/pull/1484",
+      "repo_full_name": "eclipse-cyclonedds/cyclonedds",
+      "author": "TheFixer",
+      "author_url": "https://github.com/TheFixer",
+      "created_at": "2022-11-18T13:16:56+00:00",
+      "updated_at": "2024-09-02T23:36:31+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 549,
+      "category": "needs_review"
+    },
+    {
+      "number": 2030,
+      "title": "Add onlyForTopics and forbiddenTopics config options to enable/disables PSMXes on a topic-by-topic basis",
+      "url": "https://github.com/eclipse-cyclonedds/cyclonedds/pull/2030",
+      "repo_full_name": "eclipse-cyclonedds/cyclonedds",
+      "author": "tobiasstarkwayve",
+      "author_url": "https://github.com/tobiasstarkwayve",
+      "created_at": "2024-06-10T15:47:42+00:00",
+      "updated_at": "2024-06-19T15:11:56+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "eboasson",
+          "url": "https://github.com/eboasson",
+          "state": "commented"
+        },
+        {
+          "name": "tobiasstarkwayve",
+          "url": "https://github.com/tobiasstarkwayve",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 624,
+      "category": "needs_review"
+    },
+    {
+      "number": 1877,
+      "title": "Introduce `ddsrt_abort` and `ddsrt_exit`",
+      "url": "https://github.com/eclipse-cyclonedds/cyclonedds/pull/1877",
+      "repo_full_name": "eclipse-cyclonedds/cyclonedds",
+      "author": "poetinger",
+      "author_url": "https://github.com/poetinger",
+      "created_at": "2023-11-13T15:10:35+00:00",
+      "updated_at": "2024-04-22T13:04:22+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "eboasson",
+          "url": "https://github.com/eboasson",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [
+        "eboasson"
+      ],
+      "days_since_update": 682,
+      "category": "changes_requested"
+    },
+    {
+      "number": 1824,
+      "title": "Return the actual default partition in dds_qget_partition() whenever possible",
+      "url": "https://github.com/eclipse-cyclonedds/cyclonedds/pull/1824",
+      "repo_full_name": "eclipse-cyclonedds/cyclonedds",
+      "author": "TheFixer",
+      "author_url": "https://github.com/TheFixer",
+      "created_at": "2023-09-07T08:07:07+00:00",
+      "updated_at": "2024-03-22T10:21:24+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "eboasson",
+          "url": "https://github.com/eboasson",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 713,
+      "category": "needs_review"
+    },
+    {
+      "number": 1929,
+      "title": "provide setting of socket recv buffer size on raw ethernet sockets",
+      "url": "https://github.com/eclipse-cyclonedds/cyclonedds/pull/1929",
+      "repo_full_name": "eclipse-cyclonedds/cyclonedds",
+      "author": "MarcelJordense",
+      "author_url": "https://github.com/MarcelJordense",
+      "created_at": "2024-02-02T08:46:48+00:00",
+      "updated_at": "2024-02-02T08:46:48+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 762,
+      "category": "needs_review"
+    },
+    {
+      "number": 1845,
+      "title": "add option to ddsperf to read parameters from a file in json format",
+      "url": "https://github.com/eclipse-cyclonedds/cyclonedds/pull/1845",
+      "repo_full_name": "eclipse-cyclonedds/cyclonedds",
+      "author": "MarcelJordense",
+      "author_url": "https://github.com/MarcelJordense",
+      "created_at": "2023-09-29T11:30:41+00:00",
+      "updated_at": "2023-12-13T10:31:28+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "github-advanced-security[bot]",
+          "url": "https://github.com/apps/github-advanced-security",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 813,
+      "category": "needs_review"
+    },
+    {
+      "number": 1683,
+      "title": "random.h: add doxygen comments",
+      "url": "https://github.com/eclipse-cyclonedds/cyclonedds/pull/1683",
+      "repo_full_name": "eclipse-cyclonedds/cyclonedds",
+      "author": "mvandenhoek",
+      "author_url": "https://github.com/mvandenhoek",
+      "created_at": "2023-05-04T15:32:05+00:00",
+      "updated_at": "2023-07-13T15:45:08+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "eboasson",
+          "url": "https://github.com/eboasson",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 966,
+      "category": "needs_review"
+    },
+    {
+      "number": 1688,
+      "title": "issue 1682: fibheap.c: add assert to detect decrease_key on node outs\u2026",
+      "url": "https://github.com/eclipse-cyclonedds/cyclonedds/pull/1688",
+      "repo_full_name": "eclipse-cyclonedds/cyclonedds",
+      "author": "mvandenhoek",
+      "author_url": "https://github.com/mvandenhoek",
+      "created_at": "2023-05-08T12:05:38+00:00",
+      "updated_at": "2023-05-08T12:05:38+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 1032,
+      "category": "needs_review"
+    },
+    {
+      "number": 1564,
+      "title": "Add BUILD_IDLC_ONLY option to only build the IDL preprocessor",
+      "url": "https://github.com/eclipse-cyclonedds/cyclonedds/pull/1564",
+      "repo_full_name": "eclipse-cyclonedds/cyclonedds",
+      "author": "PetervdPerk-NXP",
+      "author_url": "https://github.com/PetervdPerk-NXP",
+      "created_at": "2023-02-09T07:59:52+00:00",
+      "updated_at": "2023-03-07T13:19:39+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "eboasson",
+          "url": "https://github.com/eboasson",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 1094,
+      "category": "needs_review"
+    },
+    {
+      "number": 1553,
+      "title": "Reorganising the About Cyclone DDS pages",
+      "url": "https://github.com/eclipse-cyclonedds/cyclonedds/pull/1553",
+      "repo_full_name": "eclipse-cyclonedds/cyclonedds",
+      "author": "PeterCadogan",
+      "author_url": "https://github.com/PeterCadogan",
+      "created_at": "2023-02-01T15:38:44+00:00",
+      "updated_at": "2023-02-03T10:15:08+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 1126,
+      "category": "needs_review"
+    },
+    {
+      "number": 1516,
+      "title": "Fix ShmThroughput demo help and documentation",
+      "url": "https://github.com/eclipse-cyclonedds/cyclonedds/pull/1516",
+      "repo_full_name": "eclipse-cyclonedds/cyclonedds",
+      "author": "JakubSosnovec",
+      "author_url": "https://github.com/JakubSosnovec",
+      "created_at": "2022-12-09T14:13:23+00:00",
+      "updated_at": "2022-12-09T14:13:23+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 1182,
+      "category": "needs_review"
+    },
+    {
+      "number": 1478,
+      "title": "Coverity fix",
+      "url": "https://github.com/eclipse-cyclonedds/cyclonedds/pull/1478",
+      "repo_full_name": "eclipse-cyclonedds/cyclonedds",
+      "author": "reicheratwork",
+      "author_url": "https://github.com/reicheratwork",
+      "created_at": "2022-11-11T12:40:08+00:00",
+      "updated_at": "2022-11-11T12:40:08+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 1210,
+      "category": "needs_review"
+    },
+    {
+      "number": 583,
+      "title": "Write thoughput data of ddsperf to csv file specified on command line via -f option",
+      "url": "https://github.com/eclipse-cyclonedds/cyclonedds/pull/583",
+      "repo_full_name": "eclipse-cyclonedds/cyclonedds",
+      "author": "BartP6703",
+      "author_url": "https://github.com/BartP6703",
+      "created_at": "2020-08-27T12:32:51+00:00",
+      "updated_at": "2022-08-11T14:08:34+00:00",
+      "labels": [
+        "needs-triage"
+      ],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "eboasson",
+          "url": "https://github.com/eboasson",
+          "state": "commented"
+        },
+        {
+          "name": "BartP6703",
+          "url": "https://github.com/BartP6703",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 1302,
+      "category": "needs_review"
+    },
+    {
+      "number": 295,
+      "title": "Added FreeRTOS/LwIP simulator target",
+      "url": "https://github.com/eclipse-cyclonedds/cyclonedds/pull/295",
+      "repo_full_name": "eclipse-cyclonedds/cyclonedds",
+      "author": "BartP6703",
+      "author_url": "https://github.com/BartP6703",
+      "created_at": "2019-10-24T07:38:36+00:00",
+      "updated_at": "2022-06-15T14:06:54+00:00",
+      "labels": [
+        "needs-triage"
+      ],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "eboasson",
+          "url": "https://github.com/eboasson",
+          "state": "commented"
+        },
+        {
+          "name": "k0ekk0ek",
+          "url": "https://github.com/k0ekk0ek",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 1359,
+      "category": "needs_review"
+    },
+    {
+      "number": 530,
+      "title": "Entity enable",
+      "url": "https://github.com/eclipse-cyclonedds/cyclonedds/pull/530",
+      "repo_full_name": "eclipse-cyclonedds/cyclonedds",
+      "author": "TheFixer",
+      "author_url": "https://github.com/TheFixer",
+      "created_at": "2020-05-29T19:42:56+00:00",
+      "updated_at": "2022-06-15T14:04:05+00:00",
+      "labels": [
+        "needs-triage"
+      ],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "eboasson",
+          "url": "https://github.com/eboasson",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "TheFixer"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 1359,
+      "category": "needs_review"
+    },
+    {
+      "number": 1173,
+      "title": "Optimize read/take path with SHM when waitset is not used for the data notification",
+      "url": "https://github.com/eclipse-cyclonedds/cyclonedds/pull/1173",
+      "repo_full_name": "eclipse-cyclonedds/cyclonedds",
+      "author": "sumanth-nirmal",
+      "author_url": "https://github.com/sumanth-nirmal",
+      "created_at": "2022-03-02T17:44:44+00:00",
+      "updated_at": "2022-03-24T13:14:31+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "MatthiasKillat",
+          "url": "https://github.com/MatthiasKillat",
+          "state": "commented"
+        },
+        {
+          "name": "sumanth-nirmal",
+          "url": "https://github.com/sumanth-nirmal",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 1442,
+      "category": "needs_review"
+    },
+    {
+      "number": 403,
+      "title": "Add config options to decrease ACK rates",
+      "url": "https://github.com/eclipse-cyclonedds/cyclonedds/pull/403",
+      "repo_full_name": "eclipse-cyclonedds/cyclonedds",
+      "author": "trickapm",
+      "author_url": "https://github.com/trickapm",
+      "created_at": "2020-02-19T18:15:00+00:00",
+      "updated_at": "2020-06-15T22:27:42+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 2089,
+      "category": "needs_review"
+    }
+  ],
+  "stats": {
+    "full_name": "eclipse-cyclonedds/cyclonedds",
+    "url": "https://github.com/eclipse-cyclonedds/cyclonedds",
+    "open_pr_count": 303,
+    "open_issue_count": 0
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "prs": [
+    {
+      "number": 915,
+      "title": "Catch `PackageNotFoundError` during default config uri loading to prevent crash",
+      "url": "https://github.com/ros2/rmw_zenoh/pull/915",
+      "repo_full_name": "ros2/rmw_zenoh",
+      "author": "Nibanovic",
+      "author_url": "https://github.com/Nibanovic",
+      "created_at": "2026-02-27T15:45:30+00:00",
+      "updated_at": "2026-03-02T08:22:02+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "ahcorde",
+          "url": "https://github.com/ahcorde",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "ahcorde",
+          "commenter_url": "https://github.com/ahcorde",
+          "comment_date": "2026-02-27T16:06:07+00:00",
+          "comment_url": "https://github.com/ros2/rmw_zenoh/pull/915#issuecomment-3973750918",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 18335,
+              "url": "https://ci.ros2.org/job/ci_launcher/18335/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 27842,
+              "url": "https://ci.ros2.org/job/ci_linux/27842/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 20854,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/20854/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 7705,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/7705/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 26823,
+              "url": "https://ci.ros2.org/job/ci_windows/26823/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "ahcorde",
+          "commenter_url": "https://github.com/ahcorde",
+          "comment_date": "2026-02-27T22:15:58+00:00",
+          "comment_url": "https://github.com/ros2/rmw_zenoh/pull/915#issuecomment-3975401294",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 27847,
+              "url": "https://ci.ros2.org/job/ci_linux/27847/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 20858,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/20858/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 7709,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/7709/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 26827,
+              "url": "https://ci.ros2.org/job/ci_windows/26827/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 3,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 889,
+      "title": "Update documentation for Zenoh timestamping configuration",
+      "url": "https://github.com/ros2/rmw_zenoh/pull/889",
+      "repo_full_name": "ros2/rmw_zenoh",
+      "author": "jordanburklund",
+      "author_url": "https://github.com/jordanburklund",
+      "created_at": "2026-01-08T16:20:24+00:00",
+      "updated_at": "2026-01-15T18:06:42+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "jordanburklund",
+          "url": "https://github.com/jordanburklund",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "YuanYuYuan"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 49,
+      "category": "needs_review"
+    },
+    {
+      "number": 880,
+      "title": "fix: add dependence version of zenoh-cpp-vendor",
+      "url": "https://github.com/ros2/rmw_zenoh/pull/880",
+      "repo_full_name": "ros2/rmw_zenoh",
+      "author": "YuanYuYuan",
+      "author_url": "https://github.com/YuanYuYuan",
+      "created_at": "2025-12-18T15:59:41+00:00",
+      "updated_at": "2026-01-08T18:12:49+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "YuanYuYuan"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 56,
+      "category": "needs_review"
+    }
+  ],
+  "stats": {
+    "full_name": "ros2/rmw_zenoh",
+    "url": "https://github.com/ros2/rmw_zenoh",
+    "open_pr_count": 54,
+    "open_issue_count": 0
+  }
+}

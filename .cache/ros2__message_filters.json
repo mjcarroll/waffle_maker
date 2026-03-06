@@ -1,0 +1,110 @@
+{
+  "prs": [
+    {
+      "number": 252,
+      "title": "(Issue #221) DeltaFilter(Python): Add DeltaFilter for Python.",
+      "url": "https://github.com/ros2/message_filters/pull/252",
+      "repo_full_name": "ros2/message_filters",
+      "author": "EsipovPA",
+      "author_url": "https://github.com/EsipovPA",
+      "created_at": "2026-02-15T21:32:42+00:00",
+      "updated_at": "2026-03-05T09:48:48+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "EsipovPA",
+          "url": "https://github.com/EsipovPA",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "mjcarroll"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 0,
+      "category": "needs_review"
+    },
+    {
+      "number": 147,
+      "title": "Fix latest time policy when cont. pivot switching due to decreasing rates",
+      "url": "https://github.com/ros2/message_filters/pull/147",
+      "repo_full_name": "ros2/message_filters",
+      "author": "nicolaloi",
+      "author_url": "https://github.com/nicolaloi",
+      "created_at": "2024-09-04T23:07:26+00:00",
+      "updated_at": "2024-10-01T08:45:03+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [
+        "gbiggs"
+      ],
+      "days_since_update": 520,
+      "category": "needs_review"
+    },
+    {
+      "number": 107,
+      "title": "[FEA] Add manual call policy according with FIFO and timestamp.",
+      "url": "https://github.com/ros2/message_filters/pull/107",
+      "repo_full_name": "ros2/message_filters",
+      "author": "ZhenshengLee",
+      "author_url": "https://github.com/ZhenshengLee",
+      "created_at": "2024-01-12T07:36:58+00:00",
+      "updated_at": "2024-07-30T12:26:13+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "ahcorde",
+          "url": "https://github.com/ahcorde",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "clalancette"
+      ],
+      "requested_reviewers": [
+        "gbiggs"
+      ],
+      "days_since_update": 583,
+      "category": "changes_requested"
+    },
+    {
+      "number": 111,
+      "title": "rates_ vector out of channel order",
+      "url": "https://github.com/ros2/message_filters/pull/111",
+      "repo_full_name": "ros2/message_filters",
+      "author": "andermi",
+      "author_url": "https://github.com/andermi",
+      "created_at": "2024-01-23T19:43:45+00:00",
+      "updated_at": "2024-02-12T23:24:25+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "clalancette"
+      ],
+      "requested_reviewers": [
+        "gbiggs"
+      ],
+      "days_since_update": 752,
+      "category": "needs_review"
+    }
+  ],
+  "stats": {
+    "full_name": "ros2/message_filters",
+    "url": "https://github.com/ros2/message_filters",
+    "open_pr_count": 24,
+    "open_issue_count": 0
+  }
+}

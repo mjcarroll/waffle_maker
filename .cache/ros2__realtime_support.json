@@ -1,0 +1,69 @@
+{
+  "prs": [
+    {
+      "number": 118,
+      "title": "Add ability to clear statistics",
+      "url": "https://github.com/ros2/realtime_support/pull/118",
+      "repo_full_name": "ros2/realtime_support",
+      "author": "ZachG-gnu",
+      "author_url": "https://github.com/ZachG-gnu",
+      "created_at": "2022-06-29T14:45:54+00:00",
+      "updated_at": "2022-10-25T20:58:04+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "clalancette",
+          "url": "https://github.com/clalancette",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "clalancette"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 1227,
+      "category": "changes_requested"
+    },
+    {
+      "number": 103,
+      "title": "Override get_rcl_allocator for TLSF allocators.",
+      "url": "https://github.com/ros2/realtime_support/pull/103",
+      "repo_full_name": "ros2/realtime_support",
+      "author": "stevewolter",
+      "author_url": "https://github.com/stevewolter",
+      "created_at": "2020-10-26T18:35:36+00:00",
+      "updated_at": "2022-06-28T14:22:13+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "wjwwood",
+          "url": "https://github.com/wjwwood",
+          "state": "commented"
+        },
+        {
+          "name": "stevewolter",
+          "url": "https://github.com/stevewolter",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "wjwwood"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 1346,
+      "category": "needs_review"
+    }
+  ],
+  "stats": {
+    "full_name": "ros2/realtime_support",
+    "url": "https://github.com/ros2/realtime_support",
+    "open_pr_count": 7,
+    "open_issue_count": 0
+  }
+}

@@ -1,0 +1,531 @@
+{
+  "prs": [
+    {
+      "number": 2356,
+      "title": "Humble: Added writer for std::shared_ptr<const rclcpp::SerializedMessage>",
+      "url": "https://github.com/ros2/rosbag2/pull/2356",
+      "repo_full_name": "ros2/rosbag2",
+      "author": "JustASimpleCoder",
+      "author_url": "https://github.com/JustASimpleCoder",
+      "created_at": "2026-03-05T05:37:13+00:00",
+      "updated_at": "2026-03-06T00:31:18+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": -1,
+      "category": "needs_review"
+    },
+    {
+      "number": 2340,
+      "title": "Add on start recording callback for Recorder",
+      "url": "https://github.com/ros2/rosbag2/pull/2340",
+      "repo_full_name": "ros2/rosbag2",
+      "author": "MichaelOrlov",
+      "author_url": "https://github.com/MichaelOrlov",
+      "created_at": "2026-02-13T19:39:21+00:00",
+      "updated_at": "2026-02-23T17:31:36+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [
+        {
+          "commenter": "MichaelOrlov",
+          "commenter_url": "https://github.com/MichaelOrlov",
+          "comment_date": "2026-02-23T17:31:36+00:00",
+          "comment_url": "https://github.com/ros2/rosbag2/pull/2340#issuecomment-3946215080",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 18298,
+              "url": "https://ci.ros2.org/job/ci_launcher/18298/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 27791,
+              "url": "https://ci.ros2.org/job/ci_linux/27791/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 20817,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/20817/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 7658,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/7658/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 26783,
+              "url": "https://ci.ros2.org/job/ci_windows/26783/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [],
+      "requested_reviewers": [
+        "christophebedard",
+        "fujitatomoya"
+      ],
+      "days_since_update": 10,
+      "category": "needs_review"
+    },
+    {
+      "number": 2344,
+      "title": "Address race condition in the \"wait_for_playback_to_start()\"",
+      "url": "https://github.com/ros2/rosbag2/pull/2344",
+      "repo_full_name": "ros2/rosbag2",
+      "author": "MichaelOrlov",
+      "author_url": "https://github.com/MichaelOrlov",
+      "created_at": "2026-02-19T00:55:29+00:00",
+      "updated_at": "2026-02-23T17:28:43+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [
+        {
+          "commenter": "MichaelOrlov",
+          "commenter_url": "https://github.com/MichaelOrlov",
+          "comment_date": "2026-02-21T17:12:54+00:00",
+          "comment_url": "https://github.com/ros2/rosbag2/pull/2344#issuecomment-3939109202",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 18284,
+              "url": "https://ci.ros2.org/job/ci_launcher/18284/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 27775,
+              "url": "https://ci.ros2.org/job/ci_linux/27775/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 20803,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/20803/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 7639,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/7639/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 26767,
+              "url": "https://ci.ros2.org/job/ci_windows/26767/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "MichaelOrlov",
+          "commenter_url": "https://github.com/MichaelOrlov",
+          "comment_date": "2026-02-21T22:47:47+00:00",
+          "comment_url": "https://github.com/ros2/rosbag2/pull/2344#issuecomment-3939635408",
+          "runs": [
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 7643,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/7643/",
+              "platform": "Linux-RHEL"
+            }
+          ]
+        }
+      ],
+      "assignees": [],
+      "requested_reviewers": [
+        "fujitatomoya",
+        "christophebedard",
+        "Barry-Xu-2018"
+      ],
+      "days_since_update": 10,
+      "category": "needs_review"
+    },
+    {
+      "number": 2327,
+      "title": "Add design document: Support repeating transient-local (\u201clatched\u201d) messages in Rosbag2 recorder",
+      "url": "https://github.com/ros2/rosbag2/pull/2327",
+      "repo_full_name": "ros2/rosbag2",
+      "author": "MichaelOrlov",
+      "author_url": "https://github.com/MichaelOrlov",
+      "created_at": "2026-02-07T09:01:22+00:00",
+      "updated_at": "2026-02-15T15:20:06+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "tonynajjar",
+          "url": "https://github.com/tonynajjar",
+          "state": "commented"
+        },
+        {
+          "name": "MichaelOrlov",
+          "url": "https://github.com/MichaelOrlov",
+          "state": "commented"
+        },
+        {
+          "name": "christophebedard",
+          "url": "https://github.com/christophebedard",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [
+        "fujitatomoya",
+        "Barry-Xu-2018",
+        "emersonknapp"
+      ],
+      "days_since_update": 18,
+      "category": "needs_review"
+    },
+    {
+      "number": 2326,
+      "title": "rosbag2_cpp: Add support for reindexing compressed bags",
+      "url": "https://github.com/ros2/rosbag2/pull/2326",
+      "repo_full_name": "ros2/rosbag2",
+      "author": "BhuvanB404",
+      "author_url": "https://github.com/BhuvanB404",
+      "created_at": "2026-02-06T08:59:37+00:00",
+      "updated_at": "2026-02-06T09:07:31+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "copilot-pull-request-reviewer[bot]",
+          "url": "https://github.com/apps/copilot-pull-request-reviewer",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 27,
+      "category": "needs_review"
+    },
+    {
+      "number": 1789,
+      "title": "Add missing throws documentation to  rosbag_cpp writer open() #1788",
+      "url": "https://github.com/ros2/rosbag2/pull/1789",
+      "repo_full_name": "ros2/rosbag2",
+      "author": "gDorndorf",
+      "author_url": "https://github.com/gDorndorf",
+      "created_at": "2024-08-14T10:14:34+00:00",
+      "updated_at": "2025-09-23T03:37:05+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        },
+        {
+          "name": "gDorndorf",
+          "url": "https://github.com/gDorndorf",
+          "state": "commented"
+        },
+        {
+          "name": "MichaelOrlov",
+          "url": "https://github.com/MichaelOrlov",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [
+        "emersonknapp"
+      ],
+      "days_since_update": 163,
+      "category": "changes_requested"
+    },
+    {
+      "number": 1672,
+      "title": "Add \".active\" suffix to actively recording files",
+      "url": "https://github.com/ros2/rosbag2/pull/1672",
+      "repo_full_name": "ros2/rosbag2",
+      "author": "facontidavide",
+      "author_url": "https://github.com/facontidavide",
+      "created_at": "2024-05-23T16:24:23+00:00",
+      "updated_at": "2024-06-11T18:54:24+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        },
+        {
+          "name": "facontidavide",
+          "url": "https://github.com/facontidavide",
+          "state": "commented"
+        },
+        {
+          "name": "MichaelOrlov",
+          "url": "https://github.com/MichaelOrlov",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [
+        "emersonknapp",
+        "hidmic",
+        "fujitatomoya"
+      ],
+      "days_since_update": 632,
+      "category": "needs_review"
+    },
+    {
+      "number": 1342,
+      "title": "Gracefully handle CTRL+C and CTR+Break events on Windows",
+      "url": "https://github.com/ros2/rosbag2/pull/1342",
+      "repo_full_name": "ros2/rosbag2",
+      "author": "MichaelOrlov",
+      "author_url": "https://github.com/MichaelOrlov",
+      "created_at": "2023-05-22T00:57:26+00:00",
+      "updated_at": "2024-02-24T03:27:10+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "clalancette",
+          "url": "https://github.com/clalancette",
+          "state": "commented"
+        },
+        {
+          "name": "emersonknapp",
+          "url": "https://github.com/emersonknapp",
+          "state": "approved"
+        },
+        {
+          "name": "MichaelOrlov",
+          "url": "https://github.com/MichaelOrlov",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "MichaelOrlov",
+          "commenter_url": "https://github.com/MichaelOrlov",
+          "comment_date": "2023-06-03T20:27:09+00:00",
+          "comment_url": "https://github.com/ros2/rosbag2/pull/1342#issuecomment-1575176997",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 12152,
+              "url": "https://ci.ros2.org/job/ci_launcher/12152/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 18847,
+              "url": "https://ci.ros2.org/job/ci_linux/18847/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 13388,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/13388/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 19601,
+              "url": "https://ci.ros2.org/job/ci_windows/19601/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "MichaelOrlov",
+          "commenter_url": "https://github.com/MichaelOrlov",
+          "comment_date": "2023-06-11T08:40:25+00:00",
+          "comment_url": "https://github.com/ros2/rosbag2/pull/1342#issuecomment-1586076346",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 12197,
+              "url": "https://ci.ros2.org/job/ci_launcher/12197/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 18901,
+              "url": "https://ci.ros2.org/job/ci_linux/18901/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 13436,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/13436/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 19658,
+              "url": "https://ci.ros2.org/job/ci_windows/19658/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "MichaelOrlov",
+          "commenter_url": "https://github.com/MichaelOrlov",
+          "comment_date": "2023-06-12T07:49:17+00:00",
+          "comment_url": "https://github.com/ros2/rosbag2/pull/1342#issuecomment-1586771893",
+          "runs": [
+            {
+              "job_name": "ci_windows",
+              "build_number": 19658,
+              "url": "https://ci.ros2.org/job/ci_windows/19658/",
+              "platform": "testReport"
+            }
+          ]
+        },
+        {
+          "commenter": "MichaelOrlov",
+          "commenter_url": "https://github.com/MichaelOrlov",
+          "comment_date": "2023-06-27T16:25:52+00:00",
+          "comment_url": "https://github.com/ros2/rosbag2/pull/1342#issuecomment-1609853291",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 12301,
+              "url": "https://ci.ros2.org/job/ci_launcher/12301/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 19040,
+              "url": "https://ci.ros2.org/job/ci_linux/19040/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 13558,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/13558/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 19785,
+              "url": "https://ci.ros2.org/job/ci_windows/19785/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "MichaelOrlov",
+          "commenter_url": "https://github.com/MichaelOrlov",
+          "comment_date": "2023-07-02T07:46:45+00:00",
+          "comment_url": "https://github.com/ros2/rosbag2/pull/1342#issuecomment-1616427461",
+          "runs": [
+            {
+              "job_name": "ci_windows",
+              "build_number": 19807,
+              "url": "https://ci.ros2.org/job/ci_windows/19807/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "MichaelOrlov",
+          "commenter_url": "https://github.com/MichaelOrlov",
+          "comment_date": "2023-07-02T23:06:55+00:00",
+          "comment_url": "https://github.com/ros2/rosbag2/pull/1342#issuecomment-1616945210",
+          "runs": [
+            {
+              "job_name": "ci_windows",
+              "build_number": 19807,
+              "url": "https://ci.ros2.org/job/ci_windows/19807/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "claraberendsen",
+          "commenter_url": "https://github.com/claraberendsen",
+          "comment_date": "2023-07-17T15:03:04+00:00",
+          "comment_url": "https://github.com/ros2/rosbag2/pull/1342#issuecomment-1638330384",
+          "runs": [
+            {
+              "job_name": "ci_windows",
+              "build_number": 19807,
+              "url": "https://ci.ros2.org/job/ci_windows/19807/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [],
+      "requested_reviewers": [
+        "mjcarroll",
+        "hidmic"
+      ],
+      "days_since_update": 740,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 1432,
+      "title": "Make rosbag2 nodes locally unique by suffixing with PID",
+      "url": "https://github.com/ros2/rosbag2/pull/1432",
+      "repo_full_name": "ros2/rosbag2",
+      "author": "emersonknapp",
+      "author_url": "https://github.com/emersonknapp",
+      "created_at": "2023-07-25T18:11:11+00:00",
+      "updated_at": "2023-12-30T06:43:44+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "MichaelOrlov",
+          "url": "https://github.com/MichaelOrlov",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [
+        "gbiggs",
+        "jhdcs"
+      ],
+      "days_since_update": 796,
+      "category": "ready_to_merge"
+    }
+  ],
+  "stats": {
+    "full_name": "ros2/rosbag2",
+    "url": "https://github.com/ros2/rosbag2",
+    "open_pr_count": 107,
+    "open_issue_count": 0
+  }
+}

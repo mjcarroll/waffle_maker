@@ -1,0 +1,156 @@
+{
+  "prs": [
+    {
+      "number": 186,
+      "title": "Add 'executor_type' and 'thread_num' to LoadNode",
+      "url": "https://github.com/ros2/rcl_interfaces/pull/186",
+      "repo_full_name": "ros2/rcl_interfaces",
+      "author": "armaho",
+      "author_url": "https://github.com/armaho",
+      "created_at": "2026-02-20T14:10:47+00:00",
+      "updated_at": "2026-03-05T22:49:59+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        },
+        {
+          "name": "armaho",
+          "url": "https://github.com/armaho",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "mjcarroll"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 0,
+      "category": "needs_review"
+    },
+    {
+      "number": 183,
+      "title": "Add structured parameter support ",
+      "url": "https://github.com/ros2/rcl_interfaces/pull/183",
+      "repo_full_name": "ros2/rcl_interfaces",
+      "author": "Rahul-K-A",
+      "author_url": "https://github.com/Rahul-K-A",
+      "created_at": "2025-08-30T13:51:23+00:00",
+      "updated_at": "2025-09-11T17:11:34+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "jmachowinski",
+          "url": "https://github.com/jmachowinski",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "wjwwood"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 175,
+      "category": "needs_review"
+    },
+    {
+      "number": 157,
+      "title": "Add lifecycle CancelTransition.srv",
+      "url": "https://github.com/ros2/rcl_interfaces/pull/157",
+      "repo_full_name": "ros2/rcl_interfaces",
+      "author": "tgroechel",
+      "author_url": "https://github.com/tgroechel",
+      "created_at": "2023-06-13T00:27:14+00:00",
+      "updated_at": "2023-07-11T15:14:32+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [
+        "gbiggs"
+      ],
+      "days_since_update": 968,
+      "category": "needs_review"
+    },
+    {
+      "number": 97,
+      "title": "Primary state error transitions",
+      "url": "https://github.com/ros2/rcl_interfaces/pull/97",
+      "repo_full_name": "ros2/rcl_interfaces",
+      "author": "thebyohazard",
+      "author_url": "https://github.com/thebyohazard",
+      "created_at": "2020-04-14T15:01:04+00:00",
+      "updated_at": "2022-08-09T17:37:15+00:00",
+      "labels": [
+        "enhancement"
+      ],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "tfoote",
+          "url": "https://github.com/tfoote",
+          "state": "commented"
+        },
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "Karsten1987"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 1304,
+      "category": "changes_requested"
+    },
+    {
+      "number": 105,
+      "title": "Add action_msgs::msg::GoalStatus::STATUS_PREEMPTED",
+      "url": "https://github.com/ros2/rcl_interfaces/pull/105",
+      "repo_full_name": "ros2/rcl_interfaces",
+      "author": "naiveHobo",
+      "author_url": "https://github.com/naiveHobo",
+      "created_at": "2020-05-19T23:45:20+00:00",
+      "updated_at": "2022-06-28T14:20:40+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "SteveMacenski",
+          "url": "https://github.com/SteveMacenski",
+          "state": "approved"
+        },
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "jacobperron"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 1346,
+      "category": "ready_to_merge"
+    }
+  ],
+  "stats": {
+    "full_name": "ros2/rcl_interfaces",
+    "url": "https://github.com/ros2/rcl_interfaces",
+    "open_pr_count": 20,
+    "open_issue_count": 0
+  }
+}

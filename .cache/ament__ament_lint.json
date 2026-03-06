@@ -1,0 +1,856 @@
+{
+  "prs": [
+    {
+      "number": 573,
+      "title": "[ament_mypy] Add `--ament-strict` flag for more strict type checking.",
+      "url": "https://github.com/ament/ament_lint/pull/573",
+      "repo_full_name": "ament/ament_lint",
+      "author": "InvincibleRMC",
+      "author_url": "https://github.com/InvincibleRMC",
+      "created_at": "2026-02-26T06:29:27+00:00",
+      "updated_at": "2026-03-05T00:43:16+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [
+        {
+          "commenter": "InvincibleRMC",
+          "commenter_url": "https://github.com/InvincibleRMC",
+          "comment_date": "2026-02-27T01:54:42+00:00",
+          "comment_url": "https://github.com/ament/ament_lint/pull/573#issuecomment-3970267014",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 18331,
+              "url": "https://ci.ros2.org/job/ci_launcher/18331/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 27836,
+              "url": "https://ci.ros2.org/job/ci_linux/27836/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 20850,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/20850/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 7699,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/7699/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 26819,
+              "url": "https://ci.ros2.org/job/ci_windows/26819/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "InvincibleRMC",
+          "commenter_url": "https://github.com/InvincibleRMC",
+          "comment_date": "2026-03-01T18:13:05+00:00",
+          "comment_url": "https://github.com/ament/ament_lint/pull/573#issuecomment-3980666838",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 18347,
+              "url": "https://ci.ros2.org/job/ci_launcher/18347/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 27855,
+              "url": "https://ci.ros2.org/job/ci_linux/27855/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 20867,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/20867/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 7720,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/7720/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 26835,
+              "url": "https://ci.ros2.org/job/ci_windows/26835/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "InvincibleRMC",
+          "commenter_url": "https://github.com/InvincibleRMC",
+          "comment_date": "2026-03-01T22:19:28+00:00",
+          "comment_url": "https://github.com/ament/ament_lint/pull/573#issuecomment-3981163248",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 18348,
+              "url": "https://ci.ros2.org/job/ci_launcher/18348/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 27856,
+              "url": "https://ci.ros2.org/job/ci_linux/27856/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 20868,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/20868/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 7721,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/7721/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 26836,
+              "url": "https://ci.ros2.org/job/ci_windows/26836/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "InvincibleRMC",
+          "commenter_url": "https://github.com/InvincibleRMC",
+          "comment_date": "2026-03-02T03:11:29+00:00",
+          "comment_url": "https://github.com/ament/ament_lint/pull/573#issuecomment-3981767609",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 18354,
+              "url": "https://ci.ros2.org/job/ci_launcher/18354/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 27862,
+              "url": "https://ci.ros2.org/job/ci_linux/27862/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 20874,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/20874/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 7728,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/7728/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 26842,
+              "url": "https://ci.ros2.org/job/ci_windows/26842/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 0,
+      "category": "needs_review"
+    },
+    {
+      "number": 569,
+      "title": "Add `ament_lint_auto_py` and `ament_lint_common_py`",
+      "url": "https://github.com/ament/ament_lint/pull/569",
+      "repo_full_name": "ament/ament_lint",
+      "author": "InvincibleRMC",
+      "author_url": "https://github.com/InvincibleRMC",
+      "created_at": "2026-01-25T02:28:36+00:00",
+      "updated_at": "2026-03-05T00:20:08+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "sloretz"
+      ],
+      "requested_reviewers": [
+        "sloretz"
+      ],
+      "days_since_update": 1,
+      "category": "changes_requested"
+    },
+    {
+      "number": 479,
+      "title": "(cmake_xmllint) make extensions configurable",
+      "url": "https://github.com/ament/ament_lint/pull/479",
+      "repo_full_name": "ament/ament_lint",
+      "author": "MatthijsBurgh",
+      "author_url": "https://github.com/MatthijsBurgh",
+      "created_at": "2024-03-04T16:48:04+00:00",
+      "updated_at": "2026-02-20T14:20:47+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "clalancette",
+          "url": "https://github.com/clalancette",
+          "state": "changes_requested"
+        },
+        {
+          "name": "MatthijsBurgh",
+          "url": "https://github.com/MatthijsBurgh",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "sloretz"
+      ],
+      "requested_reviewers": [
+        "clalancette"
+      ],
+      "days_since_update": 13,
+      "category": "changes_requested"
+    },
+    {
+      "number": 567,
+      "title": "feat: Add 'ament_yamllint' package for YAML style validation",
+      "url": "https://github.com/ament/ament_lint/pull/567",
+      "repo_full_name": "ament/ament_lint",
+      "author": "frozenreboot",
+      "author_url": "https://github.com/frozenreboot",
+      "created_at": "2026-01-10T14:46:15+00:00",
+      "updated_at": "2026-02-19T17:57:44+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "ahcorde",
+          "url": "https://github.com/ahcorde",
+          "state": "changes_requested"
+        },
+        {
+          "name": "frozenreboot",
+          "url": "https://github.com/frozenreboot",
+          "state": "commented"
+        },
+        {
+          "name": "cottsay",
+          "url": "https://github.com/cottsay",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "cottsay",
+          "commenter_url": "https://github.com/cottsay",
+          "comment_date": "2026-02-17T22:43:02+00:00",
+          "comment_url": "https://github.com/ament/ament_lint/pull/567#issuecomment-3917457308",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 27686,
+              "url": "https://ci.ros2.org/job/ci_linux/27686/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 20741,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/20741/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 7564,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/7564/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 26704,
+              "url": "https://ci.ros2.org/job/ci_windows/26704/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "cottsay"
+      ],
+      "requested_reviewers": [
+        "cottsay"
+      ],
+      "days_since_update": 14,
+      "category": "changes_requested"
+    },
+    {
+      "number": 563,
+      "title": "Fix/ament clang tools windows support",
+      "url": "https://github.com/ament/ament_lint/pull/563",
+      "repo_full_name": "ament/ament_lint",
+      "author": "tony-p",
+      "author_url": "https://github.com/tony-p",
+      "created_at": "2025-11-20T13:24:49+00:00",
+      "updated_at": "2026-01-23T10:03:09+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "ahcorde",
+          "url": "https://github.com/ahcorde",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "ahcorde",
+          "commenter_url": "https://github.com/ahcorde",
+          "comment_date": "2025-11-24T15:38:34+00:00",
+          "comment_url": "https://github.com/ament/ament_lint/pull/563#issuecomment-3571441278",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 17588,
+              "url": "https://ci.ros2.org/job/ci_launcher/17588/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 26283,
+              "url": "https://ci.ros2.org/job/ci_linux/26283/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 19932,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/19932/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 5973,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/5973/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 26030,
+              "url": "https://ci.ros2.org/job/ci_windows/26030/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "tony-p",
+          "commenter_url": "https://github.com/tony-p",
+          "comment_date": "2025-11-24T20:46:09+00:00",
+          "comment_url": "https://github.com/ament/ament_lint/pull/563#issuecomment-3572660448",
+          "runs": [
+            {
+              "job_name": "ci_windows",
+              "build_number": 26030,
+              "url": "https://ci.ros2.org/job/ci_windows/26030/",
+              "platform": "consoleFull"
+            }
+          ]
+        },
+        {
+          "commenter": "ahcorde",
+          "commenter_url": "https://github.com/ahcorde",
+          "comment_date": "2025-12-05T17:07:50+00:00",
+          "comment_url": "https://github.com/ament/ament_lint/pull/563#issuecomment-3617753354",
+          "runs": [
+            {
+              "job_name": "ci_windows",
+              "build_number": 26150,
+              "url": "https://ci.ros2.org/job/ci_windows/26150/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "ahcorde"
+      ],
+      "requested_reviewers": [
+        "ahcorde"
+      ],
+      "days_since_update": 41,
+      "category": "changes_requested"
+    },
+    {
+      "number": 562,
+      "title": "Bumps cpplint to 1.6.1",
+      "url": "https://github.com/ament/ament_lint/pull/562",
+      "repo_full_name": "ament/ament_lint",
+      "author": "InvincibleRMC",
+      "author_url": "https://github.com/InvincibleRMC",
+      "created_at": "2025-10-18T17:57:15+00:00",
+      "updated_at": "2026-01-15T19:17:43+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "InvincibleRMC",
+          "url": "https://github.com/InvincibleRMC",
+          "state": "commented"
+        },
+        {
+          "name": "christophebedard",
+          "url": "https://github.com/christophebedard",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "christophebedard",
+          "commenter_url": "https://github.com/christophebedard",
+          "comment_date": "2025-10-19T18:06:26+00:00",
+          "comment_url": "https://github.com/ament/ament_lint/pull/562#issuecomment-3419849226",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 17314,
+              "url": "https://ci.ros2.org/job/ci_launcher/17314/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 25453,
+              "url": "https://ci.ros2.org/job/ci_linux/25453/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 19538,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/19538/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 4988,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/4988/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 25752,
+              "url": "https://ci.ros2.org/job/ci_windows/25752/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "christophebedard",
+          "commenter_url": "https://github.com/christophebedard",
+          "comment_date": "2025-10-20T15:46:38+00:00",
+          "comment_url": "https://github.com/ament/ament_lint/pull/562#issuecomment-3422663265",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 17326,
+              "url": "https://ci.ros2.org/job/ci_launcher/17326/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 25466,
+              "url": "https://ci.ros2.org/job/ci_linux/25466/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 19552,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/19552/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 5001,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/5001/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 25766,
+              "url": "https://ci.ros2.org/job/ci_windows/25766/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "InvincibleRMC"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 49,
+      "category": "needs_review"
+    },
+    {
+      "number": 478,
+      "title": "Try to find an flake8 config file in the local package",
+      "url": "https://github.com/ament/ament_lint/pull/478",
+      "repo_full_name": "ament/ament_lint",
+      "author": "ahcorde",
+      "author_url": "https://github.com/ahcorde",
+      "created_at": "2024-02-29T12:36:12+00:00",
+      "updated_at": "2026-01-05T15:23:57+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "ahcorde"
+      ],
+      "requested_reviewers": [
+        "clalancette"
+      ],
+      "days_since_update": 59,
+      "category": "needs_review"
+    },
+    {
+      "number": 452,
+      "title": "Clang tidy add extra arg option and return 1 when any error is catched.",
+      "url": "https://github.com/ament/ament_lint/pull/452",
+      "repo_full_name": "ament/ament_lint",
+      "author": "wuisky",
+      "author_url": "https://github.com/wuisky",
+      "created_at": "2023-09-08T00:42:42+00:00",
+      "updated_at": "2025-12-03T10:23:08+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "wjwwood"
+      ],
+      "requested_reviewers": [
+        "mjeronimo"
+      ],
+      "days_since_update": 92,
+      "category": "needs_review"
+    },
+    {
+      "number": 555,
+      "title": "Use negative indenting for access specifiers",
+      "url": "https://github.com/ament/ament_lint/pull/555",
+      "repo_full_name": "ament/ament_lint",
+      "author": "fbe555",
+      "author_url": "https://github.com/fbe555",
+      "created_at": "2025-08-12T14:50:44+00:00",
+      "updated_at": "2025-08-26T22:31:06+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [
+        {
+          "commenter": "christophebedard",
+          "commenter_url": "https://github.com/christophebedard",
+          "comment_date": "2025-08-12T15:23:24+00:00",
+          "comment_url": "https://github.com/ament/ament_lint/pull/555#issuecomment-3179820233",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 16697,
+              "url": "https://ci.ros2.org/job/ci_launcher/16697/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 24574,
+              "url": "https://ci.ros2.org/job/ci_linux/24574/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 18620,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/18620/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 4029,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/4029/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 25115,
+              "url": "https://ci.ros2.org/job/ci_windows/25115/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "christophebedard"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 191,
+      "category": "needs_review"
+    },
+    {
+      "number": 546,
+      "title": "[ament_cmake_lint_cmake] Add file exclude support (#458)",
+      "url": "https://github.com/ament/ament_lint/pull/546",
+      "repo_full_name": "ament/ament_lint",
+      "author": "guillaumeautran",
+      "author_url": "https://github.com/guillaumeautran",
+      "created_at": "2025-06-20T12:02:03+00:00",
+      "updated_at": "2025-07-10T17:19:03+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "sloretz"
+      ],
+      "requested_reviewers": [
+        "sloretz"
+      ],
+      "days_since_update": 238,
+      "category": "needs_review"
+    },
+    {
+      "number": 351,
+      "title": "Add ament{_cmake,}_yamllint packages",
+      "url": "https://github.com/ament/ament_lint/pull/351",
+      "repo_full_name": "ament/ament_lint",
+      "author": "cottsay",
+      "author_url": "https://github.com/cottsay",
+      "created_at": "2022-01-25T19:15:59+00:00",
+      "updated_at": "2025-05-15T09:29:39+00:00",
+      "labels": [
+        "enhancement"
+      ],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "clalancette",
+          "url": "https://github.com/clalancette",
+          "state": "changes_requested"
+        },
+        {
+          "name": "StefanFabian",
+          "url": "https://github.com/StefanFabian",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "cottsay"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 294,
+      "category": "changes_requested"
+    },
+    {
+      "number": 534,
+      "title": "ament_cmake_pep257: handle AMENT_LINT_AUTO_FILE_EXCLUDE",
+      "url": "https://github.com/ament/ament_lint/pull/534",
+      "repo_full_name": "ament/ament_lint",
+      "author": "romainreignier",
+      "author_url": "https://github.com/romainreignier",
+      "created_at": "2025-03-27T17:22:08+00:00",
+      "updated_at": "2025-04-10T23:36:16+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "sloretz"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 329,
+      "category": "needs_review"
+    },
+    {
+      "number": 494,
+      "title": "clang-tidy: Add clang-tidy executable path argument",
+      "url": "https://github.com/ament/ament_lint/pull/494",
+      "repo_full_name": "ament/ament_lint",
+      "author": "jjannik",
+      "author_url": "https://github.com/jjannik",
+      "created_at": "2024-05-29T09:42:53+00:00",
+      "updated_at": "2024-06-13T16:22:04+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "clalancette",
+          "url": "https://github.com/clalancette",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "clalancette"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 630,
+      "category": "needs_review"
+    },
+    {
+      "number": 416,
+      "title": "various fixes to ament-copyright and add --allowed-licenses argument",
+      "url": "https://github.com/ament/ament_lint/pull/416",
+      "repo_full_name": "ament/ament_lint",
+      "author": "alsora",
+      "author_url": "https://github.com/alsora",
+      "created_at": "2022-10-17T22:38:05+00:00",
+      "updated_at": "2024-01-08T12:02:00+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "clalancette",
+          "url": "https://github.com/clalancette",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 787,
+      "category": "changes_requested"
+    },
+    {
+      "number": 457,
+      "title": "clang-tidy: exclude protobuf sources",
+      "url": "https://github.com/ament/ament_lint/pull/457",
+      "repo_full_name": "ament/ament_lint",
+      "author": "patrick-5546",
+      "author_url": "https://github.com/patrick-5546",
+      "created_at": "2023-10-19T04:56:41+00:00",
+      "updated_at": "2023-11-04T07:21:28+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "sloretz"
+      ],
+      "requested_reviewers": [
+        "mjeronimo"
+      ],
+      "days_since_update": 852,
+      "category": "needs_review"
+    },
+    {
+      "number": 407,
+      "title": "Add argument to cppcheck to be able to enable additional checks",
+      "url": "https://github.com/ament/ament_lint/pull/407",
+      "repo_full_name": "ament/ament_lint",
+      "author": "vincentrou",
+      "author_url": "https://github.com/vincentrou",
+      "created_at": "2022-09-05T08:43:13+00:00",
+      "updated_at": "2022-09-05T08:50:25+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 1277,
+      "category": "needs_review"
+    },
+    {
+      "number": 393,
+      "title": "fix ament_clang_format test dependency for CMake",
+      "url": "https://github.com/ament/ament_lint/pull/393",
+      "repo_full_name": "ament/ament_lint",
+      "author": "RichardvdK",
+      "author_url": "https://github.com/RichardvdK",
+      "created_at": "2022-07-01T12:48:15+00:00",
+      "updated_at": "2022-07-01T13:10:26+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 1343,
+      "category": "needs_review"
+    },
+    {
+      "number": 280,
+      "title": "Add filtering to ament_clang_tidy",
+      "url": "https://github.com/ament/ament_lint/pull/280",
+      "repo_full_name": "ament/ament_lint",
+      "author": "tylerjw",
+      "author_url": "https://github.com/tylerjw",
+      "created_at": "2020-12-30T20:56:40+00:00",
+      "updated_at": "2022-06-28T14:14:41+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "henningkayser",
+          "url": "https://github.com/henningkayser",
+          "state": "commented"
+        },
+        {
+          "name": "tylerjw",
+          "url": "https://github.com/tylerjw",
+          "state": "commented"
+        },
+        {
+          "name": "mm318",
+          "url": "https://github.com/mm318",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "tfoote"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 1346,
+      "category": "needs_review"
+    }
+  ],
+  "stats": {
+    "full_name": "ament/ament_lint",
+    "url": "https://github.com/ament/ament_lint",
+    "open_pr_count": 94,
+    "open_issue_count": 0
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "prs": [
+    {
+      "number": 177,
+      "title": "Fixed timeline mouse-click behavior and scrollbars",
+      "url": "https://github.com/ros-visualization/rqt_bag/pull/177",
+      "repo_full_name": "ros-visualization/rqt_bag",
+      "author": "peci1",
+      "author_url": "https://github.com/peci1",
+      "created_at": "2025-05-07T00:53:18+00:00",
+      "updated_at": "2026-03-05T20:44:54+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 0,
+      "category": "needs_review"
+    },
+    {
+      "number": 206,
+      "title": "Support Qt6",
+      "url": "https://github.com/ros-visualization/rqt_bag/pull/206",
+      "repo_full_name": "ros-visualization/rqt_bag",
+      "author": "ahcorde",
+      "author_url": "https://github.com/ahcorde",
+      "created_at": "2026-02-16T13:17:56+00:00",
+      "updated_at": "2026-03-04T19:41:39+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "asymingt",
+          "url": "https://github.com/asymingt",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "ahcorde"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 1,
+      "category": "needs_review"
+    },
+    {
+      "number": 201,
+      "title": "Better handling of large bag files (backport #178)",
+      "url": "https://github.com/ros-visualization/rqt_bag/pull/201",
+      "repo_full_name": "ros-visualization/rqt_bag",
+      "author": "mergify[bot]",
+      "author_url": "https://github.com/apps/mergify",
+      "created_at": "2025-07-28T07:12:19+00:00",
+      "updated_at": "2025-09-16T13:30:48+00:00",
+      "labels": [
+        "conflicts"
+      ],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "ahcorde",
+          "url": "https://github.com/ahcorde",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 170,
+      "category": "changes_requested"
+    }
+  ],
+  "stats": {
+    "full_name": "ros-visualization/rqt_bag",
+    "url": "https://github.com/ros-visualization/rqt_bag",
+    "open_pr_count": 26,
+    "open_issue_count": 0
+  }
+}

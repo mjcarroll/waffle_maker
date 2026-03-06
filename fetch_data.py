@@ -216,58 +216,123 @@ class DashboardData:
 # ── Cache ────────────────────────────────────────────────────────────────────
 
 class Cache:
-    """Simple JSON file cache for dashboard data.
+    """Per-repo JSON file cache for dashboard data.
 
-    Stores per-repo data with timestamps so we can skip repos that
-    haven't been updated since last fetch.
+    Each repo is stored as a separate JSON file under cache_dir/,
+    named by replacing '/' with '__' (e.g. ament__ament_cmake.json).
+    A _meta.json file tracks fetched_at timestamps.
+
+    This produces minimal git diffs when only some repos change.
     """
+
+    META_FILE = "_meta.json"
 
     def __init__(self, cache_dir: Path = DEFAULT_CACHE_DIR):
         self.cache_dir = cache_dir
-        self.cache_file = cache_dir / "dashboard_cache.json"
-        self._data: dict = self._load()
+        self._meta: dict = self._load_meta()
+        self._migrate_legacy()
 
-    def _load(self) -> dict:
-        if self.cache_file.exists():
+    @staticmethod
+    def _repo_filename(full_name: str) -> str:
+        """Convert 'org/repo' to 'org__repo.json'."""
+        return full_name.replace("/", "__") + ".json"
+
+    def _repo_path(self, full_name: str) -> Path:
+        return self.cache_dir / self._repo_filename(full_name)
+
+    def _load_meta(self) -> dict:
+        meta_file = self.cache_dir / self.META_FILE
+        if meta_file.exists():
             try:
-                raw = json.loads(self.cache_file.read_text(encoding="utf-8"))
-                logger.info("Loaded cache from %s", self.cache_file)
+                raw = json.loads(meta_file.read_text(encoding="utf-8"))
+                logger.info("Loaded cache meta from %s", meta_file)
                 return raw
             except (json.JSONDecodeError, KeyError) as e:
-                logger.warning("Cache corrupt (%s), starting fresh", e)
-        return {"repos": {}, "fetched_at": {}}
+                logger.warning("Cache meta corrupt (%s), starting fresh", e)
+        return {"fetched_at": {}}
 
-    def save(self):
+    def _migrate_legacy(self):
+        """Migrate from single-file cache to per-repo files."""
+        legacy = self.cache_dir / "dashboard_cache.json"
+        if not legacy.exists():
+            return
+        try:
+            raw = json.loads(legacy.read_text(encoding="utf-8"))
+            logger.info("Migrating legacy cache to per-repo files...")
+            self.cache_dir.mkdir(parents=True, exist_ok=True)
+
+            # Migrate fetched_at
+            if "fetched_at" in raw:
+                self._meta["fetched_at"] = raw["fetched_at"]
+                self._save_meta()
+
+            # Migrate per-repo data
+            for full_name, repo_data in raw.get("repos", {}).items():
+                repo_file = self._repo_path(full_name)
+                repo_file.write_text(
+                    json.dumps(repo_data, indent=2, default=str),
+                    encoding="utf-8",
+                )
+
+            legacy.unlink()
+            logger.info("Legacy cache migrated and removed")
+        except Exception as e:
+            logger.warning("Could not migrate legacy cache: %s", e)
+
+    def _save_meta(self):
         self.cache_dir.mkdir(parents=True, exist_ok=True)
-        self.cache_file.write_text(
-            json.dumps(self._data, indent=2, default=str),
+        meta_file = self.cache_dir / self.META_FILE
+        meta_file.write_text(
+            json.dumps(self._meta, indent=2, default=str),
             encoding="utf-8",
         )
-        logger.info("Cache saved to %s", self.cache_file)
+
+    def save(self):
+        """Save meta file (repo files are saved individually)."""
+        self._save_meta()
+        logger.info("Cache meta saved to %s", self.cache_dir / self.META_FILE)
 
     def get_repo_pushed_at(self, full_name: str) -> str | None:
         """Get the pushed_at timestamp we last saw for a repo."""
-        return self._data.get("fetched_at", {}).get(full_name)
+        return self._meta.get("fetched_at", {}).get(full_name)
 
     def set_repo_pushed_at(self, full_name: str, pushed_at: str):
-        self._data.setdefault("fetched_at", {})[full_name] = pushed_at
+        self._meta.setdefault("fetched_at", {})[full_name] = pushed_at
 
     def get_repo_prs(self, full_name: str) -> list[dict] | None:
         """Get cached PR data for a repo."""
-        return self._data.get("repos", {}).get(full_name, {}).get("prs")
+        repo_file = self._repo_path(full_name)
+        if not repo_file.exists():
+            return None
+        try:
+            data = json.loads(repo_file.read_text(encoding="utf-8"))
+            return data.get("prs")
+        except (json.JSONDecodeError, KeyError):
+            return None
 
     def get_repo_stats(self, full_name: str) -> dict | None:
-        return self._data.get("repos", {}).get(full_name, {}).get("stats")
+        repo_file = self._repo_path(full_name)
+        if not repo_file.exists():
+            return None
+        try:
+            data = json.loads(repo_file.read_text(encoding="utf-8"))
+            return data.get("stats")
+        except (json.JSONDecodeError, KeyError):
+            return None
 
     def set_repo_data(self, full_name: str, prs: list[dict], stats: dict):
-        self._data.setdefault("repos", {})[full_name] = {
-            "prs": prs,
-            "stats": stats,
-        }
+        self.cache_dir.mkdir(parents=True, exist_ok=True)
+        repo_file = self._repo_path(full_name)
+        repo_file.write_text(
+            json.dumps({"prs": prs, "stats": stats}, indent=2, default=str),
+            encoding="utf-8",
+        )
 
     def remove_repo(self, full_name: str):
-        self._data.get("repos", {}).pop(full_name, None)
-        self._data.get("fetched_at", {}).pop(full_name, None)
+        self._meta.get("fetched_at", {}).pop(full_name, None)
+        repo_file = self._repo_path(full_name)
+        if repo_file.exists():
+            repo_file.unlink()
 
 
 # ── Helpers ──────────────────────────────────────────────────────────────────

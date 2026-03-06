@@ -1,0 +1,2990 @@
+{
+  "prs": [
+    {
+      "number": 3082,
+      "title": "Deprecate AllocatorMemoryStrategy, MemoryStrategy and remove related test cases",
+      "url": "https://github.com/ros2/rclcpp/pull/3082",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "Scott-Duncan",
+      "author_url": "https://github.com/Scott-Duncan",
+      "created_at": "2026-02-23T15:38:32+00:00",
+      "updated_at": "2026-03-05T17:36:27+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "jmachowinski",
+          "url": "https://github.com/jmachowinski",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "jmachowinski"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 0,
+      "category": "changes_requested"
+    },
+    {
+      "number": 3034,
+      "title": "Support to configure feedback subscription content filter for action client",
+      "url": "https://github.com/ros2/rclcpp/pull/3034",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "Barry-Xu-2018",
+      "author_url": "https://github.com/Barry-Xu-2018",
+      "created_at": "2026-01-23T05:16:27+00:00",
+      "updated_at": "2026-03-05T09:23:26+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "copilot-pull-request-reviewer[bot]",
+          "url": "https://github.com/apps/copilot-pull-request-reviewer",
+          "state": "commented"
+        },
+        {
+          "name": "Barry-Xu-2018",
+          "url": "https://github.com/Barry-Xu-2018",
+          "state": "commented"
+        },
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "Barry-Xu-2018"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 0,
+      "category": "needs_review"
+    },
+    {
+      "number": 3088,
+      "title": "Expose ServiceType in Service public API",
+      "url": "https://github.com/ros2/rclcpp/pull/3088",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "SayHey",
+      "author_url": "https://github.com/SayHey",
+      "created_at": "2026-03-04T06:44:59+00:00",
+      "updated_at": "2026-03-05T01:20:47+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "jmachowinski",
+          "url": "https://github.com/jmachowinski",
+          "state": "approved"
+        },
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "fujitatomoya",
+          "commenter_url": "https://github.com/fujitatomoya",
+          "comment_date": "2026-03-05T01:20:47+00:00",
+          "comment_url": "https://github.com/ros2/rclcpp/pull/3088#issuecomment-4001368763",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 18362,
+              "url": "https://ci.ros2.org/job/ci_launcher/18362/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 27878,
+              "url": "https://ci.ros2.org/job/ci_linux/27878/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 20882,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/20882/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 7737,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/7737/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 26855,
+              "url": "https://ci.ros2.org/job/ci_windows/26855/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 0,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 3087,
+      "title": "Add documentation clarifying FAILURE vs ERROR in CallbackReturn",
+      "url": "https://github.com/ros2/rclcpp/pull/3087",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "shlokbandiwar",
+      "author_url": "https://github.com/shlokbandiwar",
+      "created_at": "2026-03-02T15:51:29+00:00",
+      "updated_at": "2026-03-03T10:13:42+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "solonovamax",
+          "url": "https://github.com/solonovamax",
+          "state": "changes_requested"
+        },
+        {
+          "name": "shlokbandiwar",
+          "url": "https://github.com/shlokbandiwar",
+          "state": "commented"
+        },
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "changes_requested"
+        },
+        {
+          "name": "alsora",
+          "url": "https://github.com/alsora",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "shlokbandiwar"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 2,
+      "category": "changes_requested"
+    },
+    {
+      "number": 3066,
+      "title": "Add ConstRefCallback in `use_take_shared_method`",
+      "url": "https://github.com/ros2/rclcpp/pull/3066",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "mini-1235",
+      "author_url": "https://github.com/mini-1235",
+      "created_at": "2026-02-16T07:43:03+00:00",
+      "updated_at": "2026-02-26T23:13:58+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "fujitatomoya",
+          "commenter_url": "https://github.com/fujitatomoya",
+          "comment_date": "2026-02-17T02:28:55+00:00",
+          "comment_url": "https://github.com/ros2/rclcpp/pull/3066#issuecomment-3911662583",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 18212,
+              "url": "https://ci.ros2.org/job/ci_launcher/18212/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 27673,
+              "url": "https://ci.ros2.org/job/ci_linux/27673/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 20729,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/20729/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 7550,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/7550/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 26692,
+              "url": "https://ci.ros2.org/job/ci_windows/26692/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "fujitatomoya",
+          "commenter_url": "https://github.com/fujitatomoya",
+          "comment_date": "2026-02-17T12:36:13+00:00",
+          "comment_url": "https://github.com/ros2/rclcpp/pull/3066#issuecomment-3914475642",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 27678,
+              "url": "https://ci.ros2.org/job/ci_linux/27678/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 20734,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/20734/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 7555,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/7555/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 26697,
+              "url": "https://ci.ros2.org/job/ci_windows/26697/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "fujitatomoya",
+          "commenter_url": "https://github.com/fujitatomoya",
+          "comment_date": "2026-02-26T23:13:58+00:00",
+          "comment_url": "https://github.com/ros2/rclcpp/pull/3066#issuecomment-3969789774",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 27834,
+              "url": "https://ci.ros2.org/job/ci_linux/27834/",
+              "platform": "Linux"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "fujitatomoya"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 7,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 3080,
+      "title": "Handling dedicated executor for nodes inside ComponentManager itself rather than ComponentManagerIsolated",
+      "url": "https://github.com/ros2/rclcpp/pull/3080",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "armaho",
+      "author_url": "https://github.com/armaho",
+      "created_at": "2026-02-20T14:06:41+00:00",
+      "updated_at": "2026-02-26T17:44:36+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "mjcarroll"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 7,
+      "category": "needs_review"
+    },
+    {
+      "number": 3055,
+      "title": "Add 'executor_type' parameter to ComponentManager and deprecate redundant component containers",
+      "url": "https://github.com/ros2/rclcpp/pull/3055",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "armaho",
+      "author_url": "https://github.com/armaho",
+      "created_at": "2026-02-08T16:53:41+00:00",
+      "updated_at": "2026-02-15T09:18:56+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        },
+        {
+          "name": "armaho",
+          "url": "https://github.com/armaho",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "fujitatomoya"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 18,
+      "category": "needs_review"
+    },
+    {
+      "number": 3018,
+      "title": "Fix expiration of action goals when EventsExecutors are used",
+      "url": "https://github.com/ros2/rclcpp/pull/3018",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "skyegalaxy",
+      "author_url": "https://github.com/skyegalaxy",
+      "created_at": "2026-01-16T22:25:13+00:00",
+      "updated_at": "2026-01-19T20:17:48+00:00",
+      "labels": [
+        "bug"
+      ],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "mjcarroll",
+          "url": "https://github.com/mjcarroll",
+          "state": "changes_requested"
+        },
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        },
+        {
+          "name": "skyegalaxy",
+          "url": "https://github.com/skyegalaxy",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "skyegalaxy"
+      ],
+      "requested_reviewers": [
+        "jmachowinski"
+      ],
+      "days_since_update": 45,
+      "category": "changes_requested"
+    },
+    {
+      "number": 2715,
+      "title": "Add LifecycleSubscription",
+      "url": "https://github.com/ros2/rclcpp/pull/2715",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "Amronos",
+      "author_url": "https://github.com/Amronos",
+      "created_at": "2024-12-24T09:27:33+00:00",
+      "updated_at": "2026-01-07T13:25:38+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "changes_requested"
+        },
+        {
+          "name": "Amronos",
+          "url": "https://github.com/Amronos",
+          "state": "commented"
+        },
+        {
+          "name": "alsora",
+          "url": "https://github.com/alsora",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "fujitatomoya"
+      ],
+      "requested_reviewers": [
+        "fujitatomoya"
+      ],
+      "days_since_update": 57,
+      "category": "changes_requested"
+    },
+    {
+      "number": 2999,
+      "title": "refactor: Use std::conditional_variable in signal handler code",
+      "url": "https://github.com/ros2/rclcpp/pull/2999",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "jmachowinski",
+      "author_url": "https://github.com/jmachowinski",
+      "created_at": "2025-11-24T15:09:14+00:00",
+      "updated_at": "2025-12-16T18:11:51+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "approved"
+        },
+        {
+          "name": "jmachowinski",
+          "url": "https://github.com/jmachowinski",
+          "state": "commented"
+        },
+        {
+          "name": "wjwwood",
+          "url": "https://github.com/wjwwood",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "fujitatomoya",
+          "commenter_url": "https://github.com/fujitatomoya",
+          "comment_date": "2025-11-26T03:57:47+00:00",
+          "comment_url": "https://github.com/ros2/rclcpp/pull/2999#issuecomment-3578923547",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 17607,
+              "url": "https://ci.ros2.org/job/ci_launcher/17607/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 26308,
+              "url": "https://ci.ros2.org/job/ci_linux/26308/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 19956,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/19956/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 6006,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/6006/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 26049,
+              "url": "https://ci.ros2.org/job/ci_windows/26049/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "fujitatomoya",
+          "commenter_url": "https://github.com/fujitatomoya",
+          "comment_date": "2025-11-26T03:58:33+00:00",
+          "comment_url": "https://github.com/ros2/rclcpp/pull/2999#issuecomment-3578925890",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 17608,
+              "url": "https://ci.ros2.org/job/ci_launcher/17608/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 26309,
+              "url": "https://ci.ros2.org/job/ci_linux/26309/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 19957,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/19957/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 6007,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/6007/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 26050,
+              "url": "https://ci.ros2.org/job/ci_windows/26050/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "jmachowinski",
+          "commenter_url": "https://github.com/jmachowinski",
+          "comment_date": "2025-12-05T10:29:46+00:00",
+          "comment_url": "https://github.com/ros2/rclcpp/pull/2999#issuecomment-3616255836",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 17694,
+              "url": "https://ci.ros2.org/job/ci_launcher/17694/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 26407,
+              "url": "https://ci.ros2.org/job/ci_linux/26407/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 20057,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/20057/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 6139,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/6139/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 26142,
+              "url": "https://ci.ros2.org/job/ci_windows/26142/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "fujitatomoya"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 79,
+      "category": "changes_requested"
+    },
+    {
+      "number": 2293,
+      "title": "Explicit equality operator between rclcpp::Time and msg::Time",
+      "url": "https://github.com/ros2/rclcpp/pull/2293",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "AiVerisimilitude",
+      "author_url": "https://github.com/AiVerisimilitude",
+      "created_at": "2023-08-30T14:13:57+00:00",
+      "updated_at": "2025-12-01T08:32:37+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "approved"
+        },
+        {
+          "name": "ahcorde",
+          "url": "https://github.com/ahcorde",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "wjwwood"
+      ],
+      "requested_reviewers": [
+        "ivanpauno",
+        "hidmic",
+        "wjwwood"
+      ],
+      "days_since_update": 94,
+      "category": "changes_requested"
+    },
+    {
+      "number": 2944,
+      "title": "[Draft]Add structured parameter support",
+      "url": "https://github.com/ros2/rclcpp/pull/2944",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "Rahul-K-A",
+      "author_url": "https://github.com/Rahul-K-A",
+      "created_at": "2025-08-30T13:33:09+00:00",
+      "updated_at": "2025-11-13T07:40:38+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "ahcorde",
+          "url": "https://github.com/ahcorde",
+          "state": "changes_requested"
+        },
+        {
+          "name": "Barry-Xu-2018",
+          "url": "https://github.com/Barry-Xu-2018",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "alsora",
+          "commenter_url": "https://github.com/alsora",
+          "comment_date": "2025-09-06T09:05:21+00:00",
+          "comment_url": "https://github.com/ros2/rclcpp/pull/2944#issuecomment-3261661906",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 24809,
+              "url": "https://ci.ros2.org/job/ci_linux/24809/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 18837,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/18837/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 4258,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/4258/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 25320,
+              "url": "https://ci.ros2.org/job/ci_windows/25320/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 112,
+      "category": "changes_requested"
+    },
+    {
+      "number": 2910,
+      "title": "Add new RCL_RAW_STEADY_TIME changes",
+      "url": "https://github.com/ros2/rclcpp/pull/2910",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "saikishor",
+      "author_url": "https://github.com/saikishor",
+      "created_at": "2025-07-17T21:19:08+00:00",
+      "updated_at": "2025-10-06T10:29:47+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "ahcorde",
+          "url": "https://github.com/ahcorde",
+          "state": "changes_requested"
+        },
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        },
+        {
+          "name": "saikishor",
+          "url": "https://github.com/saikishor",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "saikishor"
+      ],
+      "requested_reviewers": [
+        "fujitatomoya"
+      ],
+      "days_since_update": 150,
+      "category": "changes_requested"
+    },
+    {
+      "number": 2205,
+      "title": "feat: Thread configuration prototype",
+      "url": "https://github.com/ros2/rclcpp/pull/2205",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "smorita-esol",
+      "author_url": "https://github.com/smorita-esol",
+      "created_at": "2023-06-06T09:24:02+00:00",
+      "updated_at": "2025-10-01T11:04:01+00:00",
+      "labels": [
+        "requires-changes"
+      ],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "JanStaschulat",
+          "url": "https://github.com/JanStaschulat",
+          "state": "commented"
+        },
+        {
+          "name": "alsora",
+          "url": "https://github.com/alsora",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [
+        "ivanpauno",
+        "hidmic",
+        "wjwwood"
+      ],
+      "days_since_update": 155,
+      "category": "changes_requested"
+    },
+    {
+      "number": 2913,
+      "title": "Fix bug with topic statistics for intra process comms",
+      "url": "https://github.com/ros2/rclcpp/pull/2913",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "roman-y-wu",
+      "author_url": "https://github.com/roman-y-wu",
+      "created_at": "2025-07-19T02:40:01+00:00",
+      "updated_at": "2025-08-18T03:37:35+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "fujitatomoya"
+      ],
+      "requested_reviewers": [
+        "fujitatomoya"
+      ],
+      "days_since_update": 199,
+      "category": "changes_requested"
+    },
+    {
+      "number": 2673,
+      "title": "WIP: Allow to pass existing `TimeSource` via `NodeOptions`",
+      "url": "https://github.com/ros2/rclcpp/pull/2673",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "roncapat",
+      "author_url": "https://github.com/roncapat",
+      "created_at": "2024-11-13T11:19:09+00:00",
+      "updated_at": "2025-07-26T13:15:05+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        },
+        {
+          "name": "roncapat",
+          "url": "https://github.com/roncapat",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "roncapat"
+      ],
+      "requested_reviewers": [
+        "ivanpauno",
+        "hidmic",
+        "wjwwood"
+      ],
+      "days_since_update": 222,
+      "category": "needs_review"
+    },
+    {
+      "number": 2904,
+      "title": "Fixed range checking for floating-type parameters",
+      "url": "https://github.com/ros2/rclcpp/pull/2904",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "matemat13",
+      "author_url": "https://github.com/matemat13",
+      "created_at": "2025-07-14T10:14:14+00:00",
+      "updated_at": "2025-07-25T13:33:48+00:00",
+      "labels": [
+        "requires-changes"
+      ],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "ahcorde",
+          "url": "https://github.com/ahcorde",
+          "state": "changes_requested"
+        },
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        },
+        {
+          "name": "jmachowinski",
+          "url": "https://github.com/jmachowinski",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 223,
+      "category": "changes_requested"
+    },
+    {
+      "number": 2475,
+      "title": "Add support for spin_until_complete (take 2)",
+      "url": "https://github.com/ros2/rclcpp/pull/2475",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "christophebedard",
+      "author_url": "https://github.com/christophebedard",
+      "created_at": "2024-04-02T18:18:42+00:00",
+      "updated_at": "2025-05-16T16:04:09+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "wjwwood",
+          "url": "https://github.com/wjwwood",
+          "state": "approved"
+        },
+        {
+          "name": "SteveMacenski",
+          "url": "https://github.com/SteveMacenski",
+          "state": "commented"
+        },
+        {
+          "name": "christophebedard",
+          "url": "https://github.com/christophebedard",
+          "state": "commented"
+        },
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        },
+        {
+          "name": "clalancette",
+          "url": "https://github.com/clalancette",
+          "state": "commented"
+        },
+        {
+          "name": "jmachowinski",
+          "url": "https://github.com/jmachowinski",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "wjwwood",
+          "commenter_url": "https://github.com/wjwwood",
+          "comment_date": "2024-04-12T22:13:40+00:00",
+          "comment_url": "https://github.com/ros2/rclcpp/pull/2475#issuecomment-2052627465",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 20846,
+              "url": "https://ci.ros2.org/job/ci_linux/20846/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 15149,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/15149/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 21532,
+              "url": "https://ci.ros2.org/job/ci_windows/21532/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "christophebedard"
+      ],
+      "requested_reviewers": [
+        "ivanpauno",
+        "hidmic"
+      ],
+      "days_since_update": 293,
+      "category": "changes_requested"
+    },
+    {
+      "number": 2781,
+      "title": "Add Test Case for rclcpp_action Where the Status Message is Received Before the Service Response",
+      "url": "https://github.com/ros2/rclcpp/pull/2781",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "tony-laza",
+      "author_url": "https://github.com/tony-laza",
+      "created_at": "2025-03-27T21:10:17+00:00",
+      "updated_at": "2025-04-13T13:28:46+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "alsora"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 326,
+      "category": "needs_review"
+    },
+    {
+      "number": 1847,
+      "title": "Support intra-process communication between Clients and Services",
+      "url": "https://github.com/ros2/rclcpp/pull/1847",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "mauropasse",
+      "author_url": "https://github.com/mauropasse",
+      "created_at": "2021-12-16T21:37:45+00:00",
+      "updated_at": "2025-03-26T07:27:44+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "alsora",
+          "url": "https://github.com/alsora",
+          "state": "commented"
+        },
+        {
+          "name": "mauropasse",
+          "url": "https://github.com/mauropasse",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "alsora",
+          "commenter_url": "https://github.com/alsora",
+          "comment_date": "2022-03-18T14:16:03+00:00",
+          "comment_url": "https://github.com/ros2/rclcpp/pull/1847#issuecomment-1072453672",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 16370,
+              "url": "https://ci.ros2.org/job/ci_linux/16370/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 10979,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/10979/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 16737,
+              "url": "https://ci.ros2.org/job/ci_windows/16737/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "alsora",
+          "commenter_url": "https://github.com/alsora",
+          "comment_date": "2022-03-21T11:13:51+00:00",
+          "comment_url": "https://github.com/ros2/rclcpp/pull/1847#issuecomment-1073771030",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 16377,
+              "url": "https://ci.ros2.org/job/ci_linux/16377/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 10986,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/10986/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 16749,
+              "url": "https://ci.ros2.org/job/ci_windows/16749/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "alsora",
+          "commenter_url": "https://github.com/alsora",
+          "comment_date": "2022-03-21T17:26:25+00:00",
+          "comment_url": "https://github.com/ros2/rclcpp/pull/1847#issuecomment-1074194212",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 16387,
+              "url": "https://ci.ros2.org/job/ci_linux/16387/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 10996,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/10996/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 16759,
+              "url": "https://ci.ros2.org/job/ci_windows/16759/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "alsora",
+          "commenter_url": "https://github.com/alsora",
+          "comment_date": "2022-03-21T20:02:41+00:00",
+          "comment_url": "https://github.com/ros2/rclcpp/pull/1847#issuecomment-1074358304",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 16395,
+              "url": "https://ci.ros2.org/job/ci_linux/16395/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 11004,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/11004/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 16767,
+              "url": "https://ci.ros2.org/job/ci_windows/16767/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "alsora",
+          "commenter_url": "https://github.com/alsora",
+          "comment_date": "2022-03-22T12:29:51+00:00",
+          "comment_url": "https://github.com/ros2/rclcpp/pull/1847#issuecomment-1075117520",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 16404,
+              "url": "https://ci.ros2.org/job/ci_linux/16404/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 11015,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/11015/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 16776,
+              "url": "https://ci.ros2.org/job/ci_windows/16776/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "wjwwood",
+        "clalancette"
+      ],
+      "requested_reviewers": [
+        "wjwwood"
+      ],
+      "days_since_update": 344,
+      "category": "needs_review"
+    },
+    {
+      "number": 2176,
+      "title": "Runtime Interface Reflection: rclcpp (Rebased)",
+      "url": "https://github.com/ros2/rclcpp/pull/2176",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "methylDragon",
+      "author_url": "https://github.com/methylDragon",
+      "created_at": "2023-04-28T23:06:24+00:00",
+      "updated_at": "2025-01-09T18:05:20+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [
+        {
+          "commenter": "methylDragon",
+          "commenter_url": "https://github.com/methylDragon",
+          "comment_date": "2023-04-28T23:07:13+00:00",
+          "comment_url": "https://github.com/ros2/rclcpp/pull/2176#issuecomment-1528180882",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 18625,
+              "url": "https://ci.ros2.org/job/ci_linux/18625/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 18760,
+              "url": "https://ci.ros2.org/job/ci_linux/18760/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 13160,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/13160/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 19360,
+              "url": "https://ci.ros2.org/job/ci_windows/19360/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "wjwwood"
+      ],
+      "requested_reviewers": [
+        "ivanpauno",
+        "hidmic",
+        "wjwwood"
+      ],
+      "days_since_update": 420,
+      "category": "needs_review"
+    },
+    {
+      "number": 2254,
+      "title": "Add lifecycle subscriber to lifecycle nodes",
+      "url": "https://github.com/ros2/rclcpp/pull/2254",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "carmiac",
+      "author_url": "https://github.com/carmiac",
+      "created_at": "2023-08-01T18:18:18+00:00",
+      "updated_at": "2024-12-24T09:29:20+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        },
+        {
+          "name": "clalancette",
+          "url": "https://github.com/clalancette",
+          "state": "commented"
+        },
+        {
+          "name": "alsora",
+          "url": "https://github.com/alsora",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [
+        "ivanpauno",
+        "hidmic",
+        "wjwwood"
+      ],
+      "days_since_update": 436,
+      "category": "needs_review"
+    },
+    {
+      "number": 2406,
+      "title": "Adding ability to add parameters through yaml at runtime",
+      "url": "https://github.com/ros2/rclcpp/pull/2406",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "CursedRock17",
+      "author_url": "https://github.com/CursedRock17",
+      "created_at": "2024-01-17T03:46:27+00:00",
+      "updated_at": "2024-11-27T10:00:18+00:00",
+      "labels": [
+        "requires-changes"
+      ],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "wjwwood",
+          "url": "https://github.com/wjwwood",
+          "state": "changes_requested"
+        },
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        },
+        {
+          "name": "alsora",
+          "url": "https://github.com/alsora",
+          "state": "commented"
+        },
+        {
+          "name": "CursedRock17",
+          "url": "https://github.com/CursedRock17",
+          "state": "commented"
+        },
+        {
+          "name": "clalancette",
+          "url": "https://github.com/clalancette",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "clalancette"
+      ],
+      "requested_reviewers": [
+        "ivanpauno",
+        "hidmic"
+      ],
+      "days_since_update": 463,
+      "category": "changes_requested"
+    },
+    {
+      "number": 2612,
+      "title": "Fix actions feedback race",
+      "url": "https://github.com/ros2/rclcpp/pull/2612",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "mauropasse",
+      "author_url": "https://github.com/mauropasse",
+      "created_at": "2024-08-27T11:29:21+00:00",
+      "updated_at": "2024-11-04T19:33:00+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "ahcorde",
+          "url": "https://github.com/ahcorde",
+          "state": "changes_requested"
+        },
+        {
+          "name": "alsora",
+          "url": "https://github.com/alsora",
+          "state": "commented"
+        },
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        },
+        {
+          "name": "mauropasse",
+          "url": "https://github.com/mauropasse",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "mauropasse"
+      ],
+      "requested_reviewers": [
+        "ivanpauno",
+        "hidmic",
+        "wjwwood",
+        "ahcorde"
+      ],
+      "days_since_update": 486,
+      "category": "changes_requested"
+    },
+    {
+      "number": 2454,
+      "title": "[documentation] Explain when `MultiThreadedExecutor` is running multiple threads",
+      "url": "https://github.com/ros2/rclcpp/pull/2454",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "Cakem1x",
+      "author_url": "https://github.com/Cakem1x",
+      "created_at": "2024-03-19T09:37:39+00:00",
+      "updated_at": "2024-08-10T02:34:01+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        },
+        {
+          "name": "Cakem1x",
+          "url": "https://github.com/Cakem1x",
+          "state": "commented"
+        },
+        {
+          "name": "Zard-C",
+          "url": "https://github.com/Zard-C",
+          "state": "commented"
+        },
+        {
+          "name": "alsora",
+          "url": "https://github.com/alsora",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "fujitatomoya"
+      ],
+      "requested_reviewers": [
+        "ivanpauno",
+        "hidmic",
+        "wjwwood"
+      ],
+      "days_since_update": 572,
+      "category": "changes_requested"
+    },
+    {
+      "number": 2430,
+      "title": "test: Added more benchmarks for the executor",
+      "url": "https://github.com/ros2/rclcpp/pull/2430",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "jmachowinski",
+      "author_url": "https://github.com/jmachowinski",
+      "created_at": "2024-02-21T11:02:42+00:00",
+      "updated_at": "2024-07-12T18:08:09+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "alsora",
+          "url": "https://github.com/alsora",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "alsora",
+          "commenter_url": "https://github.com/alsora",
+          "comment_date": "2024-07-03T14:56:20+00:00",
+          "comment_url": "https://github.com/ros2/rclcpp/pull/2430#issuecomment-2206418219",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 21362,
+              "url": "https://ci.ros2.org/job/ci_linux/21362/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 15670,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/15670/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 873,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/873/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 22099,
+              "url": "https://ci.ros2.org/job/ci_windows/22099/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "mjcarroll"
+      ],
+      "requested_reviewers": [
+        "ivanpauno",
+        "hidmic",
+        "wjwwood"
+      ],
+      "days_since_update": 601,
+      "category": "needs_review"
+    },
+    {
+      "number": 2505,
+      "title": "[wjwwood] feat(MultiThreadedExecutor): Added ability to handle exceptions from threads",
+      "url": "https://github.com/ros2/rclcpp/pull/2505",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "wjwwood",
+      "author_url": "https://github.com/wjwwood",
+      "created_at": "2024-04-16T02:17:34+00:00",
+      "updated_at": "2024-06-30T17:46:32+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "wjwwood",
+          "commenter_url": "https://github.com/wjwwood",
+          "comment_date": "2024-04-16T04:36:24+00:00",
+          "comment_url": "https://github.com/ros2/rclcpp/pull/2505#issuecomment-2058212458",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 20873,
+              "url": "https://ci.ros2.org/job/ci_linux/20873/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 15176,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/15176/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 21555,
+              "url": "https://ci.ros2.org/job/ci_windows/21555/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "wjwwood"
+      ],
+      "requested_reviewers": [
+        "ivanpauno",
+        "hidmic"
+      ],
+      "days_since_update": 613,
+      "category": "needs_review"
+    },
+    {
+      "number": 2537,
+      "title": "fix the execution order of entites in executors to favor insertion order",
+      "url": "https://github.com/ros2/rclcpp/pull/2537",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "wjwwood",
+      "author_url": "https://github.com/wjwwood",
+      "created_at": "2024-05-23T00:38:38+00:00",
+      "updated_at": "2024-06-26T12:08:36+00:00",
+      "labels": [
+        "bug"
+      ],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "wjwwood",
+          "url": "https://github.com/wjwwood",
+          "state": "commented"
+        },
+        {
+          "name": "jmachowinski",
+          "url": "https://github.com/jmachowinski",
+          "state": "commented"
+        },
+        {
+          "name": "thomasmoore-torc",
+          "url": "https://github.com/thomasmoore-torc",
+          "state": "commented"
+        },
+        {
+          "name": "alsora",
+          "url": "https://github.com/alsora",
+          "state": "commented"
+        },
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "wjwwood"
+      ],
+      "requested_reviewers": [
+        "ivanpauno",
+        "hidmic"
+      ],
+      "days_since_update": 617,
+      "category": "needs_review"
+    },
+    {
+      "number": 2473,
+      "title": "fix(StaticSingleThreadedExecutor): Fixed regression in spin()",
+      "url": "https://github.com/ros2/rclcpp/pull/2473",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "jmachowinski",
+      "author_url": "https://github.com/jmachowinski",
+      "created_at": "2024-04-02T11:57:54+00:00",
+      "updated_at": "2024-06-21T17:53:22+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "alsora",
+          "url": "https://github.com/alsora",
+          "state": "changes_requested"
+        },
+        {
+          "name": "jmachowinski",
+          "url": "https://github.com/jmachowinski",
+          "state": "commented"
+        },
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "alsora",
+          "commenter_url": "https://github.com/alsora",
+          "comment_date": "2024-04-12T21:42:42+00:00",
+          "comment_url": "https://github.com/ros2/rclcpp/pull/2473#issuecomment-2052600591",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 20843,
+              "url": "https://ci.ros2.org/job/ci_linux/20843/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 15146,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/15146/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 21529,
+              "url": "https://ci.ros2.org/job/ci_windows/21529/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "alsora",
+          "commenter_url": "https://github.com/alsora",
+          "comment_date": "2024-04-17T15:59:10+00:00",
+          "comment_url": "https://github.com/ros2/rclcpp/pull/2473#issuecomment-2061644721",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 20876,
+              "url": "https://ci.ros2.org/job/ci_linux/20876/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 15179,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/15179/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 21558,
+              "url": "https://ci.ros2.org/job/ci_windows/21558/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [],
+      "requested_reviewers": [
+        "ivanpauno",
+        "hidmic",
+        "wjwwood"
+      ],
+      "days_since_update": 622,
+      "category": "changes_requested"
+    },
+    {
+      "number": 2285,
+      "title": "Service Type Adaptations",
+      "url": "https://github.com/ros2/rclcpp/pull/2285",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "CursedRock17",
+      "author_url": "https://github.com/CursedRock17",
+      "created_at": "2023-08-24T15:56:08+00:00",
+      "updated_at": "2024-04-07T04:53:06+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [
+        "ivanpauno",
+        "hidmic",
+        "wjwwood"
+      ],
+      "days_since_update": 697,
+      "category": "needs_review"
+    },
+    {
+      "number": 2424,
+      "title": "Addition and subtraction assignment operators",
+      "url": "https://github.com/ros2/rclcpp/pull/2424",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "HuaTsai",
+      "author_url": "https://github.com/HuaTsai",
+      "created_at": "2024-02-15T01:07:42+00:00",
+      "updated_at": "2025-11-28T21:20:06+00:00",
+      "labels": [
+        "enhancement"
+      ],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "approved"
+        },
+        {
+          "name": "Ryanf55",
+          "url": "https://github.com/Ryanf55",
+          "state": "commented"
+        },
+        {
+          "name": "HuaTsai",
+          "url": "https://github.com/HuaTsai",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "fujitatomoya",
+          "commenter_url": "https://github.com/fujitatomoya",
+          "comment_date": "2024-02-16T17:49:58+00:00",
+          "comment_url": "https://github.com/ros2/rclcpp/pull/2424#issuecomment-1948980121",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 20312,
+              "url": "https://ci.ros2.org/job/ci_linux/20312/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 14723,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/14723/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 21049,
+              "url": "https://ci.ros2.org/job/ci_windows/21049/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "ahcorde",
+          "commenter_url": "https://github.com/ahcorde",
+          "comment_date": "2025-11-28T21:20:05+00:00",
+          "comment_url": "https://github.com/ros2/rclcpp/pull/2424#issuecomment-3590505805",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 17649,
+              "url": "https://ci.ros2.org/job/ci_launcher/17649/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 26352,
+              "url": "https://ci.ros2.org/job/ci_linux/26352/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 20000,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/20000/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 6051,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/6051/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 26092,
+              "url": "https://ci.ros2.org/job/ci_windows/26092/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "fujitatomoya"
+      ],
+      "requested_reviewers": [
+        "ivanpauno",
+        "hidmic",
+        "wjwwood"
+      ],
+      "days_since_update": 97,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 2384,
+      "title": "Enabled Logger based on Severity",
+      "url": "https://github.com/ros2/rclcpp/pull/2384",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "CursedRock17",
+      "author_url": "https://github.com/CursedRock17",
+      "created_at": "2023-12-11T04:41:25+00:00",
+      "updated_at": "2024-02-25T21:24:53+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "Barry-Xu-2018",
+          "url": "https://github.com/Barry-Xu-2018",
+          "state": "commented"
+        },
+        {
+          "name": "CursedRock17",
+          "url": "https://github.com/CursedRock17",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [
+        "ivanpauno",
+        "hidmic",
+        "wjwwood"
+      ],
+      "days_since_update": 739,
+      "category": "needs_review"
+    },
+    {
+      "number": 1931,
+      "title": "Feature/ipm with rclcpp serialized messages",
+      "url": "https://github.com/ros2/rclcpp/pull/1931",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "DensoADAS",
+      "author_url": "https://github.com/DensoADAS",
+      "created_at": "2022-05-17T07:17:30+00:00",
+      "updated_at": "2024-01-03T08:49:55+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "alsora",
+          "url": "https://github.com/alsora",
+          "state": "approved"
+        },
+        {
+          "name": "jacobperron",
+          "url": "https://github.com/jacobperron",
+          "state": "commented"
+        },
+        {
+          "name": "DensoADAS",
+          "url": "https://github.com/DensoADAS",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "alsora",
+          "commenter_url": "https://github.com/alsora",
+          "comment_date": "2023-11-22T17:09:01+00:00",
+          "comment_url": "https://github.com/ros2/rclcpp/pull/1931#issuecomment-1823164968",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 19845,
+              "url": "https://ci.ros2.org/job/ci_linux/19845/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 14343,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/14343/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 20566,
+              "url": "https://ci.ros2.org/job/ci_windows/20566/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "alsora"
+      ],
+      "requested_reviewers": [
+        "ivanpauno",
+        "hidmic",
+        "wjwwood",
+        "jacobperron"
+      ],
+      "days_since_update": 792,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 2376,
+      "title": "[fix] Init EventHandlerBase::wait_set_event_index_",
+      "url": "https://github.com/ros2/rclcpp/pull/2376",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "aosmw",
+      "author_url": "https://github.com/aosmw",
+      "created_at": "2023-11-30T08:10:32+00:00",
+      "updated_at": "2023-12-20T21:15:33+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "clalancette",
+          "url": "https://github.com/clalancette",
+          "state": "changes_requested"
+        },
+        {
+          "name": "aosmw",
+          "url": "https://github.com/aosmw",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [
+        "ivanpauno",
+        "hidmic",
+        "wjwwood"
+      ],
+      "days_since_update": 806,
+      "category": "changes_requested"
+    },
+    {
+      "number": 2338,
+      "title": "Add `get_non_local_subscription_count` to PublisherBase",
+      "url": "https://github.com/ros2/rclcpp/pull/2338",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "MiguelCompany",
+      "author_url": "https://github.com/MiguelCompany",
+      "created_at": "2023-10-20T08:09:29+00:00",
+      "updated_at": "2023-11-24T13:46:46+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "alsora",
+          "url": "https://github.com/alsora",
+          "state": "approved"
+        },
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "fujitatomoya"
+      ],
+      "requested_reviewers": [
+        "ivanpauno",
+        "hidmic",
+        "wjwwood"
+      ],
+      "days_since_update": 832,
+      "category": "changes_requested"
+    },
+    {
+      "number": 2263,
+      "title": "Add RCLCPP_*_FORMAT logging macros ",
+      "url": "https://github.com/ros2/rclcpp/pull/2263",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "nwn",
+      "author_url": "https://github.com/nwn",
+      "created_at": "2023-08-03T22:22:53+00:00",
+      "updated_at": "2023-11-08T11:01:42+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        },
+        {
+          "name": "nwn",
+          "url": "https://github.com/nwn",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [
+        "ivanpauno",
+        "hidmic",
+        "wjwwood"
+      ],
+      "days_since_update": 848,
+      "category": "needs_review"
+    },
+    {
+      "number": 2188,
+      "title": "Exposed rcl_actions to the NodeGraph class",
+      "url": "https://github.com/ros2/rclcpp/pull/2188",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "CursedRock17",
+      "author_url": "https://github.com/CursedRock17",
+      "created_at": "2023-05-07T21:32:41+00:00",
+      "updated_at": "2023-11-03T02:32:48+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "changes_requested"
+        },
+        {
+          "name": "CursedRock17",
+          "url": "https://github.com/CursedRock17",
+          "state": "commented"
+        },
+        {
+          "name": "clalancette",
+          "url": "https://github.com/clalancette",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "fujitatomoya"
+      ],
+      "requested_reviewers": [
+        "ivanpauno",
+        "hidmic",
+        "wjwwood"
+      ],
+      "days_since_update": 853,
+      "category": "changes_requested"
+    },
+    {
+      "number": 2261,
+      "title": "Add lifecycle timers",
+      "url": "https://github.com/ros2/rclcpp/pull/2261",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "carmiac",
+      "author_url": "https://github.com/carmiac",
+      "created_at": "2023-08-02T22:12:27+00:00",
+      "updated_at": "2023-10-09T04:54:24+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "clalancette",
+          "url": "https://github.com/clalancette",
+          "state": "changes_requested"
+        },
+        {
+          "name": "alsora",
+          "url": "https://github.com/alsora",
+          "state": "commented"
+        },
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "clalancette"
+      ],
+      "requested_reviewers": [
+        "ivanpauno",
+        "hidmic",
+        "wjwwood",
+        "clalancette"
+      ],
+      "days_since_update": 878,
+      "category": "changes_requested"
+    },
+    {
+      "number": 2239,
+      "title": "Check intraprocess_comm state",
+      "url": "https://github.com/ros2/rclcpp/pull/2239",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "CursedRock17",
+      "author_url": "https://github.com/CursedRock17",
+      "created_at": "2023-07-19T18:03:29+00:00",
+      "updated_at": "2023-09-21T01:19:30+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "changes_requested"
+        },
+        {
+          "name": "CursedRock17",
+          "url": "https://github.com/CursedRock17",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [
+        "ivanpauno",
+        "hidmic",
+        "wjwwood"
+      ],
+      "days_since_update": 896,
+      "category": "changes_requested"
+    },
+    {
+      "number": 2312,
+      "title": "Fix exception message for uninitialized parameter",
+      "url": "https://github.com/ros2/rclcpp/pull/2312",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "luca-della-vedova",
+      "author_url": "https://github.com/luca-della-vedova",
+      "created_at": "2023-09-15T07:36:06+00:00",
+      "updated_at": "2023-09-19T06:24:49+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "fujitatomoya",
+          "commenter_url": "https://github.com/fujitatomoya",
+          "comment_date": "2023-09-15T08:06:28+00:00",
+          "comment_url": "https://github.com/ros2/rclcpp/pull/2312#issuecomment-1720855689",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 19524,
+              "url": "https://ci.ros2.org/job/ci_linux/19524/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 14042,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/14042/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 20243,
+              "url": "https://ci.ros2.org/job/ci_windows/20243/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "fujitatomoya"
+      ],
+      "requested_reviewers": [
+        "ivanpauno",
+        "hidmic",
+        "wjwwood",
+        "iuhilnehc-ynos"
+      ],
+      "days_since_update": 898,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 2287,
+      "title": "ClientBaseImpl actually gets context_, enabling wait_for_action_server to work",
+      "url": "https://github.com/ros2/rclcpp/pull/2287",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "joncppl",
+      "author_url": "https://github.com/joncppl",
+      "created_at": "2023-08-25T20:00:20+00:00",
+      "updated_at": "2023-08-29T13:54:54+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [
+        "ivanpauno",
+        "hidmic",
+        "wjwwood"
+      ],
+      "days_since_update": 919,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 2252,
+      "title": "rclcpp: check rcl version [humble]",
+      "url": "https://github.com/ros2/rclcpp/pull/2252",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "stan-guer",
+      "author_url": "https://github.com/stan-guer",
+      "created_at": "2023-07-30T12:33:52+00:00",
+      "updated_at": "2023-08-02T13:31:57+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        },
+        {
+          "name": "clalancette",
+          "url": "https://github.com/clalancette",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 946,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 2251,
+      "title": "Guard Condition custom Allocator",
+      "url": "https://github.com/ros2/rclcpp/pull/2251",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "CursedRock17",
+      "author_url": "https://github.com/CursedRock17",
+      "created_at": "2023-07-30T03:58:33+00:00",
+      "updated_at": "2023-08-02T03:11:43+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [
+        "ivanpauno",
+        "hidmic",
+        "wjwwood"
+      ],
+      "days_since_update": 946,
+      "category": "needs_review"
+    },
+    {
+      "number": 2245,
+      "title": "Adding options to both services and clients",
+      "url": "https://github.com/ros2/rclcpp/pull/2245",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "CursedRock17",
+      "author_url": "https://github.com/CursedRock17",
+      "created_at": "2023-07-26T21:51:18+00:00",
+      "updated_at": "2023-07-26T21:51:19+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [
+        "ivanpauno",
+        "hidmic",
+        "wjwwood"
+      ],
+      "days_since_update": 953,
+      "category": "needs_review"
+    },
+    {
+      "number": 2006,
+      "title": "Timer that can be triggered a finite number of times.",
+      "url": "https://github.com/ros2/rclcpp/pull/2006",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "Voldivh",
+      "author_url": "https://github.com/Voldivh",
+      "created_at": "2022-08-26T14:23:28+00:00",
+      "updated_at": "2023-07-17T14:45:03+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "approved"
+        },
+        {
+          "name": "Voldivh",
+          "url": "https://github.com/Voldivh",
+          "state": "commented"
+        },
+        {
+          "name": "alsora",
+          "url": "https://github.com/alsora",
+          "state": "commented"
+        },
+        {
+          "name": "petioptrv",
+          "url": "https://github.com/petioptrv",
+          "state": "commented"
+        },
+        {
+          "name": "clalancette",
+          "url": "https://github.com/clalancette",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "fujitatomoya",
+          "commenter_url": "https://github.com/fujitatomoya",
+          "comment_date": "2023-06-08T22:07:47+00:00",
+          "comment_url": "https://github.com/ros2/rclcpp/pull/2006#issuecomment-1583453136",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 18880,
+              "url": "https://ci.ros2.org/job/ci_linux/18880/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 13418,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/13418/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 19636,
+              "url": "https://ci.ros2.org/job/ci_windows/19636/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 962,
+      "category": "changes_requested"
+    },
+    {
+      "number": 2211,
+      "title": "Lifecycle rewrite for better separation of concerns",
+      "url": "https://github.com/ros2/rclcpp/pull/2211",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "tgroechel",
+      "author_url": "https://github.com/tgroechel",
+      "created_at": "2023-06-13T00:13:04+00:00",
+      "updated_at": "2023-07-11T15:14:31+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [
+        "ivanpauno",
+        "hidmic",
+        "wjwwood"
+      ],
+      "days_since_update": 968,
+      "category": "needs_review"
+    },
+    {
+      "number": 2214,
+      "title": "Deferrable + Cancelable lifecycle `change_state` transition function implementation",
+      "url": "https://github.com/ros2/rclcpp/pull/2214",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "tgroechel",
+      "author_url": "https://github.com/tgroechel",
+      "created_at": "2023-06-13T00:20:52+00:00",
+      "updated_at": "2023-07-11T15:14:27+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [
+        "ivanpauno",
+        "hidmic",
+        "wjwwood"
+      ],
+      "days_since_update": 968,
+      "category": "needs_review"
+    },
+    {
+      "number": 1836,
+      "title": "Filter service requests for inactive managed nodes",
+      "url": "https://github.com/ros2/rclcpp/pull/1836",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "huchijwk",
+      "author_url": "https://github.com/huchijwk",
+      "created_at": "2021-12-06T01:27:29+00:00",
+      "updated_at": "2023-06-24T17:40:22+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "alsora",
+          "url": "https://github.com/alsora",
+          "state": "approved"
+        },
+        {
+          "name": "huchijwk",
+          "url": "https://github.com/huchijwk",
+          "state": "commented"
+        },
+        {
+          "name": "bpwilcox",
+          "url": "https://github.com/bpwilcox",
+          "state": "commented"
+        },
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "approved"
+        },
+        {
+          "name": "ivanpauno",
+          "url": "https://github.com/ivanpauno",
+          "state": "commented"
+        },
+        {
+          "name": "jacobperron",
+          "url": "https://github.com/jacobperron",
+          "state": "commented"
+        },
+        {
+          "name": "wjwwood",
+          "url": "https://github.com/wjwwood",
+          "state": "commented"
+        },
+        {
+          "name": "tgroechel",
+          "url": "https://github.com/tgroechel",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "wjwwood"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 985,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 2090,
+      "title": "Add rclcpp::list_parameter_override_prefixes",
+      "url": "https://github.com/ros2/rclcpp/pull/2090",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "sloretz",
+      "author_url": "https://github.com/sloretz",
+      "created_at": "2023-01-25T03:19:30+00:00",
+      "updated_at": "2023-02-28T00:12:19+00:00",
+      "labels": [
+        "enhancement"
+      ],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "methylDragon",
+          "url": "https://github.com/methylDragon",
+          "state": "changes_requested"
+        },
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "changes_requested"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "methylDragon",
+          "commenter_url": "https://github.com/methylDragon",
+          "comment_date": "2023-02-18T00:02:43+00:00",
+          "comment_url": "https://github.com/ros2/rclcpp/pull/2090#issuecomment-1435408108",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 18075,
+              "url": "https://ci.ros2.org/job/ci_linux/18075/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 12602,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/12602/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 18719,
+              "url": "https://ci.ros2.org/job/ci_windows/18719/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "sloretz",
+        "methylDragon"
+      ],
+      "requested_reviewers": [
+        "ivanpauno",
+        "hidmic",
+        "wjwwood"
+      ],
+      "days_since_update": 1102,
+      "category": "changes_requested"
+    },
+    {
+      "number": 2112,
+      "title": "Allow publishing borrowed messages with intra-process enabled (backport #2108)",
+      "url": "https://github.com/ros2/rclcpp/pull/2112",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "mergify[bot]",
+      "author_url": "https://github.com/apps/mergify",
+      "created_at": "2023-02-24T22:50:45+00:00",
+      "updated_at": "2023-02-24T22:55:07+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "fujitatomoya",
+          "commenter_url": "https://github.com/fujitatomoya",
+          "comment_date": "2023-02-24T22:55:07+00:00",
+          "comment_url": "https://github.com/ros2/rclcpp/pull/2112#issuecomment-1444617829",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 18104,
+              "url": "https://ci.ros2.org/job/ci_linux/18104/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 12636,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/12636/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 18750,
+              "url": "https://ci.ros2.org/job/ci_windows/18750/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 1105,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 2078,
+      "title": "Avoid priority inversions in rclcpp",
+      "url": "https://github.com/ros2/rclcpp/pull/2078",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "WideAwakeTN",
+      "author_url": "https://github.com/WideAwakeTN",
+      "created_at": "2023-01-06T14:35:25+00:00",
+      "updated_at": "2023-02-23T11:41:08+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [
+        "ivanpauno",
+        "hidmic",
+        "wjwwood"
+      ],
+      "days_since_update": 1106,
+      "category": "needs_review"
+    },
+    {
+      "number": 2014,
+      "title": "use unique ptr and remove unuseful container (backport #2013)",
+      "url": "https://github.com/ros2/rclcpp/pull/2014",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "mergify[bot]",
+      "author_url": "https://github.com/apps/mergify",
+      "created_at": "2022-09-19T17:12:02+00:00",
+      "updated_at": "2022-09-28T03:27:34+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "iuhilnehc-ynos",
+          "commenter_url": "https://github.com/iuhilnehc-ynos",
+          "comment_date": "2022-09-20T01:46:27+00:00",
+          "comment_url": "https://github.com/ros2/rclcpp/pull/2014#issuecomment-1251739698",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 17323,
+              "url": "https://ci.ros2.org/job/ci_linux/17323/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 11860,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/11860/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 17811,
+              "url": "https://ci.ros2.org/job/ci_windows/17811/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 1254,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 1958,
+      "title": "API changes in class_loader",
+      "url": "https://github.com/ros2/rclcpp/pull/1958",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "tylerjw",
+      "author_url": "https://github.com/tylerjw",
+      "created_at": "2022-06-28T05:05:43+00:00",
+      "updated_at": "2022-08-03T04:27:25+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 1310,
+      "category": "needs_review"
+    },
+    {
+      "number": 909,
+      "title": "Add ParameterDescriptor override from yaml",
+      "url": "https://github.com/ros2/rclcpp/pull/909",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "bpwilcox",
+      "author_url": "https://github.com/bpwilcox",
+      "created_at": "2019-10-30T00:55:42+00:00",
+      "updated_at": "2022-06-28T14:28:43+00:00",
+      "labels": [
+        "enhancement"
+      ],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "hidmic",
+          "url": "https://github.com/hidmic",
+          "state": "commented"
+        },
+        {
+          "name": "bpwilcox",
+          "url": "https://github.com/bpwilcox",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "hidmic"
+      ],
+      "requested_reviewers": [
+        "hidmic"
+      ],
+      "days_since_update": 1346,
+      "category": "needs_review"
+    },
+    {
+      "number": 973,
+      "title": "Dnae adas/serialized ipm",
+      "url": "https://github.com/ros2/rclcpp/pull/973",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "DensoADAS",
+      "author_url": "https://github.com/DensoADAS",
+      "created_at": "2020-01-30T09:45:35+00:00",
+      "updated_at": "2022-06-28T14:28:34+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "Karsten1987",
+          "url": "https://github.com/Karsten1987",
+          "state": "commented"
+        },
+        {
+          "name": "DensoADAS",
+          "url": "https://github.com/DensoADAS",
+          "state": "commented"
+        },
+        {
+          "name": "kfabian",
+          "url": "https://github.com/kfabian",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "Karsten1987"
+      ],
+      "requested_reviewers": [
+        "wjwwood"
+      ],
+      "days_since_update": 1346,
+      "category": "needs_review"
+    },
+    {
+      "number": 1162,
+      "title": "Toggle Guard Condition Feature",
+      "url": "https://github.com/ros2/rclcpp/pull/1162",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "peterpena",
+      "author_url": "https://github.com/peterpena",
+      "created_at": "2020-06-09T23:53:42+00:00",
+      "updated_at": "2022-06-28T14:21:27+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "wjwwood",
+          "url": "https://github.com/wjwwood",
+          "state": "commented"
+        },
+        {
+          "name": "peterpena",
+          "url": "https://github.com/peterpena",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "peterpena"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 1346,
+      "category": "needs_review"
+    },
+    {
+      "number": 1168,
+      "title": "Independent mutex to check and remove timer from scheduled timer",
+      "url": "https://github.com/ros2/rclcpp/pull/1168",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "peterpena",
+      "author_url": "https://github.com/peterpena",
+      "created_at": "2020-06-11T20:14:17+00:00",
+      "updated_at": "2022-06-28T14:21:26+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "changes_requested"
+        },
+        {
+          "name": "peterpena",
+          "url": "https://github.com/peterpena",
+          "state": "commented"
+        },
+        {
+          "name": "ivanpauno",
+          "url": "https://github.com/ivanpauno",
+          "state": "approved"
+        },
+        {
+          "name": "wjwwood",
+          "url": "https://github.com/wjwwood",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "peterpena",
+          "commenter_url": "https://github.com/peterpena",
+          "comment_date": "2020-07-23T22:11:09+00:00",
+          "comment_url": "https://github.com/ros2/rclcpp/pull/1168#issuecomment-663257332",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 11614,
+              "url": "https://ci.ros2.org/job/ci_linux/11614/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 6750,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/6750/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_osx",
+              "build_number": 9494,
+              "url": "https://ci.ros2.org/job/ci_osx/9494/",
+              "platform": "macOS"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 11575,
+              "url": "https://ci.ros2.org/job/ci_windows/11575/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "peterpena",
+          "commenter_url": "https://github.com/peterpena",
+          "comment_date": "2020-07-27T21:01:45+00:00",
+          "comment_url": "https://github.com/ros2/rclcpp/pull/1168#issuecomment-664636494",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 11631,
+              "url": "https://ci.ros2.org/job/ci_linux/11631/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 6762,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/6762/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_osx",
+              "build_number": 9518,
+              "url": "https://ci.ros2.org/job/ci_osx/9518/",
+              "platform": "macOS"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 11615,
+              "url": "https://ci.ros2.org/job/ci_windows/11615/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "peterpena",
+          "commenter_url": "https://github.com/peterpena",
+          "comment_date": "2020-07-28T20:46:16+00:00",
+          "comment_url": "https://github.com/ros2/rclcpp/pull/1168#issuecomment-665273966",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 11658,
+              "url": "https://ci.ros2.org/job/ci_linux/11658/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 6782,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/6782/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_osx",
+              "build_number": 9533,
+              "url": "https://ci.ros2.org/job/ci_osx/9533/",
+              "platform": "macOS"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 11630,
+              "url": "https://ci.ros2.org/job/ci_windows/11630/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "peterpena",
+          "commenter_url": "https://github.com/peterpena",
+          "comment_date": "2020-08-06T17:47:15+00:00",
+          "comment_url": "https://github.com/ros2/rclcpp/pull/1168#issuecomment-670080539",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 11792,
+              "url": "https://ci.ros2.org/job/ci_linux/11792/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 6874,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/6874/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_osx",
+              "build_number": 9630,
+              "url": "https://ci.ros2.org/job/ci_osx/9630/",
+              "platform": "macOS"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 11735,
+              "url": "https://ci.ros2.org/job/ci_windows/11735/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "peterpena"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 1346,
+      "category": "changes_requested"
+    },
+    {
+      "number": 1850,
+      "title": "Add force set parameter functionality",
+      "url": "https://github.com/ros2/rclcpp/pull/1850",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "alsora",
+      "author_url": "https://github.com/alsora",
+      "created_at": "2021-12-21T10:32:53+00:00",
+      "updated_at": "2022-06-28T14:21:06+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "alsora"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 1346,
+      "category": "needs_review"
+    },
+    {
+      "number": 1918,
+      "title": "Add a check if the second argument of logging macros is a string literal",
+      "url": "https://github.com/ros2/rclcpp/pull/1918",
+      "repo_full_name": "ros2/rclcpp",
+      "author": "shumov-ag",
+      "author_url": "https://github.com/shumov-ag",
+      "created_at": "2022-04-14T14:47:28+00:00",
+      "updated_at": "2022-06-28T14:21:00+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "aprotyas",
+          "url": "https://github.com/aprotyas",
+          "state": "approved"
+        },
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "jacobperron"
+      ],
+      "requested_reviewers": [
+        "jacobperron"
+      ],
+      "days_since_update": 1346,
+      "category": "ready_to_merge"
+    }
+  ],
+  "stats": {
+    "full_name": "ros2/rclcpp",
+    "url": "https://github.com/ros2/rclcpp",
+    "open_pr_count": 324,
+    "open_issue_count": 0
+  }
+}

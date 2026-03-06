@@ -1,0 +1,31 @@
+{
+  "prs": [
+    {
+      "number": 202,
+      "title": "fixes the following bug: /tf topics timestamps switch from simulated time to system time when bagfile playbag is stopped and use_sim_time is set",
+      "url": "https://github.com/ros/robot_state_publisher/pull/202",
+      "repo_full_name": "ros/robot_state_publisher",
+      "author": "C-NR",
+      "author_url": "https://github.com/C-NR",
+      "created_at": "2022-11-08T23:24:50+00:00",
+      "updated_at": "2024-08-21T11:50:23+00:00",
+      "labels": [
+        "ros2"
+      ],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 561,
+      "category": "needs_review"
+    }
+  ],
+  "stats": {
+    "full_name": "ros/robot_state_publisher",
+    "url": "https://github.com/ros/robot_state_publisher",
+    "open_pr_count": 10,
+    "open_issue_count": 0
+  }
+}

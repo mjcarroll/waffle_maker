@@ -1,0 +1,385 @@
+{
+  "prs": [
+    {
+      "number": 526,
+      "title": "Adds {severity_with_color} as a log format option.",
+      "url": "https://github.com/ros2/rcutils/pull/526",
+      "repo_full_name": "ros2/rcutils",
+      "author": "alexmaclean6",
+      "author_url": "https://github.com/alexmaclean6",
+      "created_at": "2025-11-12T19:29:51+00:00",
+      "updated_at": "2026-02-11T23:26:58+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "ahcorde",
+          "url": "https://github.com/ahcorde",
+          "state": "changes_requested"
+        },
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "ahcorde",
+          "commenter_url": "https://github.com/ahcorde",
+          "comment_date": "2025-11-21T10:13:01+00:00",
+          "comment_url": "https://github.com/ros2/rcutils/pull/526#issuecomment-3562329249",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 17570,
+              "url": "https://ci.ros2.org/job/ci_launcher/17570/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 26293,
+              "url": "https://ci.ros2.org/job/ci_linux/26293/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 19940,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/19940/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 5989,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/5989/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 26038,
+              "url": "https://ci.ros2.org/job/ci_windows/26038/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "ahcorde",
+          "commenter_url": "https://github.com/ahcorde",
+          "comment_date": "2025-11-26T11:26:10+00:00",
+          "comment_url": "https://github.com/ros2/rcutils/pull/526#issuecomment-3580867301",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 17617,
+              "url": "https://ci.ros2.org/job/ci_launcher/17617/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 26378,
+              "url": "https://ci.ros2.org/job/ci_linux/26378/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 20024,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/20024/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 6077,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/6077/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 26116,
+              "url": "https://ci.ros2.org/job/ci_windows/26116/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "ahcorde",
+          "commenter_url": "https://github.com/ahcorde",
+          "comment_date": "2025-12-05T09:21:07+00:00",
+          "comment_url": "https://github.com/ros2/rcutils/pull/526#issuecomment-3615970581",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 26405,
+              "url": "https://ci.ros2.org/job/ci_linux/26405/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 20054,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/20054/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 6137,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/6137/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 26139,
+              "url": "https://ci.ros2.org/job/ci_windows/26139/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "ahcorde",
+          "commenter_url": "https://github.com/ahcorde",
+          "comment_date": "2025-12-05T16:48:07+00:00",
+          "comment_url": "https://github.com/ros2/rcutils/pull/526#issuecomment-3617684741",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 17700,
+              "url": "https://ci.ros2.org/job/ci_launcher/17700/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 26431,
+              "url": "https://ci.ros2.org/job/ci_linux/26431/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 20066,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/20066/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 6170,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/6170/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 26149,
+              "url": "https://ci.ros2.org/job/ci_windows/26149/",
+              "platform": "Windows"
+            }
+          ]
+        },
+        {
+          "commenter": "ahcorde",
+          "commenter_url": "https://github.com/ahcorde",
+          "comment_date": "2025-12-26T16:09:34+00:00",
+          "comment_url": "https://github.com/ros2/rcutils/pull/526#issuecomment-3693060002",
+          "runs": [
+            {
+              "job_name": "ci_launcher",
+              "build_number": 17851,
+              "url": "https://ci.ros2.org/job/ci_launcher/17851/",
+              "platform": "ci_launcher"
+            },
+            {
+              "job_name": "ci_linux",
+              "build_number": 26718,
+              "url": "https://ci.ros2.org/job/ci_linux/26718/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 20350,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/20350/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_linux-rhel",
+              "build_number": 6518,
+              "url": "https://ci.ros2.org/job/ci_linux-rhel/6518/",
+              "platform": "Linux-RHEL"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 26309,
+              "url": "https://ci.ros2.org/job/ci_windows/26309/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "ahcorde"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 22,
+      "category": "changes_requested"
+    },
+    {
+      "number": 460,
+      "title": "Creating More Accuracy in NS_TO_S",
+      "url": "https://github.com/ros2/rcutils/pull/460",
+      "repo_full_name": "ros2/rcutils",
+      "author": "CursedRock17",
+      "author_url": "https://github.com/CursedRock17",
+      "created_at": "2024-04-16T03:31:54+00:00",
+      "updated_at": "2024-07-23T06:28:22+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "ahcorde",
+          "url": "https://github.com/ahcorde",
+          "state": "changes_requested"
+        },
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "approved"
+        },
+        {
+          "name": "CursedRock17",
+          "url": "https://github.com/CursedRock17",
+          "state": "commented"
+        },
+        {
+          "name": "clalancette",
+          "url": "https://github.com/clalancette",
+          "state": "changes_requested"
+        },
+        {
+          "name": "mjcarroll",
+          "url": "https://github.com/mjcarroll",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [
+        {
+          "commenter": "ahcorde",
+          "commenter_url": "https://github.com/ahcorde",
+          "comment_date": "2024-04-26T08:51:57+00:00",
+          "comment_url": "https://github.com/ros2/rcutils/pull/460#issuecomment-2078938306",
+          "runs": [
+            {
+              "job_name": "ci_linux",
+              "build_number": 20946,
+              "url": "https://ci.ros2.org/job/ci_linux/20946/",
+              "platform": "Linux"
+            },
+            {
+              "job_name": "ci_linux-aarch64",
+              "build_number": 15238,
+              "url": "https://ci.ros2.org/job/ci_linux-aarch64/15238/",
+              "platform": "Linux-aarch64"
+            },
+            {
+              "job_name": "ci_windows",
+              "build_number": 21620,
+              "url": "https://ci.ros2.org/job/ci_windows/21620/",
+              "platform": "Windows"
+            }
+          ]
+        }
+      ],
+      "assignees": [
+        "ahcorde"
+      ],
+      "requested_reviewers": [
+        "wjwwood"
+      ],
+      "days_since_update": 590,
+      "category": "changes_requested"
+    },
+    {
+      "number": 424,
+      "title": "Decoupled the additional feature from rcl to rcutils, reflecting on t\u2026",
+      "url": "https://github.com/ros2/rcutils/pull/424",
+      "repo_full_name": "ros2/rcutils",
+      "author": "smorita-esol",
+      "author_url": "https://github.com/smorita-esol",
+      "created_at": "2023-06-20T11:32:40+00:00",
+      "updated_at": "2024-01-26T10:01:44+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "changes_requested",
+      "reviewers": [
+        {
+          "name": "ahcorde",
+          "url": "https://github.com/ahcorde",
+          "state": "changes_requested"
+        },
+        {
+          "name": "smorita-esol",
+          "url": "https://github.com/smorita-esol",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [
+        "clalancette",
+        "wjwwood"
+      ],
+      "days_since_update": 769,
+      "category": "changes_requested"
+    },
+    {
+      "number": 347,
+      "title": "Add option to set logger severity level using a config file",
+      "url": "https://github.com/ros2/rcutils/pull/347",
+      "repo_full_name": "ros2/rcutils",
+      "author": "JafarAbdi",
+      "author_url": "https://github.com/JafarAbdi",
+      "created_at": "2021-09-23T12:55:22+00:00",
+      "updated_at": "2022-06-28T14:22:07+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "facontidavide",
+          "url": "https://github.com/facontidavide",
+          "state": "commented"
+        },
+        {
+          "name": "fujitatomoya",
+          "url": "https://github.com/fujitatomoya",
+          "state": "commented"
+        },
+        {
+          "name": "destogl",
+          "url": "https://github.com/destogl",
+          "state": "commented"
+        },
+        {
+          "name": "JafarAbdi",
+          "url": "https://github.com/JafarAbdi",
+          "state": "commented"
+        },
+        {
+          "name": "jacobperron",
+          "url": "https://github.com/jacobperron",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "clalancette"
+      ],
+      "requested_reviewers": [
+        "fujitatomoya"
+      ],
+      "days_since_update": 1346,
+      "category": "needs_review"
+    }
+  ],
+  "stats": {
+    "full_name": "ros2/rcutils",
+    "url": "https://github.com/ros2/rcutils",
+    "open_pr_count": 17,
+    "open_issue_count": 0
+  }
+}

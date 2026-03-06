@@ -1,0 +1,56 @@
+{
+  "prs": [
+    {
+      "number": 56,
+      "title": "Support Qt6",
+      "url": "https://github.com/ros-visualization/rqt_publisher/pull/56",
+      "repo_full_name": "ros-visualization/rqt_publisher",
+      "author": "ahcorde",
+      "author_url": "https://github.com/ahcorde",
+      "created_at": "2026-02-13T14:49:58+00:00",
+      "updated_at": "2026-03-04T19:42:44+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "asymingt",
+          "url": "https://github.com/asymingt",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "ahcorde"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 1,
+      "category": "needs_review"
+    },
+    {
+      "number": 39,
+      "title": "Add ROS2 array (\"sequence<X>\") support",
+      "url": "https://github.com/ros-visualization/rqt_publisher/pull/39",
+      "repo_full_name": "ros-visualization/rqt_publisher",
+      "author": "egordon",
+      "author_url": "https://github.com/egordon",
+      "created_at": "2023-04-11T01:07:22+00:00",
+      "updated_at": "2025-04-02T20:25:47+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 337,
+      "category": "needs_review"
+    }
+  ],
+  "stats": {
+    "full_name": "ros-visualization/rqt_publisher",
+    "url": "https://github.com/ros-visualization/rqt_publisher",
+    "open_pr_count": 6,
+    "open_issue_count": 0
+  }
+}

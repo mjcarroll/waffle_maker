@@ -1,0 +1,58 @@
+{
+  "prs": [
+    {
+      "number": 40,
+      "title": "Bump `cmake_minimum_required` to 3.10",
+      "url": "https://github.com/ament/googletest/pull/40",
+      "repo_full_name": "ament/googletest",
+      "author": "claraberendsen",
+      "author_url": "https://github.com/claraberendsen",
+      "created_at": "2026-02-20T22:47:46+00:00",
+      "updated_at": "2026-03-05T18:36:58+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "sloretz",
+          "url": "https://github.com/sloretz",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [
+        "sloretz"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 0,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 36,
+      "title": "Update CMakeLists.txt.install",
+      "url": "https://github.com/ament/googletest/pull/36",
+      "repo_full_name": "ament/googletest",
+      "author": "mosfet80",
+      "author_url": "https://github.com/mosfet80",
+      "created_at": "2025-04-23T18:58:31+00:00",
+      "updated_at": "2026-02-20T07:25:15+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [
+        "mjcarroll"
+      ],
+      "requested_reviewers": [],
+      "days_since_update": 13,
+      "category": "needs_review"
+    }
+  ],
+  "stats": {
+    "full_name": "ament/googletest",
+    "url": "https://github.com/ament/googletest",
+    "open_pr_count": 4,
+    "open_issue_count": 0
+  }
+}

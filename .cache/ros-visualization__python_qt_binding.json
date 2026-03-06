@@ -1,0 +1,102 @@
+{
+  "prs": [
+    {
+      "number": 156,
+      "title": "Fix: Standardize Default Qt Binding Order to Prioritize PyQt",
+      "url": "https://github.com/ros-visualization/python_qt_binding/pull/156",
+      "repo_full_name": "ros-visualization/python_qt_binding",
+      "author": "idesign0",
+      "author_url": "https://github.com/idesign0",
+      "created_at": "2025-12-10T13:52:31+00:00",
+      "updated_at": "2025-12-10T13:52:31+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 85,
+      "category": "needs_review"
+    },
+    {
+      "number": 127,
+      "title": "Windows support",
+      "url": "https://github.com/ros-visualization/python_qt_binding/pull/127",
+      "repo_full_name": "ros-visualization/python_qt_binding",
+      "author": "KKSTB",
+      "author_url": "https://github.com/KKSTB",
+      "created_at": "2023-08-29T04:18:40+00:00",
+      "updated_at": "2025-11-11T07:14:52+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "none",
+      "reviewers": [],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [
+        "sloretz"
+      ],
+      "days_since_update": 114,
+      "category": "needs_review"
+    },
+    {
+      "number": 136,
+      "title": "Fixes newer versions of shiboken",
+      "url": "https://github.com/ros-visualization/python_qt_binding/pull/136",
+      "repo_full_name": "ros-visualization/python_qt_binding",
+      "author": "mjcarroll",
+      "author_url": "https://github.com/mjcarroll",
+      "created_at": "2024-04-11T18:36:52+00:00",
+      "updated_at": "2025-01-13T06:29:40+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "approved",
+      "reviewers": [
+        {
+          "name": "clalancette",
+          "url": "https://github.com/clalancette",
+          "state": "approved"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [
+        "sloretz"
+      ],
+      "days_since_update": 416,
+      "category": "ready_to_merge"
+    },
+    {
+      "number": 117,
+      "title": "Add DEPRECATION message to python_qt_binding import",
+      "url": "https://github.com/ros-visualization/python_qt_binding/pull/117",
+      "repo_full_name": "ros-visualization/python_qt_binding",
+      "author": "hellantos",
+      "author_url": "https://github.com/hellantos",
+      "created_at": "2022-08-30T15:52:03+00:00",
+      "updated_at": "2023-04-15T10:12:23+00:00",
+      "labels": [],
+      "draft": false,
+      "review_state": "commented",
+      "reviewers": [
+        {
+          "name": "oss-vineet",
+          "url": "https://github.com/oss-vineet",
+          "state": "commented"
+        }
+      ],
+      "ci_triggers": [],
+      "assignees": [],
+      "requested_reviewers": [],
+      "days_since_update": 1055,
+      "category": "needs_review"
+    }
+  ],
+  "stats": {
+    "full_name": "ros-visualization/python_qt_binding",
+    "url": "https://github.com/ros-visualization/python_qt_binding",
+    "open_pr_count": 13,
+    "open_issue_count": 0
+  }
+}
